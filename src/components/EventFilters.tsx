@@ -1,15 +1,18 @@
 import {
   Checkbox,
+  FormControlLabel,
   FormControl,
   InputLabel,
   ListItemText,
   Select,
   MenuItem,
-  TextField,
   Stack,
   Button,
   Box,
 } from '@mui/material'
+import { LocalizationProvider, DatePicker } from '@mui/x-date-pickers'
+import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs'
+import type { Dayjs } from 'dayjs'
 import { TIME_GROUPS } from '../colors'
 
 function SelectAllClear({
@@ -94,10 +97,12 @@ interface EventFiltersProps {
   audiences: string[]
   selectedAudiences: string[]
   onAudiencesChange: (audiences: string[]) => void
-  exactDate: string
-  onExactDateChange: (date: string) => void
+  dateRange: [Dayjs | null, Dayjs | null]
+  onDateRangeChange: (range: [Dayjs | null, Dayjs | null]) => void
   timeGroups: string[]
   onTimeGroupsChange: (groups: string[]) => void
+  noRegistrationOnly: boolean
+  onNoRegistrationOnlyChange: (v: boolean) => void
 }
 
 export default function EventFilters({
@@ -107,46 +112,80 @@ export default function EventFilters({
   audiences,
   selectedAudiences,
   onAudiencesChange,
-  exactDate,
-  onExactDateChange,
+  dateRange,
+  onDateRangeChange,
   timeGroups,
   onTimeGroupsChange,
+  noRegistrationOnly,
+  onNoRegistrationOnlyChange,
 }: EventFiltersProps) {
   return (
-    <Stack direction="row" sx={{ mb: 3, flexWrap: 'wrap', gap: 2 }}>
-      <MultiSelect
-        label="Library"
-        pluralLabel="libraries"
-        options={libraries}
-        value={selectedLibraries}
-        onChange={onLibrariesChange}
-        bgColor="#FFE0E0"
-      />
-      <MultiSelect
-        label="Audience"
-        pluralLabel="audiences"
-        options={audiences}
-        value={selectedAudiences}
-        onChange={onAudiencesChange}
-        bgColor="#E0FFE0"
-      />
-      <TextField
-        size="small"
-        type="date"
-        label="Exact date"
-        value={exactDate}
-        onChange={(e) => onExactDateChange(e.target.value)}
-        slotProps={{ inputLabel: { shrink: true } }}
-        sx={{ minWidth: { xs: '100%', sm: 160 }, '& .MuiOutlinedInput-root': { backgroundColor: '#E0F0FF', borderRadius: 3 } }}
-      />
-      <MultiSelect
-        label="Time of day"
-        pluralLabel="times of day"
-        options={[...TIME_GROUPS]}
-        value={timeGroups}
-        onChange={onTimeGroupsChange}
-        bgColor="#FFF0E0"
-      />
-    </Stack>
+    <LocalizationProvider dateAdapter={AdapterDayjs}>
+      <Stack direction="row" sx={{ mb: 3, flexWrap: 'wrap', gap: 2 }}>
+        <MultiSelect
+          label="Library"
+          pluralLabel="libraries"
+          options={libraries}
+          value={selectedLibraries}
+          onChange={onLibrariesChange}
+          bgColor="#FFE0E0"
+        />
+        <MultiSelect
+          label="Audience"
+          pluralLabel="audiences"
+          options={audiences}
+          value={selectedAudiences}
+          onChange={onAudiencesChange}
+          bgColor="#E0FFE0"
+        />
+        <DatePicker
+          label="From"
+          value={dateRange[0]}
+          onChange={(v) => onDateRangeChange([v, dateRange[1]])}
+          slotProps={{
+            textField: {
+              size: 'small',
+              sx: {
+                minWidth: { xs: '100%', sm: 140 },
+                '& .MuiOutlinedInput-root': { backgroundColor: '#E0F0FF', borderRadius: 3 },
+              },
+            },
+          }}
+        />
+        <DatePicker
+          label="To"
+          value={dateRange[1]}
+          onChange={(v) => onDateRangeChange([dateRange[0], v])}
+          slotProps={{
+            textField: {
+              size: 'small',
+              sx: {
+                minWidth: { xs: '100%', sm: 140 },
+                '& .MuiOutlinedInput-root': { backgroundColor: '#E0F0FF', borderRadius: 3 },
+              },
+            },
+          }}
+        />
+        <MultiSelect
+          label="Time of day"
+          pluralLabel="times of day"
+          options={[...TIME_GROUPS]}
+          value={timeGroups}
+          onChange={onTimeGroupsChange}
+          bgColor="#FFF0E0"
+        />
+        <FormControlLabel
+          control={
+            <Checkbox
+              checked={noRegistrationOnly}
+              onChange={(e) => onNoRegistrationOnlyChange(e.target.checked)}
+              sx={{ '&.Mui-checked': { color: '#2E7D32' } }}
+            />
+          }
+          label="No registration required"
+          sx={{ whiteSpace: 'nowrap', '& .MuiTypography-root': { fontWeight: 600 } }}
+        />
+      </Stack>
+    </LocalizationProvider>
   )
 }

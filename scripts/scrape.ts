@@ -41,6 +41,14 @@ async function scrapeAssabet(html: string): Promise<ScrapeResult> {
     if (catClass && slug) slugToCategory.set(slug, catClass.replace('category-', ''))
   })
 
+  const slugToRegistration = new Map<string, boolean>()
+  $('.listing-event').each((_i, el) => {
+    const slug = $(el).find('h3 a').attr('data-slug') || $(el).find('h2 a').attr('data-slug') || ''
+    if (!slug) return
+    const regText = $(el).find('.event-register-link').text().trim()
+    slugToRegistration.set(slug, regText === 'Registration Required' || regText === 'Register')
+  })
+
   $('script[type="application/ld+json"]').each((_i, el) => {
     const raw = $(el).html()
     if (!raw) return
@@ -88,6 +96,7 @@ async function scrapeAssabet(html: string): Promise<ScrapeResult> {
         endTime: endTime || undefined,
         url: data.url || undefined,
         audience: audience || undefined,
+        registrationRequired: slugToRegistration.get(slug) || undefined,
       })
     } catch {
       // skip invalid JSON
@@ -236,6 +245,8 @@ async function scrapeBpl(_html?: string): Promise<ScrapeResult> {
         .replace(/\s+/g, ' ')
         .trim()
 
+      const registrationRequired = def.registrationInfo?.enabledMethods?.length > 0 || ev.isFull || undefined
+
       allEvents.push({
         title: def.title,
         description: locationName ? `[${locationName}] ${desc}` : desc,
@@ -244,6 +255,7 @@ async function scrapeBpl(_html?: string): Promise<ScrapeResult> {
         endTime: endTime || undefined,
         url: `https://bpl.bibliocommons.com/events/${id}`,
         audience: audience || undefined,
+        registrationRequired,
       })
     }
 
