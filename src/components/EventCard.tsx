@@ -8,7 +8,7 @@ import {
   Stack,
 } from '@mui/material'
 import type { Event } from '../types/events'
-import { LIBRARY_COLORS, AUDIENCE_COLORS, TIME_BORDER_COLORS, getTimeGroup } from '../colors'
+import { LIBRARY_COLORS, AUDIENCE_COLORS, TIME_BORDER_COLORS, TIME_TEXT_COLORS, CHIP_TEXT_COLOR, getTimeGroup } from '../colors'
 
 interface EventCardProps {
   event: Event
@@ -23,19 +23,12 @@ function formatTime(time?: string) {
   return `${hour12}:${m} ${ampm}`
 }
 
-function darken(hex: string, amount: number) {
-  const num = parseInt(hex.slice(1), 16)
-  const r = Math.max(0, (num >> 16) - amount)
-  const g = Math.max(0, ((num >> 8) & 0xff) - amount)
-  const b = Math.max(0, (num & 0xff) - amount)
-  return `rgb(${r}, ${g}, ${b})`
-}
-
 export default function EventCard({ event }: EventCardProps) {
   const libColor = LIBRARY_COLORS[event.library] || '#ccc'
   const audColor = event.audience ? AUDIENCE_COLORS[event.audience] : undefined
   const timeGroup = getTimeGroup(event.startTime)
   const borderColor = timeGroup ? TIME_BORDER_COLORS[timeGroup] : undefined
+  const timeColor = timeGroup ? TIME_TEXT_COLORS[timeGroup] : undefined
 
   return (
     <Card
@@ -68,8 +61,9 @@ export default function EventCard({ event }: EventCardProps) {
                 size="small"
                 sx={{
                   backgroundColor: audColor,
-                  color: darken(audColor, 120),
+                  color: CHIP_TEXT_COLOR,
                   fontWeight: 700,
+                  '& .MuiChip-label': { lineHeight: 1.2, py: 0 },
                 }}
               />
             )}
@@ -78,16 +72,25 @@ export default function EventCard({ event }: EventCardProps) {
               size="small"
               sx={{
                 backgroundColor: libColor,
-                color: darken(libColor, 120),
+                color: CHIP_TEXT_COLOR,
                 fontWeight: 700,
+                '& .MuiChip-label': { lineHeight: 1.2, py: 0 },
               }}
             />
           </Stack>
         </Box>
         <Typography color="text.secondary" sx={{ mb: 0.5, fontWeight: 600 }}>
           {event.date}
-          {event.startTime && ` · ${formatTime(event.startTime)}`}
-          {event.endTime && ` – ${formatTime(event.endTime)}`}
+          {event.startTime && (
+            <Box component="span" sx={{ color: timeColor || 'text.secondary' }}>
+              {' · '}{formatTime(event.startTime)}
+            </Box>
+          )}
+          {event.endTime && (
+            <Box component="span" sx={{ color: timeColor || 'text.secondary' }}>
+              {' – '}{formatTime(event.endTime)}
+            </Box>
+          )}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {event.description}
