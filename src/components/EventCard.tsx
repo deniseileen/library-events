@@ -79,7 +79,7 @@ export default function EventCard({ event }: EventCardProps) {
             />
           </Stack>
         </Box>
-        <Typography color="text.secondary" sx={{ mb: 0.5, fontWeight: 600 }}>
+        <Typography color="text.secondary" sx={{ mt: 1, mb: 0.5, fontWeight: 600 }}>
           {event.date}
           {event.startTime && (
             <Box component="span" sx={{ color: timeColor || 'text.secondary' }}>
