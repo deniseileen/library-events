@@ -1,0 +1,35 @@
+[
+  {
+    "id": "library-a-001",
+    "title": "Storytime with Authors",
+    "description": "Weekly storytime for children ages 3-7.",
+    "date": "2026-07-15",
+    "startTime": "10:00",
+    "endTime": "11:00",
+    "library": "Library A",
+    "url": "https://example.com/event/1",
+    "audience": "Children"
+  },
+  {
+    "id": "library-b-001",
+    "title": "Book Club: Sci-Fi Night",
+    "description": "Monthly sci-fi book club meeting.",
+    "date": "2026-07-15",
+    "startTime": "18:30",
+    "endTime": "20:00",
+    "library": "Library B",
+    "url": "https://example.com/event/2",
+    "audience": "Adults"
+  },
+  {
+    "id": "library-a-002",
+    "title": "Tech Workshop: Intro to Python",
+    "description": "Learn the basics of Python programming.",
+    "date": "2026-07-20",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "library": "Library A",
+    "url": "https://example.com/event/3",
+    "audience": "Teens"
+  }
+]
