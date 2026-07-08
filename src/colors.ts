@@ -7,9 +7,7 @@ export const LIBRARY_COLORS: Record<string, string> = {
 }
 
 export const AUDIENCE_COLORS: Record<string, string> = {
-  'Children (0-5)': '#FFB3BA',
   'Children': '#BAFFC9',
-  'Children (6-11)': '#FFDFBA',
   'Teens': '#BAB4FF',
   'Adults': '#BAE1FF',
 }
@@ -31,3 +29,11 @@ export const TIME_BORDER_COLORS: Record<string, string> = {
   'Afternoon (12pm–5pm)': '#4ECDC4',
   'Evening (5pm–11pm)': '#7B68EE',
 }
+
+export const TIME_TEXT_COLORS: Record<string, string> = {
+  'Morning (8am–12pm)': '#8B6914',
+  'Afternoon (12pm–5pm)': '#1A6B65',
+  'Evening (5pm–11pm)': '#5B4BCE',
+}
+
+export const CHIP_TEXT_COLOR = '#1A1A1A'

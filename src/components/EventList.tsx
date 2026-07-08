@@ -15,7 +15,7 @@ const allLibraries = [...new Set(events.map((e) => e.library))].sort()
 
 export default function EventList() {
   const [selectedLibraries, setSelectedLibraries] = useState<string[]>(allLibraries)
-  const [selectedAudiences, setSelectedAudiences] = useState<string[]>(['Children (0-5)', 'Children'])
+  const [selectedAudiences, setSelectedAudiences] = useState<string[]>(['Children'])
   const [exactDate, setExactDate] = useState(defaultDateStr)
   const [timeGroups, setTimeGroups] = useState<string[]>(['Morning (8am–12pm)'])
 

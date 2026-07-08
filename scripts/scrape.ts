@@ -98,11 +98,11 @@ async function scrapeAssabet(html: string): Promise<ScrapeResult> {
 }
 
 const BPL_AUDIENCE_MAP: Record<string, string> = {
-  'Children (Birth-Age 5)': 'Children (0-5)',
-  'Children (Ages 3–5)': 'Children (0-5)',
-  'Children (Birth–18 months)': 'Children (0-5)',
-  'Children (Ages 6-12)': 'Children (6-11)',
-  'Tweens (Ages 9-12)': 'Children (6-11)',
+  'Children (Birth-Age 5)': 'Children',
+  'Children (Ages 3–5)': 'Children',
+  'Children (Birth–18 months)': 'Children',
+  'Children (Ages 6-12)': 'Children',
+  'Tweens (Ages 9-12)': 'Children',
   'Teens (Ages 13-18)': 'Teens',
   'Young Adults (Ages 20-34)': 'Adults',
   'All Adults': 'Adults',
@@ -112,8 +112,8 @@ const BPL_AUDIENCE_MAP: Record<string, string> = {
 }
 
 const ASSABET_AUDIENCE_MAP: Record<string, string> = {
-  'children-0-5': 'Children (0-5)',
-  'children-6-11': 'Children (6-11)',
+  'children-0-5': 'Children',
+  'children-6-11': 'Children',
   'young-adult': 'Teens',
   'adult': 'Adults',
   'adults': 'Adults',
@@ -121,21 +121,21 @@ const ASSABET_AUDIENCE_MAP: Record<string, string> = {
   'teen': 'Teens',
   'teens': 'Teens',
   'cfce': 'Children',
-  'toddler': 'Children (0-3)',
-  'baby': 'Children (0-1)',
-  'preschool': 'Children (3-5)',
-  'storytime': 'Children (0-5)',
+  'toddler': 'Children',
+  'baby': 'Children',
+  'preschool': 'Children',
+  'storytime': 'Children',
   'children': 'Children',
   'child': 'Children',
   'junior': 'Children',
   'youth': 'Children',
-  'infant': 'Children (0-1)',
-  'babies': 'Children (0-1)',
-  'tween': 'Tweens',
+  'infant': 'Children',
+  'babies': 'Children',
+  'tween': 'Children',
 }
 
 function pickBplAudience(audiences: string[]): string | undefined {
-  const priority = ['Children (0-5)', 'Children (6-11)', 'Children', 'Teens', 'Adults']
+  const priority = ['Children', 'Teens', 'Adults']
   const mapped = new Set<string>()
   for (const a of audiences) {
     const m = BPL_AUDIENCE_MAP[a]
