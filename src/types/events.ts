@@ -8,4 +8,5 @@ export interface Event {
   library: string
   url?: string
   audience?: string
+  registrationRequired?: boolean
 }

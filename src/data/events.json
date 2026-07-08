@@ -115,6 +115,7 @@
     "endTime": "16:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/summer-movie-matinee-for-all-ages-hamilton-sing-along/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "melrose-public-library-10",
     "library": "Melrose Public Library"
   },
@@ -126,6 +127,7 @@
     "endTime": "17:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/teen-mini-pizza-bagels-grades-6th-12th/",
     "audience": "Teens",
+    "registrationRequired": true,
     "id": "melrose-public-library-11",
     "library": "Melrose Public Library"
   },
@@ -137,6 +139,7 @@
     "endTime": "12:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/tuesday-am-book-group-adults-54/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "melrose-public-library-12",
     "library": "Melrose Public Library"
   },
@@ -148,6 +151,7 @@
     "endTime": "19:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/virtual-historical-fiction-book-recs-with-jane-healey-7/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "melrose-public-library-13",
     "library": "Melrose Public Library"
   },
@@ -159,6 +163,7 @@
     "endTime": "11:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/literacy-lovers-12-months-and-up-2/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "melrose-public-library-14",
     "library": "Melrose Public Library"
   },
@@ -170,6 +175,7 @@
     "endTime": "12:30",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/henna-at-the-library-with-wicked-good-henna-grades-6th-12th/",
     "audience": "Teens",
+    "registrationRequired": true,
     "id": "melrose-public-library-15",
     "library": "Melrose Public Library"
   },
@@ -181,6 +187,7 @@
     "endTime": "12:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/wacky-wednesdays-ages-2-5-2/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "melrose-public-library-16",
     "library": "Melrose Public Library"
   },
@@ -203,6 +210,7 @@
     "endTime": "15:30",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/significant-short-fiction-discussion-group-adults-24/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "melrose-public-library-18",
     "library": "Melrose Public Library"
   },
@@ -214,6 +222,7 @@
     "endTime": "20:30",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/plant-a-seed-read-puzzle-race/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "melrose-public-library-19",
     "library": "Melrose Public Library"
   },
@@ -236,6 +245,7 @@
     "endTime": "19:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/virtual-womens-fiction-book-recs-with-bestselling-author-kristan-higgins-6/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "melrose-public-library-21",
     "library": "Melrose Public Library"
   },
@@ -269,6 +279,7 @@
     "endTime": "16:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/curious-creatures-ages-6/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "melrose-public-library-24",
     "library": "Melrose Public Library"
   },
@@ -280,6 +291,7 @@
     "endTime": "11:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/literacy-lovers-12-months-and-up-3/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "melrose-public-library-25",
     "library": "Melrose Public Library"
   },
@@ -291,6 +303,7 @@
     "endTime": "12:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/wacky-wednesdays-ages-2-5-3/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "melrose-public-library-26",
     "library": "Melrose Public Library"
   },
@@ -313,6 +326,7 @@
     "endTime": "20:30",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/adult-crafting-night-paperback-book-bedazzling/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "melrose-public-library-28",
     "library": "Melrose Public Library"
   },
@@ -324,6 +338,7 @@
     "endTime": "11:15",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/disability-story-time-ages-0-5/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "melrose-public-library-29",
     "library": "Melrose Public Library"
   },
@@ -335,6 +350,7 @@
     "endTime": "19:30",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/teen-bad-art-night-grades-6th-12th/",
     "audience": "Teens",
+    "registrationRequired": true,
     "id": "melrose-public-library-30",
     "library": "Melrose Public Library"
   },
@@ -366,6 +382,7 @@
     "endTime": "17:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/teen-just-dance-party-grades-6th-12th/",
     "audience": "Teens",
+    "registrationRequired": true,
     "id": "melrose-public-library-33",
     "library": "Melrose Public Library"
   },
@@ -377,6 +394,7 @@
     "endTime": "20:45",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/tasty-books-for-hungry-readers-adults-2/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "melrose-public-library-34",
     "library": "Melrose Public Library"
   },
@@ -388,6 +406,7 @@
     "endTime": "11:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/literacy-lovers-12-months-and-up-4/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "melrose-public-library-35",
     "library": "Melrose Public Library"
   },
@@ -399,6 +418,7 @@
     "endTime": "12:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/wacky-wednesdays-ages-2-5-4/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "melrose-public-library-36",
     "library": "Melrose Public Library"
   },
@@ -443,6 +463,7 @@
     "endTime": "14:30",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/red-scarf-book-club/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "melrose-public-library-40",
     "library": "Melrose Public Library"
   },
@@ -575,6 +596,7 @@
     "startTime": "15:00",
     "endTime": "15:45",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/ste-a-m-lab-with-dr-deb-2/",
+    "registrationRequired": true,
     "id": "stoneham-public-library-12",
     "library": "Stoneham Public Library"
   },
@@ -627,6 +649,7 @@
     "endTime": "13:00",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/community-reiki-clinic-5/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "stoneham-public-library-17",
     "library": "Stoneham Public Library"
   },
@@ -648,6 +671,7 @@
     "startTime": "15:00",
     "endTime": "15:30",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/stem-club-3/",
+    "registrationRequired": true,
     "id": "stoneham-public-library-19",
     "library": "Stoneham Public Library"
   },
@@ -658,6 +682,7 @@
     "startTime": "17:00",
     "endTime": "17:45",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/teen-trivia-night-weird-but-true/",
+    "registrationRequired": true,
     "id": "stoneham-public-library-20",
     "library": "Stoneham Public Library"
   },
@@ -668,6 +693,7 @@
     "startTime": "17:30",
     "endTime": "18:15",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/middle-grade-art/",
+    "registrationRequired": true,
     "id": "stoneham-public-library-21",
     "library": "Stoneham Public Library"
   },
@@ -688,6 +714,7 @@
     "startTime": "16:00",
     "endTime": "16:30",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/petit-artiste-3/",
+    "registrationRequired": true,
     "id": "stoneham-public-library-23",
     "library": "Stoneham Public Library"
   },
@@ -741,6 +768,7 @@
     "endTime": "20:30",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/embroidery-with-yuchin-21/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "stoneham-public-library-28",
     "library": "Stoneham Public Library"
   },
@@ -783,6 +811,7 @@
     "startTime": "15:30",
     "endTime": "16:00",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/craft-quest-4/",
+    "registrationRequired": true,
     "id": "stoneham-public-library-32",
     "library": "Stoneham Public Library"
   },
@@ -843,6 +872,7 @@
     "startTime": "15:00",
     "endTime": "15:30",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/stem-club-5/",
+    "registrationRequired": true,
     "id": "stoneham-public-library-38",
     "library": "Stoneham Public Library"
   },
@@ -853,6 +883,7 @@
     "startTime": "17:30",
     "endTime": "18:15",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/middle-grade-art-2/",
+    "registrationRequired": true,
     "id": "stoneham-public-library-39",
     "library": "Stoneham Public Library"
   },
@@ -895,6 +926,7 @@
     "startTime": "16:00",
     "endTime": "16:30",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/petit-artiste-5/",
+    "registrationRequired": true,
     "id": "stoneham-public-library-43",
     "library": "Stoneham Public Library"
   },
@@ -925,6 +957,7 @@
     "startTime": "15:30",
     "endTime": "16:30",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/fashion-forward/",
+    "registrationRequired": true,
     "id": "stoneham-public-library-46",
     "library": "Stoneham Public Library"
   },
@@ -945,6 +978,7 @@
     "startTime": "17:00",
     "endTime": "17:30",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/diy-tie-dye/",
+    "registrationRequired": true,
     "id": "stoneham-public-library-48",
     "library": "Stoneham Public Library"
   },
@@ -1065,6 +1099,7 @@
     "endTime": "19:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/crazy-8s-math-club-2/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-8",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1076,6 +1111,7 @@
     "endTime": "10:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/3-5-year-old-story-time-222/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-9",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1098,6 +1134,7 @@
     "endTime": "16:30",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/elementary-pet-rocks/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-11",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1109,6 +1146,7 @@
     "endTime": "16:30",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/book-bag-decorating/",
     "audience": "Teens",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-12",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1129,6 +1167,7 @@
     "endTime": "10:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/baby-lapsit-story-time-33/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-14",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1140,6 +1179,7 @@
     "endTime": "20:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/celebrating-americas-250th-the-two-nerdy-history-girls-discuss-everyday-life-in-1776/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-15",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1160,6 +1200,7 @@
     "endTime": "10:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/1-and-2-year-old-story-time-313/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-17",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1191,6 +1232,7 @@
     "endTime": "16:30",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/teen-creativity-cafe-29/",
     "audience": "Teens",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-20",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1202,6 +1244,7 @@
     "endTime": "19:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/crazy-8s-math-club-3/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-21",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1222,6 +1265,7 @@
     "endTime": "10:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/3-5-year-old-story-time-223/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-23",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1253,6 +1297,7 @@
     "endTime": "16:30",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/flower-paintings-with-watercolors/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-26",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1273,6 +1318,7 @@
     "endTime": "11:15",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/beebe-walk-read-through-breakheart-reservation-in-person-4/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-28",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1284,6 +1330,7 @@
     "endTime": "10:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/baby-lapsit-story-time-34/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-29",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1295,6 +1342,7 @@
     "endTime": "16:30",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/shoebox-fairy-garden/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-30",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1306,6 +1354,7 @@
     "endTime": "20:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/celebrating-americas-250th-the-black-experience-of-the-revolution-w-herstorian-gracia-rich/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-31",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1317,6 +1366,7 @@
     "endTime": "10:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/1-and-2-year-old-story-time-314/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-32",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1328,6 +1378,7 @@
     "endTime": "16:30",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/engineering-club-handheld-fans/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-33",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1339,6 +1390,7 @@
     "endTime": "19:30",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/felted-flowers/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-34",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1361,6 +1413,7 @@
     "endTime": "19:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/crazy-8s-math-club-4/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-36",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1372,6 +1425,7 @@
     "endTime": "10:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/3-5-year-old-story-time-224/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-37",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1394,6 +1448,7 @@
     "endTime": "16:30",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/teen-trivia/",
     "audience": "Teens",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-39",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1405,6 +1460,7 @@
     "endTime": "10:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/baby-lapsit-story-time-35/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-40",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1416,6 +1472,7 @@
     "endTime": "10:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/1-and-2-year-old-story-time-315/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-41",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1427,6 +1484,7 @@
     "endTime": "20:30",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/music-bingo/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-42",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1449,6 +1507,7 @@
     "endTime": "19:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/crazy-8s-math-club-5/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-44",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1460,6 +1519,7 @@
     "endTime": "10:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/3-5-year-old-story-time-225/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-45",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1471,6 +1531,7 @@
     "endTime": "20:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/beebe-board-game-club-2/",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-46",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1493,6 +1554,7 @@
     "endTime": "16:30",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/summer-family-art-studio/",
     "audience": "Children",
+    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-48",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1706,6 +1768,7 @@
     "startTime": "16:00",
     "endTime": "17:30",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/pokemon-club/",
+    "registrationRequired": true,
     "id": "saugus-public-library-20",
     "library": "Saugus Public Library"
   },
@@ -1819,6 +1882,7 @@
     "startTime": "10:00",
     "endTime": "10:30",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/animal-adaptations-with-the-stone-zoo/",
+    "registrationRequired": true,
     "id": "saugus-public-library-31",
     "library": "Saugus Public Library"
   },
@@ -1829,6 +1893,7 @@
     "startTime": "10:45",
     "endTime": "11:15",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/animal-adaptations-with-the-stone-zoo-2/",
+    "registrationRequired": true,
     "id": "saugus-public-library-32",
     "library": "Saugus Public Library"
   },
@@ -1839,6 +1904,7 @@
     "startTime": "15:00",
     "endTime": "15:45",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/baby-sitters-club-party/",
+    "registrationRequired": true,
     "id": "saugus-public-library-33",
     "library": "Saugus Public Library"
   },
@@ -1879,6 +1945,7 @@
     "startTime": "15:30",
     "endTime": "16:30",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/honeybees-and-beeswax-candle-making/",
+    "registrationRequired": true,
     "id": "saugus-public-library-37",
     "library": "Saugus Public Library"
   },
@@ -2053,6 +2120,7 @@
     "startTime": "16:00",
     "endTime": "17:30",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/pokemon-club-2/",
+    "registrationRequired": true,
     "id": "saugus-public-library-54",
     "library": "Saugus Public Library"
   },
@@ -2367,6 +2435,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a2a0c798d1b82ca9f79113c",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "boston-public-library-15",
     "library": "Boston Public Library"
   },
@@ -2642,6 +2711,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a2a0c798d1b82ca9f79113d",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "boston-public-library-40",
     "library": "Boston Public Library"
   },
@@ -2851,6 +2921,7 @@
     "endTime": "18:30",
     "url": "https://bpl.bibliocommons.com/events/6a2a0c798d1b82ca9f79113e",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "boston-public-library-59",
     "library": "Boston Public Library"
   },
@@ -3104,6 +3175,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a2a0c798d1b82ca9f79113f",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "boston-public-library-82",
     "library": "Boston Public Library"
   },
@@ -3368,6 +3440,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a2a0c798d1b82ca9f791140",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "boston-public-library-106",
     "library": "Boston Public Library"
   },
@@ -3786,6 +3859,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a2a0c798d1b82ca9f791141",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "boston-public-library-144",
     "library": "Boston Public Library"
   },

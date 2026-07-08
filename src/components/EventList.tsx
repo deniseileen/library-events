@@ -5,19 +5,18 @@ import eventData from '../data/events.json'
 import EventFilters from './EventFilters'
 import { getTimeGroup } from '../colors'
 import EventCard from './EventCard'
+import type { Dayjs } from 'dayjs'
 
 const events = eventData as Event[]
 
-const tomorrow = new Date()
-tomorrow.setDate(tomorrow.getDate() + 1)
-const defaultDateStr = tomorrow.toISOString().slice(0, 10)
 const allLibraries = [...new Set(events.map((e) => e.library))].sort()
 
 export default function EventList() {
   const [selectedLibraries, setSelectedLibraries] = useState<string[]>(allLibraries)
   const [selectedAudiences, setSelectedAudiences] = useState<string[]>(['Children'])
-  const [exactDate, setExactDate] = useState(defaultDateStr)
+  const [dateRange, setDateRange] = useState<[Dayjs | null, Dayjs | null]>([null, null])
   const [timeGroups, setTimeGroups] = useState<string[]>(['Morning (8am–12pm)'])
+  const [noRegistrationOnly, setNoRegistrationOnly] = useState(false)
 
   const libraries = useMemo(() => allLibraries, [])
 
@@ -32,14 +31,18 @@ export default function EventList() {
         if (selectedLibraries.length > 0 && !selectedLibraries.includes(e.library)) return false
         if (selectedAudiences.length > 0 && !e.audience) return false
         if (selectedAudiences.length > 0 && !selectedAudiences.includes(e.audience!)) return false
-        if (exactDate && e.date !== exactDate) return false
+        if (dateRange[0] && dateRange[1]) {
+          const d = e.date
+          if (d < dateRange[0].format('YYYY-MM-DD') || d > dateRange[1].format('YYYY-MM-DD')) return false
+        }
         if (timeGroups.length > 0) {
           const g = getTimeGroup(e.startTime)
           if (!g || !timeGroups.includes(g)) return false
         }
+        if (noRegistrationOnly && e.registrationRequired) return false
         return true
       }),
-    [selectedLibraries, selectedAudiences, exactDate, timeGroups]
+    [selectedLibraries, selectedAudiences, dateRange, timeGroups, noRegistrationOnly]
   )
 
   return (
@@ -69,10 +72,12 @@ export default function EventList() {
         audiences={audiences}
         selectedAudiences={selectedAudiences}
         onAudiencesChange={setSelectedAudiences}
-        exactDate={exactDate}
-        onExactDateChange={setExactDate}
+        dateRange={dateRange}
+        onDateRangeChange={setDateRange}
         timeGroups={timeGroups}
         onTimeGroupsChange={setTimeGroups}
+        noRegistrationOnly={noRegistrationOnly}
+        onNoRegistrationOnlyChange={setNoRegistrationOnly}
       />
       {filtered.length === 0 ? (
         <Typography color="text.secondary">No events found for the selected filters.</Typography>

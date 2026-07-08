@@ -91,6 +91,20 @@ export default function EventCard({ event }: EventCardProps) {
               {' – '}{formatTime(event.endTime)}
             </Box>
           )}
+          {event.registrationRequired && (
+            <Chip
+              label="Registration required"
+              size="small"
+              sx={{
+                ml: 1,
+                backgroundColor: '#FFE0B2',
+                color: '#E65100',
+                fontWeight: 700,
+                height: 20,
+                '& .MuiChip-label': { fontSize: 11, px: 1, lineHeight: 1.2, py: 0 },
+              }}
+            />
+          )}
         </Typography>
         <Typography variant="body2" color="text.secondary">
           {event.description}
