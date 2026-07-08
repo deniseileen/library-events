@@ -1,83 +1,129 @@
 import {
+  Checkbox,
   FormControl,
   InputLabel,
+  ListItemText,
   Select,
   MenuItem,
   TextField,
   Stack,
+  Button,
+  Box,
 } from '@mui/material'
+import { TIME_GROUPS } from '../colors'
 
-const DAYS_OF_WEEK = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+function SelectAllClear({
+  selected,
+  options,
+  onChange,
+}: {
+  selected: string[]
+  options: string[]
+  onChange: (v: string[]) => void
+}) {
+  const allSelected = selected.length === options.length
+  return (
+    <Box sx={{ display: 'flex', gap: 1, px: 2, py: 0.5 }}>
+      <Button
+        size="small"
+        disabled={allSelected}
+        onClick={() => onChange([...options])}
+      >
+        Select all
+      </Button>
+      <Button
+        size="small"
+        disabled={selected.length === 0}
+        onClick={() => onChange([])}
+      >
+        Clear
+      </Button>
+    </Box>
+  )
+}
+
+function MultiSelect({
+  label,
+  options,
+  value,
+  onChange,
+  bgColor,
+}: {
+  label: string
+  options: string[]
+  value: string[]
+  onChange: (v: string[]) => void
+  bgColor?: string
+}) {
+  return (
+    <FormControl size="small" sx={{ minWidth: 200 }}>
+      <InputLabel>{label}</InputLabel>
+      <Select
+        multiple
+        value={value}
+        label={label}
+        onChange={(e) => onChange(e.target.value as string[])}
+        renderValue={(selected) =>
+          selected.length === 0
+            ? `All ${label.toLowerCase()}`
+            : selected.length === options.length
+              ? `All ${label.toLowerCase()}`
+              : selected.join(', ')
+        }
+        sx={{ backgroundColor: bgColor || '#fff', borderRadius: 3 }}
+      >
+        <SelectAllClear selected={value} options={options} onChange={onChange} />
+        {options.map((opt) => (
+          <MenuItem key={opt} value={opt}>
+            <Checkbox checked={value.includes(opt)} />
+            <ListItemText primary={opt} />
+          </MenuItem>
+        ))}
+      </Select>
+    </FormControl>
+  )
+}
 
 interface EventFiltersProps {
   libraries: string[]
-  selectedLibrary: string
-  onLibraryChange: (library: string) => void
+  selectedLibraries: string[]
+  onLibrariesChange: (libraries: string[]) => void
   audiences: string[]
-  selectedAudience: string
-  onAudienceChange: (audience: string) => void
-  month: string
-  onMonthChange: (month: string) => void
+  selectedAudiences: string[]
+  onAudiencesChange: (audiences: string[]) => void
   exactDate: string
   onExactDateChange: (date: string) => void
-  daysOfWeek: string[]
-  onDaysOfWeekChange: (days: string[]) => void
+  timeGroups: string[]
+  onTimeGroupsChange: (groups: string[]) => void
 }
 
 export default function EventFilters({
   libraries,
-  selectedLibrary,
-  onLibraryChange,
+  selectedLibraries,
+  onLibrariesChange,
   audiences,
-  selectedAudience,
-  onAudienceChange,
-  month,
-  onMonthChange,
+  selectedAudiences,
+  onAudiencesChange,
   exactDate,
   onExactDateChange,
-  daysOfWeek,
-  onDaysOfWeekChange,
+  timeGroups,
+  onTimeGroupsChange,
 }: EventFiltersProps) {
   return (
     <Stack direction="row" sx={{ mb: 3, flexWrap: 'wrap', gap: 2 }}>
-      <FormControl size="small" sx={{ minWidth: 200 }}>
-        <InputLabel>Library</InputLabel>
-        <Select
-          value={selectedLibrary}
-          label="Library"
-          onChange={(e) => onLibraryChange(e.target.value)}
-        >
-          <MenuItem value="all">All Libraries</MenuItem>
-          {libraries.map((lib) => (
-            <MenuItem key={lib} value={lib}>
-              {lib}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
-      <FormControl size="small" sx={{ minWidth: 200 }}>
-        <InputLabel>Audience</InputLabel>
-        <Select
-          value={selectedAudience}
-          label="Audience"
-          onChange={(e) => onAudienceChange(e.target.value)}
-        >
-          <MenuItem value="all">All Audiences</MenuItem>
-          {audiences.map((a) => (
-            <MenuItem key={a} value={a}>
-              {a}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
-      <TextField
-        size="small"
-        type="month"
-        label="Month"
-        value={month}
-        onChange={(e) => onMonthChange(e.target.value)}
-        slotProps={{ inputLabel: { shrink: true } }}
-        sx={{ minWidth: 160 }}
+      <MultiSelect
+        label="Library"
+        options={libraries}
+        value={selectedLibraries}
+        onChange={onLibrariesChange}
+        bgColor="#FFE0E0"
+      />
+      <MultiSelect
+        label="Audience"
+        options={audiences}
+        value={selectedAudiences}
+        onChange={onAudiencesChange}
+        bgColor="#E0FFE0"
       />
       <TextField
         size="small"
@@ -86,24 +132,15 @@ export default function EventFilters({
         value={exactDate}
         onChange={(e) => onExactDateChange(e.target.value)}
         slotProps={{ inputLabel: { shrink: true } }}
-        sx={{ minWidth: 160 }}
+        sx={{ minWidth: 160, '& .MuiOutlinedInput-root': { backgroundColor: '#E0F0FF', borderRadius: 3 } }}
       />
-      <FormControl size="small" sx={{ minWidth: 200 }}>
-        <InputLabel>Day of week</InputLabel>
-        <Select
-          multiple
-          value={daysOfWeek}
-          label="Day of week"
-          onChange={(e) => onDaysOfWeekChange(e.target.value as string[])}
-          renderValue={(selected) => (selected.length === 0 ? 'Any day' : selected.join(', '))}
-        >
-          {DAYS_OF_WEEK.map((day) => (
-            <MenuItem key={day} value={day}>
-              {day}
-            </MenuItem>
-          ))}
-        </Select>
-      </FormControl>
+      <MultiSelect
+        label="Time of day"
+        options={[...TIME_GROUPS]}
+        value={timeGroups}
+        onChange={onTimeGroupsChange}
+        bgColor="#FFF0E0"
+      />
     </Stack>
   )
 }
