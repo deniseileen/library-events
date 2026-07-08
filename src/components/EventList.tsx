@@ -45,14 +45,23 @@ export default function EventList() {
   return (
     <Box sx={{ minHeight: '100vh', background: 'linear-gradient(135deg, #FFF5F5 0%, #F0FFF4 50%, #FFF8E1 100%)' }}>
     <Container maxWidth="md" sx={{ py: 4 }}>
-      <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, alignItems: { xs: 'flex-start', sm: 'center' }, gap: 0.5, mb: 2 }}>
-        <Typography variant="h4" sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
-          <Box component="span" sx={{ fontSize: 36 }}>📚</Box>
-          Storytime & Events
-        </Typography>
-        <Typography variant="h6" sx={{ color: 'text.secondary', fontWeight: 400, ml: { sm: 'auto' } }}>
-          {filtered.length} event{filtered.length !== 1 ? 's' : ''} found
-        </Typography>
+      <Box sx={{
+        mb: 3,
+        p: 3,
+        borderRadius: 4,
+        background: 'linear-gradient(135deg, #FF6B6B 0%, #FFE66D 50%, #4ECDC4 100%)',
+        boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
+      }}>
+        <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, alignItems: { xs: 'flex-start', sm: 'center' }, gap: 1 }}>
+          <Typography variant="h4" sx={{ display: 'flex', alignItems: 'center', gap: 1.5, color: '#fff', textShadow: '2px 2px 4px rgba(0,0,0,0.2)' }}>
+            <Box component="span" sx={{ fontSize: 32 }}>🌈</Box>
+            Library StoryTimes
+            <Box component="span" sx={{ fontSize: 32 }}>🌟</Box>
+          </Typography>
+          <Typography variant="h6" sx={{ color: 'rgba(255,255,255,0.9)', fontWeight: 600, ml: { sm: 'auto' } }}>
+            {filtered.length} event{filtered.length !== 1 ? 's' : ''} found
+          </Typography>
+        </Box>
       </Box>
       <EventFilters
         libraries={libraries}
