@@ -26,7 +26,11 @@ export default function EventCard({ event }: EventCardProps) {
   return (
     <Card variant="outlined" sx={{ mb: 2 }}>
       <CardContent>
+<<<<<<< Updated upstream
         <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+=======
+        <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, justifyContent: 'space-between', alignItems: { xs: 'stretch', sm: 'flex-start' }, gap: 1 }}>
+>>>>>>> Stashed changes
           <Typography variant="h6" component="div">
             {event.url ? (
               <Link href={event.url} target="_blank" rel="noopener noreferrer" underline="hover">

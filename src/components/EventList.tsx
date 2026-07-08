@@ -50,9 +50,21 @@ export default function EventList() {
 
   return (
     <Container maxWidth="md" sx={{ py: 4 }}>
+<<<<<<< Updated upstream
       <Typography variant="h4" gutterBottom>
         Library Events
       </Typography>
+=======
+      <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, alignItems: { xs: 'flex-start', sm: 'center' }, gap: 0.5, mb: 2 }}>
+        <Typography variant="h4" sx={{ display: 'flex', alignItems: 'center', gap: 1.5 }}>
+          <Box component="span" sx={{ fontSize: 36 }}>📚</Box>
+          Storytime & Events
+        </Typography>
+        <Typography variant="h6" sx={{ color: 'text.secondary', fontWeight: 400, ml: { sm: 'auto' } }}>
+          {filtered.length} event{filtered.length !== 1 ? 's' : ''} found
+        </Typography>
+      </Box>
+>>>>>>> Stashed changes
       <EventFilters
         libraries={libraries}
         selectedLibrary={selectedLibrary}
