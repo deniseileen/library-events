@@ -59,7 +59,7 @@ function MultiSelect({
 }) {
   const allText = pluralLabel || `${label.toLowerCase()}s`
   return (
-    <FormControl size="small" sx={{ minWidth: 200 }}>
+    <FormControl size="small" sx={{ minWidth: { xs: '100%', sm: 200 } }}>
       <InputLabel>{label}</InputLabel>
       <Select
         multiple
@@ -137,7 +137,7 @@ export default function EventFilters({
         value={exactDate}
         onChange={(e) => onExactDateChange(e.target.value)}
         slotProps={{ inputLabel: { shrink: true } }}
-        sx={{ minWidth: 160, '& .MuiOutlinedInput-root': { backgroundColor: '#E0F0FF', borderRadius: 3 } }}
+        sx={{ minWidth: { xs: '100%', sm: 160 }, '& .MuiOutlinedInput-root': { backgroundColor: '#E0F0FF', borderRadius: 3 } }}
       />
       <MultiSelect
         label="Time of day"

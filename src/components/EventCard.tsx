@@ -44,7 +44,7 @@ export default function EventCard({ event }: EventCardProps) {
       }}
     >
       <CardContent>
-        <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 1 }}>
+        <Box sx={{ display: 'flex', flexDirection: { xs: 'column', sm: 'row' }, justifyContent: 'space-between', alignItems: { xs: 'stretch', sm: 'flex-start' }, gap: 1 }}>
           <Typography variant="h6" component="div">
             {event.url ? (
               <Link href={event.url} target="_blank" rel="noopener noreferrer" underline="hover">
@@ -79,7 +79,7 @@ export default function EventCard({ event }: EventCardProps) {
             />
           </Stack>
         </Box>
-        <Typography color="text.secondary" sx={{ mb: 0.5, fontWeight: 600 }}>
+        <Typography color="text.secondary" sx={{ mt: 1, mb: 0.5, fontWeight: 600 }}>
           {event.date}
           {event.startTime && (
             <Box component="span" sx={{ color: timeColor || 'text.secondary' }}>
