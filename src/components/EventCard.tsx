@@ -7,11 +7,22 @@ import {
   Link,
   Stack,
 } from '@mui/material'
+import dayjs from 'dayjs'
 import type { Event } from '../types/events'
-import { LIBRARY_COLORS, AUDIENCE_COLORS, TIME_BORDER_COLORS, TIME_TEXT_COLORS, CHIP_TEXT_COLOR, getTimeGroup } from '../colors'
+import { LIBRARY_COLORS, AUDIENCE_COLORS, TIME_BORDER_COLORS, TIME_TEXT_COLORS, CHIP_TEXT_COLOR, getTimeGroup, DAY_COLORS } from '../colors'
 
 interface EventCardProps {
   event: Event
+}
+
+function decodeHtml(html: string) {
+  const txt = document.createElement('textarea')
+  txt.innerHTML = html
+  return txt.value.replace(/<[^>]*>/g, '')
+}
+
+function formatDate(date: string) {
+  return dayjs(date).format('ddd, MMM D')
 }
 
 function formatTime(time?: string) {
@@ -29,13 +40,17 @@ export default function EventCard({ event }: EventCardProps) {
   const timeGroup = getTimeGroup(event.startTime)
   const borderColor = timeGroup ? TIME_BORDER_COLORS[timeGroup] : undefined
   const timeColor = timeGroup ? TIME_TEXT_COLORS[timeGroup] : undefined
+  const dayColor = DAY_COLORS[dayjs(event.date).format('ddd')]
 
   return (
     <Card
       variant="outlined"
       sx={{
         mb: 2,
-        borderLeft: borderColor ? `6px solid ${borderColor}` : undefined,
+        borderLeft: `6px solid ${libColor}`,
+        borderTop: dayColor ? `4px solid ${dayColor}` : undefined,
+        borderRight: borderColor ? `6px solid ${borderColor}` : undefined,
+        borderBottom: audColor ? `4px solid ${audColor}` : undefined,
         transition: 'transform 0.15s, box-shadow 0.15s',
         '&:hover': {
           transform: 'translateY(-2px)',
@@ -48,10 +63,10 @@ export default function EventCard({ event }: EventCardProps) {
           <Typography variant="h6" component="div">
             {event.url ? (
               <Link href={event.url} target="_blank" rel="noopener noreferrer" underline="hover">
-                {event.title}
+                {decodeHtml(event.title)}
               </Link>
             ) : (
-              event.title
+              decodeHtml(event.title)
             )}
           </Typography>
           <Stack direction="row" spacing={1} sx={{ flexShrink: 0 }}>
@@ -80,7 +95,7 @@ export default function EventCard({ event }: EventCardProps) {
           </Stack>
         </Box>
         <Typography color="text.secondary" sx={{ mt: 1, mb: 0.5, fontWeight: 600 }}>
-          {event.date}
+          {formatDate(event.date)}
           {event.startTime && (
             <Box component="span" sx={{ color: timeColor || 'text.secondary' }}>
               {' · '}{formatTime(event.startTime)}
@@ -107,7 +122,7 @@ export default function EventCard({ event }: EventCardProps) {
           )}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          {event.description}
+          {decodeHtml(event.description)}
         </Typography>
       </CardContent>
     </Card>

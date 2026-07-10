@@ -37,3 +37,13 @@ export const TIME_TEXT_COLORS: Record<string, string> = {
 }
 
 export const CHIP_TEXT_COLOR = '#1A1A1A'
+
+export const DAY_COLORS: Record<string, string> = {
+  'Mon': '#FF6B6B',
+  'Tue': '#FDB813',
+  'Wed': '#4ECDC4',
+  'Thu': '#7B68EE',
+  'Fri': '#FF8C94',
+  'Sat': '#BAFFC9',
+  'Sun': '#BAB4FF',
+}
