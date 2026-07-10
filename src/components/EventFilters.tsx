@@ -147,7 +147,8 @@ export default function EventFilters({
               size: 'small',
               sx: {
                 minWidth: { xs: '100%', sm: 140 },
-                '& .MuiOutlinedInput-root': { backgroundColor: '#E0F0FF', borderRadius: 3 },
+                backgroundColor: '#F0E0FF',
+                borderRadius: 3,
               },
             },
           }}
@@ -161,7 +162,8 @@ export default function EventFilters({
               size: 'small',
               sx: {
                 minWidth: { xs: '100%', sm: 140 },
-                '& .MuiOutlinedInput-root': { backgroundColor: '#E0F0FF', borderRadius: 3 },
+                backgroundColor: '#F0E0FF',
+                borderRadius: 3,
               },
             },
           }}
