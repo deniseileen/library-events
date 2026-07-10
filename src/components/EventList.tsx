@@ -1,11 +1,14 @@
 import { useState, useMemo } from 'react'
-import { Container, Typography, Box } from '@mui/material'
+import { Container, Typography, Box, ToggleButton, ToggleButtonGroup } from '@mui/material'
+import ViewListIcon from '@mui/icons-material/ViewList'
+import CalendarMonthIcon from '@mui/icons-material/CalendarMonth'
 import dayjs from 'dayjs'
 import type { Event } from '../types/events'
 import eventData from '../data/events.json'
 import EventFilters from './EventFilters'
 import { getTimeGroup, TIME_GROUPS } from '../colors'
 import EventCard from './EventCard'
+import CalendarView from './CalendarView'
 import type { Dayjs } from 'dayjs'
 import heroBanner from '../assets/hero-banner.png'
 
@@ -24,6 +27,7 @@ export default function EventList() {
   const [dateRange, setDateRange] = useState<[Dayjs | null, Dayjs | null]>([defaultFrom, defaultTo])
   const [timeGroups, setTimeGroups] = useState<string[]>([...TIME_GROUPS])
   const [noRegistrationOnly, setNoRegistrationOnly] = useState(false)
+  const [view, setView] = useState<'list' | 'calendar'>('list')
 
   const libraries = useMemo(() => allLibraries, [])
 
@@ -36,7 +40,7 @@ export default function EventList() {
           if (selectedLibraries.length > 0 && !selectedLibraries.includes(e.library)) return false
           if (selectedAudiences.length > 0 && !e.audience) return false
           if (selectedAudiences.length > 0 && !selectedAudiences.includes(e.audience!)) return false
-          if (dateRange[0] && dateRange[1]) {
+          if (view === 'list' && dateRange[0] && dateRange[1]) {
             const d = e.date
             if (d < dateRange[0].format('YYYY-MM-DD') || d > dateRange[1].format('YYYY-MM-DD')) return false
           }
@@ -53,7 +57,7 @@ export default function EventList() {
           if (a.audience && b.audience && a.audience !== b.audience) return a.audience.localeCompare(b.audience)
           return a.library.localeCompare(b.library)
         }),
-    [selectedLibraries, selectedAudiences, dateRange, timeGroups, noRegistrationOnly]
+    [selectedLibraries, selectedAudiences, dateRange, timeGroups, noRegistrationOnly, view]
   )
 
   return (
@@ -84,19 +88,33 @@ export default function EventList() {
         onAudiencesChange={setSelectedAudiences}
         dateRange={dateRange}
         onDateRangeChange={setDateRange}
+        dateDisabled={view === 'calendar'}
         timeGroups={timeGroups}
         onTimeGroupsChange={setTimeGroups}
         noRegistrationOnly={noRegistrationOnly}
         onNoRegistrationOnlyChange={setNoRegistrationOnly}
       />
+      <Box sx={{ display: 'flex', justifyContent: 'flex-end', mb: 2 }}>
+        <ToggleButtonGroup
+          value={view}
+          exclusive
+          onChange={(_, v) => { if (v) { setView(v); if (v === 'calendar') setDateRange([null, null]) } }}
+          size="small"
+        >
+          <ToggleButton value="list"><ViewListIcon fontSize="small" /></ToggleButton>
+          <ToggleButton value="calendar"><CalendarMonthIcon fontSize="small" /></ToggleButton>
+        </ToggleButtonGroup>
+      </Box>
       {filtered.length === 0 ? (
         <Typography color="text.secondary">No events found for the selected filters.</Typography>
-      ) : (
+      ) : view === 'list' ? (
         <Box>
           {filtered.map((event) => (
             <EventCard key={event.id} event={event} />
           ))}
         </Box>
+      ) : (
+        <CalendarView events={filtered} />
       )}
     </Container>
     </Box>

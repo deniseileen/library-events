@@ -9,7 +9,7 @@ import {
 } from '@mui/material'
 import dayjs from 'dayjs'
 import type { Event } from '../types/events'
-import { LIBRARY_COLORS, AUDIENCE_COLORS, TIME_BORDER_COLORS, TIME_TEXT_COLORS, CHIP_TEXT_COLOR, getTimeGroup, DAY_COLORS } from '../colors'
+import { LIBRARY_COLORS, AUDIENCE_COLORS, TIME_BORDER_COLORS, TIME_TEXT_COLORS, CHIP_TEXT_COLOR, getTimeGroup, DAY_COLORS, DAY_TEXT_COLORS, TIME_CHIP_COLORS } from '../colors'
 
 interface EventCardProps {
   event: Event
@@ -41,15 +41,16 @@ export default function EventCard({ event }: EventCardProps) {
   const borderColor = timeGroup ? TIME_BORDER_COLORS[timeGroup] : undefined
   const timeColor = timeGroup ? TIME_TEXT_COLORS[timeGroup] : undefined
   const dayColor = DAY_COLORS[dayjs(event.date).format('ddd')]
+  const dayTextColor = DAY_TEXT_COLORS[dayjs(event.date).format('ddd')] || CHIP_TEXT_COLOR
 
   return (
     <Card
       variant="outlined"
       sx={{
         mb: 2,
-        borderLeft: `6px solid ${libColor}`,
+        borderLeft: borderColor ? `6px solid ${borderColor}` : undefined,
         borderTop: dayColor ? `4px solid ${dayColor}` : undefined,
-        borderRight: borderColor ? `6px solid ${borderColor}` : undefined,
+        borderRight: `6px solid ${libColor}`,
         borderBottom: audColor ? `4px solid ${audColor}` : undefined,
         transition: 'transform 0.15s, box-shadow 0.15s',
         '&:hover': {
@@ -94,24 +95,34 @@ export default function EventCard({ event }: EventCardProps) {
             />
           </Stack>
         </Box>
-        <Typography color="text.secondary" sx={{ mt: 1, mb: 0.5, fontWeight: 600 }}>
-          {formatDate(event.date)}
+        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1, mt: 1, mb: 0.5, flexWrap: 'wrap' }}>
+          <Chip
+            label={formatDate(event.date)}
+            size="small"
+            sx={{
+              backgroundColor: dayColor || '#E0E0E0',
+              color: dayTextColor || CHIP_TEXT_COLOR,
+              fontWeight: 700,
+              '& .MuiChip-label': { lineHeight: 1.2, py: 0 },
+            }}
+          />
           {event.startTime && (
-            <Box component="span" sx={{ color: timeColor || 'text.secondary' }}>
-              {' · '}{formatTime(event.startTime)}
-            </Box>
-          )}
-          {event.endTime && (
-            <Box component="span" sx={{ color: timeColor || 'text.secondary' }}>
-              {' – '}{formatTime(event.endTime)}
-            </Box>
+            <Chip
+              label={`${formatTime(event.startTime)}${event.endTime ? ` – ${formatTime(event.endTime)}` : ''}`}
+              size="small"
+              sx={{
+                backgroundColor: timeGroup ? TIME_CHIP_COLORS[timeGroup] : '#E0E0E0',
+                color: timeColor || CHIP_TEXT_COLOR,
+                fontWeight: 700,
+                '& .MuiChip-label': { lineHeight: 1.2, py: 0 },
+              }}
+            />
           )}
           {event.registrationRequired && (
             <Chip
               label="Registration required"
               size="small"
               sx={{
-                ml: 1,
                 backgroundColor: '#FFE0B2',
                 color: '#E65100',
                 fontWeight: 700,
@@ -120,7 +131,7 @@ export default function EventCard({ event }: EventCardProps) {
               }}
             />
           )}
-        </Typography>
+        </Box>
         <Typography variant="body2" color="text.secondary">
           {decodeHtml(event.description)}
         </Typography>

@@ -99,6 +99,7 @@ interface EventFiltersProps {
   onAudiencesChange: (audiences: string[]) => void
   dateRange: [Dayjs | null, Dayjs | null]
   onDateRangeChange: (range: [Dayjs | null, Dayjs | null]) => void
+  dateDisabled?: boolean
   timeGroups: string[]
   onTimeGroupsChange: (groups: string[]) => void
   noRegistrationOnly: boolean
@@ -114,6 +115,7 @@ export default function EventFilters({
   onAudiencesChange,
   dateRange,
   onDateRangeChange,
+  dateDisabled,
   timeGroups,
   onTimeGroupsChange,
   noRegistrationOnly,
@@ -142,6 +144,7 @@ export default function EventFilters({
           label="From"
           value={dateRange[0]}
           onChange={(v) => onDateRangeChange([v, dateRange[1]])}
+          disabled={dateDisabled}
           slotProps={{
             textField: {
               size: 'small',
@@ -149,6 +152,7 @@ export default function EventFilters({
                 minWidth: { xs: '100%', sm: 140 },
                 backgroundColor: '#F0E0FF',
                 borderRadius: 3,
+                opacity: dateDisabled ? 0.5 : 1,
               },
             },
           }}
@@ -157,6 +161,7 @@ export default function EventFilters({
           label="To"
           value={dateRange[1]}
           onChange={(v) => onDateRangeChange([dateRange[0], v])}
+          disabled={dateDisabled}
           slotProps={{
             textField: {
               size: 'small',
@@ -164,6 +169,7 @@ export default function EventFilters({
                 minWidth: { xs: '100%', sm: 140 },
                 backgroundColor: '#F0E0FF',
                 borderRadius: 3,
+                opacity: dateDisabled ? 0.5 : 1,
               },
             },
           }}

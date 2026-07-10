@@ -30,6 +30,12 @@ export const TIME_BORDER_COLORS: Record<string, string> = {
   'Evening (5pm–11pm)': '#7B68EE',
 }
 
+export const TIME_CHIP_COLORS: Record<string, string> = {
+  'Morning (8am–12pm)': '#FFF3D0',
+  'Afternoon (12pm–5pm)': '#D4F5EF',
+  'Evening (5pm–11pm)': '#D8CCF9',
+}
+
 export const TIME_TEXT_COLORS: Record<string, string> = {
   'Morning (8am–12pm)': '#8B6914',
   'Afternoon (12pm–5pm)': '#1A6B65',
@@ -39,11 +45,21 @@ export const TIME_TEXT_COLORS: Record<string, string> = {
 export const CHIP_TEXT_COLOR = '#1A1A1A'
 
 export const DAY_COLORS: Record<string, string> = {
-  'Mon': '#FF6B6B',
-  'Tue': '#FDB813',
-  'Wed': '#4ECDC4',
-  'Thu': '#7B68EE',
-  'Fri': '#FF8C94',
-  'Sat': '#BAFFC9',
-  'Sun': '#BAB4FF',
+  'Mon': '#FFB3B3',
+  'Tue': '#FFE082',
+  'Wed': '#A8E6CF',
+  'Thu': '#B8A9C9',
+  'Fri': '#FFCCBC',
+  'Sat': '#C8F7C5',
+  'Sun': '#D4B3FF',
+}
+
+export const DAY_TEXT_COLORS: Record<string, string> = {
+  'Mon': '#7A1A1A',
+  'Tue': '#7A5C00',
+  'Wed': '#1A5C3A',
+  'Thu': '#3A1A6B',
+  'Fri': '#7A3A1A',
+  'Sat': '#1A5C1A',
+  'Sun': '#4A1A7A',
 }
