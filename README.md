@@ -1,32 +1,32 @@
-# React + TypeScript + Vite
+# Library Events
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A browsable directory of library events, built with React, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+**Live site:** [storytimes.denisewalter.com](https://storytimes.denisewalter.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Browse and filter library events by type, location, and date
+- Clean, responsive Material UI design with custom theming
+- **Daily automated data pipeline** — a scheduled GitHub Action scrapes new events each morning at 6 AM UTC and commits them directly to the repo
+- Fast client-side rendering with Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- **React 18** — UI
+- **TypeScript** — type safety
+- **Vite** — build tool
+- **Material UI (MUI)** — component library
+- **GitHub Actions** — CI
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Local Development
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```bash
+npm install
+npm run dev
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## CI
+Two GitHub Actions workflows:
+- scrape.yml — runs daily on a cron schedule (0 6 * * *). Executes scripts/scrape.ts via tsx and commits any updated event data to src/data/events.json.
+- Lint on push — Oxlint checks TypeScript source on every push.
