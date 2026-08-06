@@ -29,7 +29,6 @@
     "endTime": "17:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/teen-karaoke-party-grades-6th-12th/",
     "audience": "Teens",
-    "registrationRequired": true,
     "id": "melrose-public-library-2",
     "library": "Melrose Public Library"
   },
@@ -41,7 +40,6 @@
     "endTime": "20:45",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/history-book-group-adults-35/",
     "audience": "Adults",
-    "registrationRequired": true,
     "id": "melrose-public-library-3",
     "library": "Melrose Public Library"
   },
@@ -532,16 +530,6 @@
     "library": "Stoneham Public Library"
   },
   {
-    "title": "Sunset Concert with Matt Heaton",
-    "description": "Close out the summer with us on the library lawn! Matt Heaton will be providing us with some sweet tunes! We'll have lawn games to play!Generously sponsored by the Friends of Stoneham Library! Learn more about them and their mission here.",
-    "date": "2026-08-13",
-    "startTime": "18:00",
-    "endTime": "18:45",
-    "url": "https://stonehamlibrary.assabetinteractive.com/calendar/sunset-concert-with-matt-heaton/",
-    "id": "stoneham-public-library-21",
-    "library": "Stoneham Public Library"
-  },
-  {
     "title": "Embroidery with YuChin",
     "description": "“Embroidery with YuChin” is a monthly workshop held at the Stoneham library. The 1. 5 hour event takes place from 7:00 pm - 8:30 pm on the third Thursday of each month, though the date may change due to holiday or weather conditions. Since its inception in October 2024, many members have found it a source of fun and joy.…<a href=\"https://stonehamlibrary.assabetinteractive.com/calendar/embroidery-with-yuchin-22/\" data-slug=\"embroidery-with-yuchin-22\" class=\"event-description-excerpt-more\">Learn More</a>",
     "date": "2026-08-13",
@@ -550,7 +538,7 @@
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/embroidery-with-yuchin-22/",
     "audience": "Adults",
     "registrationRequired": true,
-    "id": "stoneham-public-library-22",
+    "id": "stoneham-public-library-21",
     "library": "Stoneham Public Library"
   },
   {
@@ -561,6 +549,16 @@
     "endTime": "20:00",
     "url": "https://stonehamlibrary.assabetinteractive.com/calendar/chess-club-for-adults-35/",
     "audience": "Adults",
+    "id": "stoneham-public-library-22",
+    "library": "Stoneham Public Library"
+  },
+  {
+    "title": "Sunset Concert with Matt Heaton",
+    "description": "Close out the summer with us on the library lawn! Matt Heaton will be providing us with some sweet tunes! We'll have lawn games to play!Generously sponsored by the Friends of Stoneham Library! Learn more about them and their mission here.",
+    "date": "2026-08-20",
+    "startTime": "18:00",
+    "endTime": "18:45",
+    "url": "https://stonehamlibrary.assabetinteractive.com/calendar/sunset-concert-with-matt-heaton/",
     "id": "stoneham-public-library-23",
     "library": "Stoneham Public Library"
   },
@@ -693,7 +691,6 @@
     "endTime": "16:30",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/teen-creativity-cafe-30/",
     "audience": "Teens",
-    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-6",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -705,7 +702,6 @@
     "endTime": "19:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/crazy-8s-math-club-6/",
     "audience": "Children",
-    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-7",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1503,72 +1499,6 @@
     "library": "Boston Public Library"
   },
   {
-    "title": "ESOL Conversation Group (Advanced Beginner and Higher) — No Sign-Up Needed ",
-    "description": "[Central Library in Copley Square] Practice speaking English with other adult ESOL (English as a Second Language) learners in a relaxed and friendly group. This group is led by a volunteer instructor. To get the most out of this group and feel comfortable participating, a basic level of English speaking (Level 2+) is recommended. Registration is not needed. Please come to the location at the time listed. For any questions, please email the Literacy Services department at literacyservices@bpl.org or call us at 617-859-2446 and leave a message. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact the department listed in the \"Contact Info\" pane on the right. Please allow at least two weeks to arrange accommodation. Programming at the Boston Public Library is funded through private support. To learn more about supporting the Library, please visit the Boston Public Library Fund's website: https://bplfund.org/.",
-    "date": "2026-08-05",
-    "startTime": "10:30",
-    "endTime": "12:00",
-    "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c1b",
-    "audience": "Adults",
-    "id": "boston-public-library-4",
-    "library": "Boston Public Library"
-  },
-  {
-    "title": "Microsoft Word: Getting Started",
-    "description": "[Central Library in Copley Square] This beginner-friendly computer class will demystify Microsoft Word, the world's most popular word processing software. Learn the fundamentals of creating, editing, and formatting documents. Discover how to navigate the Word interface with ease and gain the confidence to produce professional-looking letters, reports, and more. This class is ideal for anyone new to computers or looking to build a strong foundation in digital document creation. No need to bring a computer—we’ll have one for you! You might, however, want to pack a pen and a notebook. You'll find the class in the Tech Classroom on the Mezzanine Level of the Central Library in Copley Square. Space is limited, so registering is highly recommended to secure your spot! Need help signing up or have questions? Give us a call at 617-859-2323 or send an email to computerworkshops@bpl.org. Let's build your computer confidence together! Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact 617-859-2323 or computerworkshops@bpl.org. Please allow at least two weeks to arrange accommodation. Programming at the Boston Public Library is funded through private support. To learn more about supporting the Library, please visit the Boston Public Library Fund's website.",
-    "date": "2026-08-05",
-    "startTime": "10:30",
-    "endTime": "12:00",
-    "url": "https://bpl.bibliocommons.com/events/6a611165f4e5db3d00c38831",
-    "audience": "Adults",
-    "id": "boston-public-library-5",
-    "library": "Boston Public Library"
-  },
-  {
-    "title": "Children's Concert in the Courtyard with Laura Macias (Ages 0-5)",
-    "description": "[Central Library in Copley Square] Children and caregivers can enjoy an outdoor musical performance in the McKim Courtyard with children's musician Laura Macias! In inclement weather, the concert will move indoors to the Children’s Library. This program is generously donated by the Louise H. Allen Children’s Music Program Fund. Space may be limited. Ages 0-5. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, please contact the Children's Room at mlevine@bpl.org or call (617) 859-2476. Please allow at least two weeks to arrange accommodation.",
-    "date": "2026-08-05",
-    "startTime": "10:30",
-    "endTime": "11:15",
-    "url": "https://bpl.bibliocommons.com/events/6a5e8bf0a41369ab2c677100",
-    "audience": "Children",
-    "id": "boston-public-library-6",
-    "library": "Boston Public Library"
-  },
-  {
-    "title": "Create It! with Future Creators and Innovators [#teencentral]",
-    "description": "[Central Library in Copley Square] The Create It! Workshop Series is a two-week creative arts and media program designed to introduce youth to various forms of artistic expression, digital media, storytelling, and performance arts. Through interactive, hands-on workshops, students will explore creative industries while building confidence, teamwork, and innovation skills in a fun and supportive environment. Teens will engage in workshops focused on content creation, visual arts, photography, filmmaking, branding, theater, and digital editing while learning from guest speakers and creative professionals. Teens can sign up for all 6 workshops as each one builds on the next, or can drop in for the workshops that are most interesting or relevant to them. Day 1: Logo Design & Sticker Creation on CanvaTeens will design custom logos and stickers using Canva while learning the basics of branding, creativity, and graphic design.Day 2: Photography & Visual Storytelling WorkshopTeens will learn photography fundamentals, including lighting, angles, composition, and storytelling through images. Day 3: Theater: Guest Speaker – Victoria Yordt of ArtservatoryTeens will be introduced to theater, stage presence, confidence-building, storytelling, and performing arts career pathways through an engaging guest speaker session.Day 4: Canvas Painting WorkshopA hands-on painting workshop encouraging creative self-expression through visual art, color, and imagination. Day 5: Digital Creator Workshop: Guest Speaker - Mark BrodieIn this workshop, Mark will introduce students to the fundamentals of digital storytelling and show how images, video, sound, and narrative can be combined to create compelling stories that inform, inspire, and engage others.1. Facilitating how to create media with your phone2. Building social presence on social platforms (both professionally and personally)a. Why branding is so important3. Phone Filming Workshop Day 6: Video Editing & Post-Production WorkshopTeens will learn editing basics such as transitions, sound, captions, and post-production techniques to transform raw footage into completed creative projects. About Future Creators & Innovators (FCI) Future Creators & Innovators (FCI) is a 501(c)(3) nonprofit organization founded in 2023 by Rebekah Israel while she was a student at Miami Dade College. What began as a passion for helping young people explore their potential has grown into a community-focused organization dedicated to career exploration, creativity, leadership development, and hands-on learning experiences. Now a student at Emerson College, Rebekah continues to lead FCI's mission of connecting students with professionals, mentors, and real-world opportunities that inspire confidence and future success. As the organization has expanded, Rebekah recruited Sophia Lam to serve as Director of Programs & Outreach. Sophia is an Emerson College graduate with a Bachelor of Science in Communication Studies and minors in Public Relations and Nonprofit Communication Management. Together, they work to create engaging educational experiences that empower youth to discover their strengths, develop new skills, and explore future career pathways. Guest Speaker - Mark Brodie Mark Brodie is an Executive-in-Residence in the Department of Communication Studies at Emerson College, where he teaches Digital Storytelling, Podcasting, and Nonprofit Communication. His work focuses on how stories can inspire action, build communities, and create positive change. He believes that everyone has a story worth telling and that today's digital tools make it possible for anyone to reach an audience. Guest Speaker - Victoria Artservatorey Victoria is the Founder and Executive Director of Artservatorey, a nonprofit dedicated to expanding access to creative and performing arts programming for children and youth across Massachusetts. She brings more than a decade of experience as both an actor and arts educator. Victoria studied drama at the Professional Performing Arts School in New York City and holds a Master’s of Education in Educational Leadership and Policy from Boston College. The Lab at Teen Central is the teen-exclusive digital makerspace at the Boston Public Library’s Central Library at Copley Square. This space contains high performing iMacs and Alienware PCs all with the Adobe Creative Cloud and other creative software, as well as 3D printers, an audio booth, sewing machines, Cricut cutting machines, and more! The Lab is open to all 6th-12th graders (or 12-17 year olds) who are interested in getting creative with technology. It is a resource for the teens of Boston and Massachusetts to explore new technology, gain 21st century skills, express themselves creatively, and become better digital citizens. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact bskywall@bpl.org. Please allow at least two weeks to arrange accommodation.",
-    "date": "2026-08-05",
-    "startTime": "13:00",
-    "endTime": "15:00",
-    "url": "https://bpl.bibliocommons.com/events/6a32ae648ea300e2631e5093",
-    "audience": "Teens",
-    "id": "boston-public-library-7",
-    "library": "Boston Public Library"
-  },
-  {
-    "title": "All Ages Story Time (Ages 0-7)",
-    "description": "[Central Library in Copley Square] Join an all-ages storytime for a mid-week afternoon of fun! Ages 0-7. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, please contact the Children's Room at mlevine@bpl.org or call (617) 859-2476. Please allow at least two weeks to arrange accommodation.",
-    "date": "2026-08-05",
-    "startTime": "15:30",
-    "endTime": "16:00",
-    "url": "https://bpl.bibliocommons.com/events/6a5e8d0d9943bdf31ea055af",
-    "audience": "Children",
-    "id": "boston-public-library-8",
-    "library": "Boston Public Library"
-  },
-  {
-    "title": "Lady Satch: Concerts in the Courtyard Series",
-    "description": "[Central Library in Copley Square] Join us for this music performance as part of our Wednesday evening concerts that feature Berklee College of Music students playing a range of genres. Lady Satch, a trumpeter and flugelhorn player, performs originals, covers, and classics that people know and love. Registration is not required but the limited amount of seating is first come, first served. In the event of inclement weather, the concert will be moved indoors to the Rabb Lecture Hall. This concert is presented in partnership with the Berklee College of Music and is also part of their Summer in the City concert series. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, please contact the Adult Programs Department at programs@bpl.org. Please allow at least two weeks to arrange for accommodations. Our Concerts in the Courtyard series is sponsored by Bank of America. Programming like this is additionally enabled through the generosity of a variety of public and private funding. To learn more and support our programming, visit the Boston Public Library Fund website.",
-    "date": "2026-08-05",
-    "startTime": "18:00",
-    "endTime": "19:00",
-    "url": "https://bpl.bibliocommons.com/events/6a1860ed8360de907d889d89",
-    "audience": "Adults",
-    "id": "boston-public-library-9",
-    "library": "Boston Public Library"
-  },
-  {
     "title": "Boston History and Civics for ESOL Students",
     "description": "[Central Library in Copley Square] This special summer series of classes for adult ESOL learners will introduce students to important concepts in civics and American government as they practice English. We will explore the rich history of Boston and the city's important role in the nation as we celebrate the 250th anniversary of the signing of the Declaration of Independence this summer!Registration required. Please complete our registration form to sign up. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact the department listed in the \"Contact Info\" pane on the right. Please allow at least two weeks to arrange accommodation.",
     "date": "2026-08-06",
@@ -1576,7 +1506,7 @@
     "endTime": "11:30",
     "url": "https://bpl.bibliocommons.com/events/6a1f1ba48ea300e2631a7d28",
     "audience": "Adults",
-    "id": "boston-public-library-10",
+    "id": "boston-public-library-4",
     "library": "Boston Public Library"
   },
   {
@@ -1587,7 +1517,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8c337b79214226a9f16b",
     "audience": "Children",
-    "id": "boston-public-library-11",
+    "id": "boston-public-library-5",
     "library": "Boston Public Library"
   },
   {
@@ -1598,7 +1528,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a32ae648ea300e2631e5094",
     "audience": "Teens",
-    "id": "boston-public-library-12",
+    "id": "boston-public-library-6",
     "library": "Boston Public Library"
   },
   {
@@ -1609,7 +1539,7 @@
     "endTime": "14:45",
     "url": "https://bpl.bibliocommons.com/events/6a5f7165c7e02e3d006a96d5",
     "audience": "Children",
-    "id": "boston-public-library-13",
+    "id": "boston-public-library-7",
     "library": "Boston Public Library"
   },
   {
@@ -1620,7 +1550,7 @@
     "endTime": "17:00",
     "url": "https://bpl.bibliocommons.com/events/6a442ebc541102b7fa898ba0",
     "audience": "Teens",
-    "id": "boston-public-library-14",
+    "id": "boston-public-library-8",
     "library": "Boston Public Library"
   },
   {
@@ -1631,7 +1561,7 @@
     "endTime": "16:15",
     "url": "https://bpl.bibliocommons.com/events/6a5f718388e9bf2800324599",
     "audience": "Children",
-    "id": "boston-public-library-15",
+    "id": "boston-public-library-9",
     "library": "Boston Public Library"
   },
   {
@@ -1642,7 +1572,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a5e6c4b9943bdf31ea04a1a",
     "audience": "Adults",
-    "id": "boston-public-library-16",
+    "id": "boston-public-library-10",
     "library": "Boston Public Library"
   },
   {
@@ -1653,7 +1583,7 @@
     "endTime": "19:00",
     "url": "https://bpl.bibliocommons.com/events/6a22d754f56bd86e00b4b52c",
     "audience": "Adults",
-    "id": "boston-public-library-17",
+    "id": "boston-public-library-11",
     "library": "Boston Public Library"
   },
   {
@@ -1664,7 +1594,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a50fb30cca66c2f00a27f8b",
     "audience": "Adults",
-    "id": "boston-public-library-18",
+    "id": "boston-public-library-12",
     "library": "Boston Public Library"
   },
   {
@@ -1676,7 +1606,7 @@
     "url": "https://bpl.bibliocommons.com/events/6a563b0bcca66c2f00a3504c",
     "audience": "Adults",
     "registrationRequired": true,
-    "id": "boston-public-library-19",
+    "id": "boston-public-library-13",
     "library": "Boston Public Library"
   },
   {
@@ -1687,7 +1617,7 @@
     "endTime": "10:30",
     "url": "https://bpl.bibliocommons.com/events/6a5f715a88e9bf2800324579",
     "audience": "Children",
-    "id": "boston-public-library-20",
+    "id": "boston-public-library-14",
     "library": "Boston Public Library"
   },
   {
@@ -1698,7 +1628,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62252",
     "audience": "Adults",
-    "id": "boston-public-library-21",
+    "id": "boston-public-library-15",
     "library": "Boston Public Library"
   },
   {
@@ -1709,7 +1639,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f76f8d5e2d09335e06c3",
     "audience": "Adults",
-    "id": "boston-public-library-22",
+    "id": "boston-public-library-16",
     "library": "Boston Public Library"
   },
   {
@@ -1720,7 +1650,7 @@
     "endTime": "13:30",
     "url": "https://bpl.bibliocommons.com/events/6a68acfec7e02e3d006c2592",
     "audience": "Adults",
-    "id": "boston-public-library-23",
+    "id": "boston-public-library-17",
     "library": "Boston Public Library"
   },
   {
@@ -1731,7 +1661,7 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a2b6546caf9343600627ada",
     "audience": "Teens",
-    "id": "boston-public-library-24",
+    "id": "boston-public-library-18",
     "library": "Boston Public Library"
   },
   {
@@ -1742,7 +1672,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a427e1ef56bd86e00b9c19e",
     "audience": "Adults",
-    "id": "boston-public-library-25",
+    "id": "boston-public-library-19",
     "library": "Boston Public Library"
   },
   {
@@ -1753,7 +1683,7 @@
     "endTime": "14:30",
     "url": "https://bpl.bibliocommons.com/events/6a5f717488e9bf280032458d",
     "audience": "Children",
-    "id": "boston-public-library-26",
+    "id": "boston-public-library-20",
     "library": "Boston Public Library"
   },
   {
@@ -1764,7 +1694,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738600",
     "audience": "Adults",
-    "id": "boston-public-library-27",
+    "id": "boston-public-library-21",
     "library": "Boston Public Library"
   },
   {
@@ -1775,7 +1705,7 @@
     "endTime": "15:45",
     "url": "https://bpl.bibliocommons.com/events/6a5f717cc7e02e3d006a96e6",
     "audience": "Children",
-    "id": "boston-public-library-28",
+    "id": "boston-public-library-22",
     "library": "Boston Public Library"
   },
   {
@@ -1786,7 +1716,7 @@
     "endTime": "10:30",
     "url": "https://bpl.bibliocommons.com/events/6a5e36ef9943bdf31ea02fe7",
     "audience": "Children",
-    "id": "boston-public-library-29",
+    "id": "boston-public-library-23",
     "library": "Boston Public Library"
   },
   {
@@ -1797,18 +1727,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac12b",
     "audience": "Adults",
-    "id": "boston-public-library-30",
-    "library": "Boston Public Library"
-  },
-  {
-    "title": "Audio Production Drop-In Day",
-    "description": "[Central Library in Copley Square] Working on a podcast, voice recording, or music project? Stop by the InnoLAB at KBLIC for our Audio Production Drop-In Day! These 30-minute appointments offer personalized, hands-on support for beginners and experienced creators alike. Get help with recording, editing, music production, and using audio equipment and software. Whether you're troubleshooting a project, learning the basics, or exploring new creative tools, our staff will guide you every step of the way. No experience necessary, just bring your ideas and get started! Book an Appointment HERE.Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact the department listed in the \"Contact Info\" pane on the right. Please allow at least two weeks to arrange accommodation.",
-    "date": "2026-08-08",
-    "startTime": "11:00",
-    "endTime": "15:00",
-    "url": "https://bpl.bibliocommons.com/events/6a626768d23de82955c8d46d",
-    "audience": "Teens",
-    "id": "boston-public-library-31",
+    "id": "boston-public-library-24",
     "library": "Boston Public Library"
   },
   {
@@ -1819,7 +1738,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a427bd1541102b7fa892b1b",
     "audience": "Teens",
-    "id": "boston-public-library-32",
+    "id": "boston-public-library-25",
     "library": "Boston Public Library"
   },
   {
@@ -1830,7 +1749,7 @@
     "endTime": "16:30",
     "url": "https://bpl.bibliocommons.com/events/6a03a01b1773192800194bf8",
     "audience": "Teens",
-    "id": "boston-public-library-33",
+    "id": "boston-public-library-26",
     "library": "Boston Public Library"
   },
   {
@@ -1841,7 +1760,7 @@
     "endTime": "16:15",
     "url": "https://bpl.bibliocommons.com/events/6a5f716c0d65ac3600413234",
     "audience": "Children",
-    "id": "boston-public-library-34",
+    "id": "boston-public-library-27",
     "library": "Boston Public Library"
   },
   {
@@ -1852,7 +1771,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8c2d7b79214226a9f165",
     "audience": "Children",
-    "id": "boston-public-library-35",
+    "id": "boston-public-library-28",
     "library": "Boston Public Library"
   },
   {
@@ -1863,7 +1782,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a427f96541102b7fa892bf1",
     "audience": "Adults",
-    "id": "boston-public-library-36",
+    "id": "boston-public-library-29",
     "library": "Boston Public Library"
   },
   {
@@ -1874,7 +1793,7 @@
     "endTime": "11:30",
     "url": "https://bpl.bibliocommons.com/events/6a5e8c429943bdf31ea054b0",
     "audience": "Children",
-    "id": "boston-public-library-37",
+    "id": "boston-public-library-30",
     "library": "Boston Public Library"
   },
   {
@@ -1885,7 +1804,7 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a5a3a40c7e02e3d0069c8f5",
     "audience": "Adults",
-    "id": "boston-public-library-38",
+    "id": "boston-public-library-31",
     "library": "Boston Public Library"
   },
   {
@@ -1896,7 +1815,7 @@
     "endTime": "17:00",
     "url": "https://bpl.bibliocommons.com/events/6a33f8fd2ea730c17ab7d862",
     "audience": "Teens",
-    "id": "boston-public-library-39",
+    "id": "boston-public-library-32",
     "library": "Boston Public Library"
   },
   {
@@ -1907,7 +1826,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a6b99e4b44674e2601bdb8b",
     "audience": "Adults",
-    "id": "boston-public-library-40",
+    "id": "boston-public-library-33",
     "library": "Boston Public Library"
   },
   {
@@ -1918,7 +1837,7 @@
     "endTime": "16:45",
     "url": "https://bpl.bibliocommons.com/events/6a5e8b8ea41369ab2c67705f",
     "audience": "Children",
-    "id": "boston-public-library-41",
+    "id": "boston-public-library-34",
     "library": "Boston Public Library"
   },
   {
@@ -1929,7 +1848,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a3c08a486636e3d00504a9f",
     "audience": "Adults",
-    "id": "boston-public-library-42",
+    "id": "boston-public-library-35",
     "library": "Boston Public Library"
   },
   {
@@ -1941,7 +1860,7 @@
     "url": "https://bpl.bibliocommons.com/events/6a563b0bcca66c2f00a3504d",
     "audience": "Adults",
     "registrationRequired": true,
-    "id": "boston-public-library-43",
+    "id": "boston-public-library-36",
     "library": "Boston Public Library"
   },
   {
@@ -1952,7 +1871,7 @@
     "endTime": "11:30",
     "url": "https://bpl.bibliocommons.com/events/6a315468c7d3cd580060bb0e",
     "audience": "Adults",
-    "id": "boston-public-library-44",
+    "id": "boston-public-library-37",
     "library": "Boston Public Library"
   },
   {
@@ -1963,7 +1882,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8cfa7b79214226a9f1d1",
     "audience": "Children",
-    "id": "boston-public-library-45",
+    "id": "boston-public-library-38",
     "library": "Boston Public Library"
   },
   {
@@ -1974,18 +1893,18 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a32ae648ea300e2631e5095",
     "audience": "Teens",
-    "id": "boston-public-library-46",
+    "id": "boston-public-library-39",
     "library": "Boston Public Library"
   },
   {
     "title": "Film Screening: Love & Bananas: An Elephant Story",
-    "description": "[Central Library in Copley Square] Join us for this afternoon documentary film screening of Love & Bananas: An Elephant Story, aligned with the late summer exhibit outside of the library of The Great Elephant Migration. This documentary film is not rated but is generally recommended for people ages 12 and up.About the film: Ashley Bell and a team of elephant rescuers led by world renowned Asian elephant conservationist Lek Chailert, embark on a daring 48-hour mission across Thailand to rescue a 70-year old captive blind Asian elephant and bring her to freedom.About the exhibit:https://thegreatelephantmigration.org/ Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact the Adult Programs department at programs@bpl.org. Please allow at least two weeks to arrange accommodation. Programming at the Boston Public Library is funded through private support. To learn more about supporting the Library, please visit the Boston Public Library Fund's website.",
+    "description": "[Central Library in Copley Square] Join us for this afternoon documentary film screening of Love & Bananas: An Elephant Story, aligned with the late summer exhibit near the library of The Great Elephant Migration. This documentary film is not rated but is generally recommended for people ages 12 and up.About the film: Ashley Bell and a team of elephant rescuers led by world renowned Asian elephant conservationist Lek Chailert, embark on a daring 48-hour mission across Thailand to rescue a 70-year old captive blind Asian elephant and bring her to freedom. About the exhibit:https://thegreatelephantmigration.org/The elephants will be located along the Commonwealth Avenue Mall from Saturday, Aug. 8, through Sunday, Sept. 13, \"migrating between\" Fairfield and Arlington Street. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact the Adult Programs department at programs@bpl.org. Please allow at least two weeks to arrange accommodation. Programming at the Boston Public Library is funded through private support. To learn more about supporting the Library, please visit the Boston Public Library Fund's website.",
     "date": "2026-08-11",
     "startTime": "13:00",
     "endTime": "14:30",
     "url": "https://bpl.bibliocommons.com/events/6a55320388e9bf28003096ab",
     "audience": "Adults",
-    "id": "boston-public-library-47",
+    "id": "boston-public-library-40",
     "library": "Boston Public Library"
   },
   {
@@ -1996,7 +1915,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a3b1794c026ff22477c1dc1",
     "audience": "Adults",
-    "id": "boston-public-library-48",
+    "id": "boston-public-library-41",
     "library": "Boston Public Library"
   },
   {
@@ -2007,7 +1926,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac62b",
     "audience": "Adults",
-    "id": "boston-public-library-49",
+    "id": "boston-public-library-42",
     "library": "Boston Public Library"
   },
   {
@@ -2018,7 +1937,7 @@
     "endTime": "16:45",
     "url": "https://bpl.bibliocommons.com/events/6a5e8bd19943bdf31ea0541f",
     "audience": "Children",
-    "id": "boston-public-library-50",
+    "id": "boston-public-library-43",
     "library": "Boston Public Library"
   },
   {
@@ -2029,7 +1948,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006a3",
     "audience": "Adults",
-    "id": "boston-public-library-51",
+    "id": "boston-public-library-44",
     "library": "Boston Public Library"
   },
   {
@@ -2040,7 +1959,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c1c",
     "audience": "Adults",
-    "id": "boston-public-library-52",
+    "id": "boston-public-library-45",
     "library": "Boston Public Library"
   },
   {
@@ -2051,7 +1970,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a61117a0e562e28009bb719",
     "audience": "Adults",
-    "id": "boston-public-library-53",
+    "id": "boston-public-library-46",
     "library": "Boston Public Library"
   },
   {
@@ -2062,7 +1981,7 @@
     "endTime": "11:15",
     "url": "https://bpl.bibliocommons.com/events/6a5f7152c7e02e3d006a96d3",
     "audience": "Children",
-    "id": "boston-public-library-54",
+    "id": "boston-public-library-47",
     "library": "Boston Public Library"
   },
   {
@@ -2073,7 +1992,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a32ae648ea300e2631e5096",
     "audience": "Teens",
-    "id": "boston-public-library-55",
+    "id": "boston-public-library-48",
     "library": "Boston Public Library"
   },
   {
@@ -2084,7 +2003,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69d7ebeb4dacf581ff87ab04",
     "audience": "Adults",
-    "id": "boston-public-library-56",
+    "id": "boston-public-library-49",
     "library": "Boston Public Library"
   },
   {
@@ -2095,7 +2014,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8d0d9943bdf31ea055b0",
     "audience": "Children",
-    "id": "boston-public-library-57",
+    "id": "boston-public-library-50",
     "library": "Boston Public Library"
   },
   {
@@ -2106,7 +2025,7 @@
     "endTime": "19:00",
     "url": "https://bpl.bibliocommons.com/events/6a1860be0c0f2c4503fb8b06",
     "audience": "Adults",
-    "id": "boston-public-library-58",
+    "id": "boston-public-library-51",
     "library": "Boston Public Library"
   },
   {
@@ -2117,7 +2036,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8c337b79214226a9f16c",
     "audience": "Children",
-    "id": "boston-public-library-59",
+    "id": "boston-public-library-52",
     "library": "Boston Public Library"
   },
   {
@@ -2128,7 +2047,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a32ae648ea300e2631e5097",
     "audience": "Teens",
-    "id": "boston-public-library-60",
+    "id": "boston-public-library-53",
     "library": "Boston Public Library"
   },
   {
@@ -2139,7 +2058,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/69c6e745567ba1dd31febdc0",
     "audience": "Adults",
-    "id": "boston-public-library-61",
+    "id": "boston-public-library-54",
     "library": "Boston Public Library"
   },
   {
@@ -2150,7 +2069,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a26fcb5703c3363002d209a",
     "audience": "Teens",
-    "id": "boston-public-library-62",
+    "id": "boston-public-library-55",
     "library": "Boston Public Library"
   },
   {
@@ -2161,7 +2080,7 @@
     "endTime": "14:45",
     "url": "https://bpl.bibliocommons.com/events/6a5f7165c7e02e3d006a96d6",
     "audience": "Children",
-    "id": "boston-public-library-63",
+    "id": "boston-public-library-56",
     "library": "Boston Public Library"
   },
   {
@@ -2172,7 +2091,7 @@
     "endTime": "16:15",
     "url": "https://bpl.bibliocommons.com/events/6a5f718388e9bf280032459a",
     "audience": "Children",
-    "id": "boston-public-library-64",
+    "id": "boston-public-library-57",
     "library": "Boston Public Library"
   },
   {
@@ -2184,7 +2103,7 @@
     "url": "https://bpl.bibliocommons.com/events/6a563b0bcca66c2f00a3504e",
     "audience": "Adults",
     "registrationRequired": true,
-    "id": "boston-public-library-65",
+    "id": "boston-public-library-58",
     "library": "Boston Public Library"
   },
   {
@@ -2195,7 +2114,7 @@
     "endTime": "10:30",
     "url": "https://bpl.bibliocommons.com/events/6a5f715a88e9bf280032457a",
     "audience": "Children",
-    "id": "boston-public-library-66",
+    "id": "boston-public-library-59",
     "library": "Boston Public Library"
   },
   {
@@ -2206,7 +2125,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62253",
     "audience": "Adults",
-    "id": "boston-public-library-67",
+    "id": "boston-public-library-60",
     "library": "Boston Public Library"
   },
   {
@@ -2217,7 +2136,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f76f8d5e2d09335e06c4",
     "audience": "Adults",
-    "id": "boston-public-library-68",
+    "id": "boston-public-library-61",
     "library": "Boston Public Library"
   },
   {
@@ -2228,7 +2147,7 @@
     "endTime": "13:30",
     "url": "https://bpl.bibliocommons.com/events/6a68f5d6c7e02e3d006c39bf",
     "audience": "Adults",
-    "id": "boston-public-library-69",
+    "id": "boston-public-library-62",
     "library": "Boston Public Library"
   },
   {
@@ -2239,7 +2158,7 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a2b691c7550c8bf9f5cc011",
     "audience": "Teens",
-    "id": "boston-public-library-70",
+    "id": "boston-public-library-63",
     "library": "Boston Public Library"
   },
   {
@@ -2250,7 +2169,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a427eb6296ea565de2f6889",
     "audience": "Teens",
-    "id": "boston-public-library-71",
+    "id": "boston-public-library-64",
     "library": "Boston Public Library"
   },
   {
@@ -2261,7 +2180,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a427e1ef56bd86e00b9c19f",
     "audience": "Adults",
-    "id": "boston-public-library-72",
+    "id": "boston-public-library-65",
     "library": "Boston Public Library"
   },
   {
@@ -2272,7 +2191,7 @@
     "endTime": "14:30",
     "url": "https://bpl.bibliocommons.com/events/6a5f717488e9bf280032458e",
     "audience": "Children",
-    "id": "boston-public-library-73",
+    "id": "boston-public-library-66",
     "library": "Boston Public Library"
   },
   {
@@ -2283,7 +2202,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738601",
     "audience": "Adults",
-    "id": "boston-public-library-74",
+    "id": "boston-public-library-67",
     "library": "Boston Public Library"
   },
   {
@@ -2294,7 +2213,7 @@
     "endTime": "15:45",
     "url": "https://bpl.bibliocommons.com/events/6a5f717cc7e02e3d006a96e7",
     "audience": "Children",
-    "id": "boston-public-library-75",
+    "id": "boston-public-library-68",
     "library": "Boston Public Library"
   },
   {
@@ -2305,7 +2224,7 @@
     "endTime": "17:00",
     "url": "https://bpl.bibliocommons.com/events/6a33f8e18ea300e2631e978a",
     "audience": "Teens",
-    "id": "boston-public-library-76",
+    "id": "boston-public-library-69",
     "library": "Boston Public Library"
   },
   {
@@ -2316,7 +2235,7 @@
     "endTime": "10:30",
     "url": "https://bpl.bibliocommons.com/events/6a5e36ef9943bdf31ea02fe8",
     "audience": "Children",
-    "id": "boston-public-library-77",
+    "id": "boston-public-library-70",
     "library": "Boston Public Library"
   },
   {
@@ -2327,7 +2246,18 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac12c",
     "audience": "Adults",
-    "id": "boston-public-library-78",
+    "id": "boston-public-library-71",
+    "library": "Boston Public Library"
+  },
+  {
+    "title": "Audio Production Drop-In Day",
+    "description": "[Central Library in Copley Square] Working on a podcast, voice recording, or music project? Stop by the InnoLAB at KBLIC for our Audio Production Drop-In Day! These 30-minute appointments offer personalized, hands-on support for beginners and experienced creators alike. Get help with recording, editing, music production, and using audio equipment and software. Whether you're troubleshooting a project, learning the basics, or exploring new creative tools, our staff will guide you every step of the way. No experience necessary, just bring your ideas and get started! Book an Appointment HERE.Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact the department listed in the \"Contact Info\" pane on the right. Please allow at least two weeks to arrange accommodation.",
+    "date": "2026-08-15",
+    "startTime": "11:00",
+    "endTime": "12:00",
+    "url": "https://bpl.bibliocommons.com/events/6a626768d23de82955c8d46d",
+    "audience": "Teens",
+    "id": "boston-public-library-72",
     "library": "Boston Public Library"
   },
   {
@@ -2338,7 +2268,7 @@
     "endTime": "15:30",
     "url": "https://bpl.bibliocommons.com/events/69d01ef24dacf581ff866715",
     "audience": "Adults",
-    "id": "boston-public-library-79",
+    "id": "boston-public-library-73",
     "library": "Boston Public Library"
   },
   {
@@ -2349,7 +2279,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a5f712d0d65ac360041321f",
     "audience": "Children",
-    "id": "boston-public-library-80",
+    "id": "boston-public-library-74",
     "library": "Boston Public Library"
   },
   {
@@ -2360,7 +2290,7 @@
     "endTime": "15:30",
     "url": "https://bpl.bibliocommons.com/events/69b40bd0c94c122f19bddc97",
     "audience": "Adults",
-    "id": "boston-public-library-81",
+    "id": "boston-public-library-75",
     "library": "Boston Public Library"
   },
   {
@@ -2371,7 +2301,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8c2d7b79214226a9f166",
     "audience": "Children",
-    "id": "boston-public-library-82",
+    "id": "boston-public-library-76",
     "library": "Boston Public Library"
   },
   {
@@ -2382,7 +2312,7 @@
     "endTime": "11:30",
     "url": "https://bpl.bibliocommons.com/events/6a5e8c429943bdf31ea054b1",
     "audience": "Children",
-    "id": "boston-public-library-83",
+    "id": "boston-public-library-77",
     "library": "Boston Public Library"
   },
   {
@@ -2393,7 +2323,7 @@
     "endTime": "17:30",
     "url": "https://bpl.bibliocommons.com/events/6a5fb544a41369ab2c67a437",
     "audience": "Adults",
-    "id": "boston-public-library-84",
+    "id": "boston-public-library-78",
     "library": "Boston Public Library"
   },
   {
@@ -2404,7 +2334,7 @@
     "endTime": "16:45",
     "url": "https://bpl.bibliocommons.com/events/6a5e8b8ea41369ab2c677060",
     "audience": "Children",
-    "id": "boston-public-library-85",
+    "id": "boston-public-library-79",
     "library": "Boston Public Library"
   },
   {
@@ -2415,7 +2345,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6a3c080ced35742f00fdee9a",
     "audience": "Adults",
-    "id": "boston-public-library-86",
+    "id": "boston-public-library-80",
     "library": "Boston Public Library"
   },
   {
@@ -2426,7 +2356,7 @@
     "endTime": "11:30",
     "url": "https://bpl.bibliocommons.com/events/6998cec6b0595799c09e438d",
     "audience": "Children",
-    "id": "boston-public-library-87",
+    "id": "boston-public-library-81",
     "library": "Boston Public Library"
   },
   {
@@ -2437,7 +2367,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8cfa7b79214226a9f1d2",
     "audience": "Children",
-    "id": "boston-public-library-88",
+    "id": "boston-public-library-82",
     "library": "Boston Public Library"
   },
   {
@@ -2448,7 +2378,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6a427e1ef56bd86e00b9c1a0",
     "audience": "Adults",
-    "id": "boston-public-library-89",
+    "id": "boston-public-library-83",
     "library": "Boston Public Library"
   },
   {
@@ -2459,7 +2389,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a342a9f7550c8bf9f5e4a5d",
     "audience": "Teens",
-    "id": "boston-public-library-90",
+    "id": "boston-public-library-84",
     "library": "Boston Public Library"
   },
   {
@@ -2470,7 +2400,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a6b9a3424cc9f017dda0508",
     "audience": "Teens",
-    "id": "boston-public-library-91",
+    "id": "boston-public-library-85",
     "library": "Boston Public Library"
   },
   {
@@ -2481,7 +2411,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a26fd86c7d3cd58005ee36f",
     "audience": "Teens",
-    "id": "boston-public-library-92",
+    "id": "boston-public-library-86",
     "library": "Boston Public Library"
   },
   {
@@ -2492,7 +2422,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a42d4424407827f8aa83937",
     "audience": "Adults",
-    "id": "boston-public-library-93",
+    "id": "boston-public-library-87",
     "library": "Boston Public Library"
   },
   {
@@ -2503,7 +2433,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac62c",
     "audience": "Adults",
-    "id": "boston-public-library-94",
+    "id": "boston-public-library-88",
     "library": "Boston Public Library"
   },
   {
@@ -2514,7 +2444,7 @@
     "endTime": "16:45",
     "url": "https://bpl.bibliocommons.com/events/6a5e8bd19943bdf31ea05420",
     "audience": "Children",
-    "id": "boston-public-library-95",
+    "id": "boston-public-library-89",
     "library": "Boston Public Library"
   },
   {
@@ -2525,7 +2455,7 @@
     "endTime": "19:00",
     "url": "https://bpl.bibliocommons.com/events/6a2b6a4616554cd59fc83ca3",
     "audience": "Adults",
-    "id": "boston-public-library-96",
+    "id": "boston-public-library-90",
     "library": "Boston Public Library"
   },
   {
@@ -2536,7 +2466,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006a4",
     "audience": "Adults",
-    "id": "boston-public-library-97",
+    "id": "boston-public-library-91",
     "library": "Boston Public Library"
   },
   {
@@ -2548,7 +2478,7 @@
     "url": "https://bpl.bibliocommons.com/events/6a563b0bcca66c2f00a3504f",
     "audience": "Adults",
     "registrationRequired": true,
-    "id": "boston-public-library-98",
+    "id": "boston-public-library-92",
     "library": "Boston Public Library"
   },
   {
@@ -2559,7 +2489,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c1d",
     "audience": "Adults",
-    "id": "boston-public-library-99",
+    "id": "boston-public-library-93",
     "library": "Boston Public Library"
   },
   {
@@ -2570,7 +2500,7 @@
     "endTime": "11:45",
     "url": "https://bpl.bibliocommons.com/events/6a5f8011c7e02e3d006a9bc1",
     "audience": "Children",
-    "id": "boston-public-library-100",
+    "id": "boston-public-library-94",
     "library": "Boston Public Library"
   },
   {
@@ -2581,7 +2511,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a342a9f7550c8bf9f5e4a5e",
     "audience": "Teens",
-    "id": "boston-public-library-101",
+    "id": "boston-public-library-95",
     "library": "Boston Public Library"
   },
   {
@@ -2592,7 +2522,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a6b9a3424cc9f017dda0509",
     "audience": "Teens",
-    "id": "boston-public-library-102",
+    "id": "boston-public-library-96",
     "library": "Boston Public Library"
   },
   {
@@ -2603,7 +2533,7 @@
     "endTime": "15:30",
     "url": "https://bpl.bibliocommons.com/events/6a17a24343b41b3d0069b1e3",
     "audience": "Adults",
-    "id": "boston-public-library-103",
+    "id": "boston-public-library-97",
     "library": "Boston Public Library"
   },
   {
@@ -2614,7 +2544,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8d0d9943bdf31ea055b1",
     "audience": "Children",
-    "id": "boston-public-library-104",
+    "id": "boston-public-library-98",
     "library": "Boston Public Library"
   },
   {
@@ -2625,7 +2555,7 @@
     "endTime": "19:00",
     "url": "https://bpl.bibliocommons.com/events/6a18608c0c0f2c4503fb8aa0",
     "audience": "Adults",
-    "id": "boston-public-library-105",
+    "id": "boston-public-library-99",
     "library": "Boston Public Library"
   },
   {
@@ -2636,7 +2566,7 @@
     "endTime": "19:15",
     "url": "https://bpl.bibliocommons.com/events/6a612e504523092f0031e40a",
     "audience": "Adults",
-    "id": "boston-public-library-106",
+    "id": "boston-public-library-100",
     "library": "Boston Public Library"
   },
   {
@@ -2647,7 +2577,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a342a9f7550c8bf9f5e4a5f",
     "audience": "Teens",
-    "id": "boston-public-library-107",
+    "id": "boston-public-library-101",
     "library": "Boston Public Library"
   },
   {
@@ -2658,7 +2588,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a6b9a3424cc9f017dda050a",
     "audience": "Teens",
-    "id": "boston-public-library-108",
+    "id": "boston-public-library-102",
     "library": "Boston Public Library"
   },
   {
@@ -2669,7 +2599,7 @@
     "endTime": "16:30",
     "url": "https://bpl.bibliocommons.com/events/699883d181b67dfe32a7a19b",
     "audience": "Adults",
-    "id": "boston-public-library-109",
+    "id": "boston-public-library-103",
     "library": "Boston Public Library"
   },
   {
@@ -2680,7 +2610,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a5f80220d65ac3600413585",
     "audience": "Children",
-    "id": "boston-public-library-110",
+    "id": "boston-public-library-104",
     "library": "Boston Public Library"
   },
   {
@@ -2692,7 +2622,7 @@
     "url": "https://bpl.bibliocommons.com/events/6a563b0bcca66c2f00a35050",
     "audience": "Adults",
     "registrationRequired": true,
-    "id": "boston-public-library-111",
+    "id": "boston-public-library-105",
     "library": "Boston Public Library"
   },
   {
@@ -2703,7 +2633,7 @@
     "endTime": "10:30",
     "url": "https://bpl.bibliocommons.com/events/6a5f715a88e9bf280032457b",
     "audience": "Children",
-    "id": "boston-public-library-112",
+    "id": "boston-public-library-106",
     "library": "Boston Public Library"
   },
   {
@@ -2714,7 +2644,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62254",
     "audience": "Adults",
-    "id": "boston-public-library-113",
+    "id": "boston-public-library-107",
     "library": "Boston Public Library"
   },
   {
@@ -2725,7 +2655,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f76f8d5e2d09335e06c5",
     "audience": "Adults",
-    "id": "boston-public-library-114",
+    "id": "boston-public-library-108",
     "library": "Boston Public Library"
   },
   {
@@ -2736,7 +2666,7 @@
     "endTime": "13:30",
     "url": "https://bpl.bibliocommons.com/events/6a6a0465cca66c2f00a6c538",
     "audience": "Adults",
-    "id": "boston-public-library-115",
+    "id": "boston-public-library-109",
     "library": "Boston Public Library"
   },
   {
@@ -2747,7 +2677,7 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a2b663b7550c8bf9f5cbfa7",
     "audience": "Teens",
-    "id": "boston-public-library-116",
+    "id": "boston-public-library-110",
     "library": "Boston Public Library"
   },
   {
@@ -2758,7 +2688,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a427e1ef56bd86e00b9c1a1",
     "audience": "Adults",
-    "id": "boston-public-library-117",
+    "id": "boston-public-library-111",
     "library": "Boston Public Library"
   },
   {
@@ -2769,7 +2699,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738602",
     "audience": "Adults",
-    "id": "boston-public-library-118",
+    "id": "boston-public-library-112",
     "library": "Boston Public Library"
   },
   {
@@ -2780,7 +2710,7 @@
     "endTime": "16:30",
     "url": "https://bpl.bibliocommons.com/events/6a427c0f296ea565de2f6835",
     "audience": "Teens",
-    "id": "boston-public-library-119",
+    "id": "boston-public-library-113",
     "library": "Boston Public Library"
   },
   {
@@ -2791,7 +2721,7 @@
     "endTime": "16:15",
     "url": "https://bpl.bibliocommons.com/events/6a5f8032c7e02e3d006a9c2f",
     "audience": "Children",
-    "id": "boston-public-library-120",
+    "id": "boston-public-library-114",
     "library": "Boston Public Library"
   },
   {
@@ -2802,7 +2732,7 @@
     "endTime": "10:30",
     "url": "https://bpl.bibliocommons.com/events/6a5e36ef9943bdf31ea02fe9",
     "audience": "Children",
-    "id": "boston-public-library-121",
+    "id": "boston-public-library-115",
     "library": "Boston Public Library"
   },
   {
@@ -2813,7 +2743,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6a07255a3246e7b84b4f4535",
     "audience": "Adults",
-    "id": "boston-public-library-122",
+    "id": "boston-public-library-116",
     "library": "Boston Public Library"
   },
   {
@@ -2824,7 +2754,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac12d",
     "audience": "Adults",
-    "id": "boston-public-library-123",
+    "id": "boston-public-library-117",
     "library": "Boston Public Library"
   },
   {
@@ -2835,7 +2765,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a626768d23de82955c8d46e",
     "audience": "Teens",
-    "id": "boston-public-library-124",
+    "id": "boston-public-library-118",
     "library": "Boston Public Library"
   },
   {
@@ -2846,7 +2776,7 @@
     "endTime": "16:30",
     "url": "https://bpl.bibliocommons.com/events/6a03a01b1773192800194bf9",
     "audience": "Teens",
-    "id": "boston-public-library-125",
+    "id": "boston-public-library-119",
     "library": "Boston Public Library"
   },
   {
@@ -2857,7 +2787,7 @@
     "endTime": "16:15",
     "url": "https://bpl.bibliocommons.com/events/6a5f804b88e9bf28003247e7",
     "audience": "Children",
-    "id": "boston-public-library-126",
+    "id": "boston-public-library-120",
     "library": "Boston Public Library"
   },
   {
@@ -2869,7 +2799,7 @@
     "url": "https://bpl.bibliocommons.com/events/6a4fc091cca66c2f00a2422a",
     "audience": "Teens",
     "registrationRequired": true,
-    "id": "boston-public-library-127",
+    "id": "boston-public-library-121",
     "library": "Boston Public Library"
   },
   {
@@ -2880,7 +2810,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8c2d7b79214226a9f167",
     "audience": "Children",
-    "id": "boston-public-library-128",
+    "id": "boston-public-library-122",
     "library": "Boston Public Library"
   },
   {
@@ -2891,7 +2821,7 @@
     "endTime": "11:30",
     "url": "https://bpl.bibliocommons.com/events/6a5e8c429943bdf31ea054b2",
     "audience": "Children",
-    "id": "boston-public-library-129",
+    "id": "boston-public-library-123",
     "library": "Boston Public Library"
   },
   {
@@ -2902,7 +2832,7 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a6a4f15cca66c2f00a6de36",
     "audience": "Teens",
-    "id": "boston-public-library-130",
+    "id": "boston-public-library-124",
     "library": "Boston Public Library"
   },
   {
@@ -2913,7 +2843,7 @@
     "endTime": "17:00",
     "url": "https://bpl.bibliocommons.com/events/6a33f8fd2ea730c17ab7d863",
     "audience": "Teens",
-    "id": "boston-public-library-131",
+    "id": "boston-public-library-125",
     "library": "Boston Public Library"
   },
   {
@@ -2924,7 +2854,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a6b9a9839d4873e8a4e5244",
     "audience": "Adults",
-    "id": "boston-public-library-132",
+    "id": "boston-public-library-126",
     "library": "Boston Public Library"
   },
   {
@@ -2935,7 +2865,7 @@
     "endTime": "16:45",
     "url": "https://bpl.bibliocommons.com/events/6a5f803e88e9bf28003247e3",
     "audience": "Children",
-    "id": "boston-public-library-133",
+    "id": "boston-public-library-127",
     "library": "Boston Public Library"
   },
   {
@@ -2946,7 +2876,7 @@
     "endTime": "17:30",
     "url": "https://bpl.bibliocommons.com/events/6a5fb544a41369ab2c67a438",
     "audience": "Adults",
-    "id": "boston-public-library-134",
+    "id": "boston-public-library-128",
     "library": "Boston Public Library"
   },
   {
@@ -2958,7 +2888,7 @@
     "url": "https://bpl.bibliocommons.com/events/6a563b0bcca66c2f00a3504a",
     "audience": "Adults",
     "registrationRequired": true,
-    "id": "boston-public-library-135",
+    "id": "boston-public-library-129",
     "library": "Boston Public Library"
   },
   {
@@ -2969,7 +2899,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8cfa7b79214226a9f1d3",
     "audience": "Children",
-    "id": "boston-public-library-136",
+    "id": "boston-public-library-130",
     "library": "Boston Public Library"
   },
   {
@@ -2980,7 +2910,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6a427e1ef56bd86e00b9c1a2",
     "audience": "Adults",
-    "id": "boston-public-library-137",
+    "id": "boston-public-library-131",
     "library": "Boston Public Library"
   },
   {
@@ -2991,7 +2921,7 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a6a4f15cca66c2f00a6de37",
     "audience": "Teens",
-    "id": "boston-public-library-138",
+    "id": "boston-public-library-132",
     "library": "Boston Public Library"
   },
   {
@@ -3002,7 +2932,7 @@
     "endTime": "14:30",
     "url": "https://bpl.bibliocommons.com/events/6a675aaf0e562e28009cb6cc",
     "audience": "Adults",
-    "id": "boston-public-library-139",
+    "id": "boston-public-library-133",
     "library": "Boston Public Library"
   },
   {
@@ -3013,7 +2943,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a26fd86c7d3cd58005ee370",
     "audience": "Teens",
-    "id": "boston-public-library-140",
+    "id": "boston-public-library-134",
     "library": "Boston Public Library"
   },
   {
@@ -3024,7 +2954,7 @@
     "endTime": "17:00",
     "url": "https://bpl.bibliocommons.com/events/6a4ff3a60d65ac36003e9330",
     "audience": "Adults",
-    "id": "boston-public-library-141",
+    "id": "boston-public-library-135",
     "library": "Boston Public Library"
   },
   {
@@ -3035,7 +2965,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac62d",
     "audience": "Adults",
-    "id": "boston-public-library-142",
+    "id": "boston-public-library-136",
     "library": "Boston Public Library"
   },
   {
@@ -3046,7 +2976,7 @@
     "endTime": "17:00",
     "url": "https://bpl.bibliocommons.com/events/6a427bb7f56bd86e00b9c06e",
     "audience": "Teens",
-    "id": "boston-public-library-143",
+    "id": "boston-public-library-137",
     "library": "Boston Public Library"
   },
   {
@@ -3057,7 +2987,7 @@
     "endTime": "16:45",
     "url": "https://bpl.bibliocommons.com/events/6a5e8bd19943bdf31ea05421",
     "audience": "Children",
-    "id": "boston-public-library-144",
+    "id": "boston-public-library-138",
     "library": "Boston Public Library"
   },
   {
@@ -3068,7 +2998,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006a5",
     "audience": "Adults",
-    "id": "boston-public-library-145",
+    "id": "boston-public-library-139",
     "library": "Boston Public Library"
   },
   {
@@ -3079,7 +3009,7 @@
     "endTime": "19:00",
     "url": "https://bpl.bibliocommons.com/events/694abd23fd55fb290058b52d",
     "audience": "Adults",
-    "id": "boston-public-library-146",
+    "id": "boston-public-library-140",
     "library": "Boston Public Library"
   },
   {
@@ -3090,7 +3020,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c1e",
     "audience": "Adults",
-    "id": "boston-public-library-147",
+    "id": "boston-public-library-141",
     "library": "Boston Public Library"
   },
   {
@@ -3101,7 +3031,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a61118e4523092f0031dba1",
     "audience": "Adults",
-    "id": "boston-public-library-148",
+    "id": "boston-public-library-142",
     "library": "Boston Public Library"
   },
   {
@@ -3112,7 +3042,7 @@
     "endTime": "11:45",
     "url": "https://bpl.bibliocommons.com/events/6a5f8bfdc7e02e3d006aa033",
     "audience": "Children",
-    "id": "boston-public-library-149",
+    "id": "boston-public-library-143",
     "library": "Boston Public Library"
   },
   {
@@ -3123,7 +3053,7 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a6a4f15cca66c2f00a6de38",
     "audience": "Teens",
-    "id": "boston-public-library-150",
+    "id": "boston-public-library-144",
     "library": "Boston Public Library"
   },
   {
@@ -3134,7 +3064,7 @@
     "endTime": "17:00",
     "url": "https://bpl.bibliocommons.com/events/6a427bb7f56bd86e00b9c06f",
     "audience": "Teens",
-    "id": "boston-public-library-151",
+    "id": "boston-public-library-145",
     "library": "Boston Public Library"
   },
   {
@@ -3145,7 +3075,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8d0d9943bdf31ea055b2",
     "audience": "Children",
-    "id": "boston-public-library-152",
+    "id": "boston-public-library-146",
     "library": "Boston Public Library"
   },
   {
@@ -3156,7 +3086,7 @@
     "endTime": "19:00",
     "url": "https://bpl.bibliocommons.com/events/6a18604aa99bdd027d431ec2",
     "audience": "Adults",
-    "id": "boston-public-library-153",
+    "id": "boston-public-library-147",
     "library": "Boston Public Library"
   },
   {
@@ -3167,7 +3097,7 @@
     "endTime": "19:00",
     "url": "https://bpl.bibliocommons.com/events/6a676d464523092f0032e171",
     "audience": "Adults",
-    "id": "boston-public-library-154",
+    "id": "boston-public-library-148",
     "library": "Boston Public Library"
   },
   {
@@ -3179,7 +3109,7 @@
     "url": "https://bpl.bibliocommons.com/events/6a563b0bcca66c2f00a35051",
     "audience": "Adults",
     "registrationRequired": true,
-    "id": "boston-public-library-155",
+    "id": "boston-public-library-149",
     "library": "Boston Public Library"
   },
   {
@@ -3190,7 +3120,7 @@
     "endTime": "11:45",
     "url": "https://bpl.bibliocommons.com/events/6a5f8bfdc7e02e3d006aa034",
     "audience": "Children",
-    "id": "boston-public-library-156",
+    "id": "boston-public-library-150",
     "library": "Boston Public Library"
   },
   {
@@ -3201,7 +3131,7 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a6a4f15cca66c2f00a6de39",
     "audience": "Teens",
-    "id": "boston-public-library-157",
+    "id": "boston-public-library-151",
     "library": "Boston Public Library"
   },
   {
@@ -3212,7 +3142,7 @@
     "endTime": "14:30",
     "url": "https://bpl.bibliocommons.com/events/69eba10fdefec6489cbff714",
     "audience": "Adults",
-    "id": "boston-public-library-158",
+    "id": "boston-public-library-152",
     "library": "Boston Public Library"
   },
   {
@@ -3223,7 +3153,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/69c6e738f29b90618efc9e73",
     "audience": "Adults",
-    "id": "boston-public-library-159",
+    "id": "boston-public-library-153",
     "library": "Boston Public Library"
   },
   {
@@ -3234,7 +3164,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a26fc894407827f8aa36cf6",
     "audience": "Teens",
-    "id": "boston-public-library-160",
+    "id": "boston-public-library-154",
     "library": "Boston Public Library"
   },
   {
@@ -3245,7 +3175,7 @@
     "endTime": "16:15",
     "url": "https://bpl.bibliocommons.com/events/6a5f718388e9bf280032459b",
     "audience": "Children",
-    "id": "boston-public-library-161",
+    "id": "boston-public-library-155",
     "library": "Boston Public Library"
   },
   {
@@ -3256,7 +3186,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a690c2e88e9bf280033edc3",
     "audience": "Adults",
-    "id": "boston-public-library-162",
+    "id": "boston-public-library-156",
     "library": "Boston Public Library"
   },
   {
@@ -3267,7 +3197,7 @@
     "endTime": "10:30",
     "url": "https://bpl.bibliocommons.com/events/6a5f715a88e9bf280032457c",
     "audience": "Children",
-    "id": "boston-public-library-163",
+    "id": "boston-public-library-157",
     "library": "Boston Public Library"
   },
   {
@@ -3278,7 +3208,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62255",
     "audience": "Adults",
-    "id": "boston-public-library-164",
+    "id": "boston-public-library-158",
     "library": "Boston Public Library"
   },
   {
@@ -3289,7 +3219,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f76f8d5e2d09335e06c6",
     "audience": "Adults",
-    "id": "boston-public-library-165",
+    "id": "boston-public-library-159",
     "library": "Boston Public Library"
   },
   {
@@ -3300,7 +3230,7 @@
     "endTime": "13:30",
     "url": "https://bpl.bibliocommons.com/events/6a69116e0d65ac360042d740",
     "audience": "Adults",
-    "id": "boston-public-library-166",
+    "id": "boston-public-library-160",
     "library": "Boston Public Library"
   },
   {
@@ -3311,7 +3241,7 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a2b65b18d1b82ca9f79621c",
     "audience": "Teens",
-    "id": "boston-public-library-167",
+    "id": "boston-public-library-161",
     "library": "Boston Public Library"
   },
   {
@@ -3322,7 +3252,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738603",
     "audience": "Adults",
-    "id": "boston-public-library-168",
+    "id": "boston-public-library-162",
     "library": "Boston Public Library"
   },
   {
@@ -3333,7 +3263,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a5f80220d65ac3600413586",
     "audience": "Children",
-    "id": "boston-public-library-169",
+    "id": "boston-public-library-163",
     "library": "Boston Public Library"
   },
   {
@@ -3344,7 +3274,7 @@
     "endTime": "16:15",
     "url": "https://bpl.bibliocommons.com/events/6a5f8032c7e02e3d006a9c30",
     "audience": "Children",
-    "id": "boston-public-library-170",
+    "id": "boston-public-library-164",
     "library": "Boston Public Library"
   },
   {
@@ -3355,7 +3285,7 @@
     "endTime": "10:30",
     "url": "https://bpl.bibliocommons.com/events/6a5e36ef9943bdf31ea02fea",
     "audience": "Children",
-    "id": "boston-public-library-171",
+    "id": "boston-public-library-165",
     "library": "Boston Public Library"
   },
   {
@@ -3366,7 +3296,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac12e",
     "audience": "Adults",
-    "id": "boston-public-library-172",
+    "id": "boston-public-library-166",
     "library": "Boston Public Library"
   },
   {
@@ -3377,7 +3307,7 @@
     "endTime": "16:15",
     "url": "https://bpl.bibliocommons.com/events/6a5f8bef88e9bf2800324a4b",
     "audience": "Children",
-    "id": "boston-public-library-173",
+    "id": "boston-public-library-167",
     "library": "Boston Public Library"
   },
   {
@@ -3388,7 +3318,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a2b6597caf9343600627ae6",
     "audience": "Adults",
-    "id": "boston-public-library-174",
+    "id": "boston-public-library-168",
     "library": "Boston Public Library"
   },
   {
@@ -3399,7 +3329,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8c2d7b79214226a9f168",
     "audience": "Children",
-    "id": "boston-public-library-175",
+    "id": "boston-public-library-169",
     "library": "Boston Public Library"
   },
   {
@@ -3410,7 +3340,7 @@
     "endTime": "11:30",
     "url": "https://bpl.bibliocommons.com/events/6a5e8c429943bdf31ea054b3",
     "audience": "Children",
-    "id": "boston-public-library-176",
+    "id": "boston-public-library-170",
     "library": "Boston Public Library"
   },
   {
@@ -3421,7 +3351,7 @@
     "endTime": "17:00",
     "url": "https://bpl.bibliocommons.com/events/6a33f8fd2ea730c17ab7d864",
     "audience": "Teens",
-    "id": "boston-public-library-177",
+    "id": "boston-public-library-171",
     "library": "Boston Public Library"
   },
   {
@@ -3432,7 +3362,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a6b9a69a0b1bdf860d8df28",
     "audience": "Adults",
-    "id": "boston-public-library-178",
+    "id": "boston-public-library-172",
     "library": "Boston Public Library"
   },
   {
@@ -3443,7 +3373,7 @@
     "endTime": "16:45",
     "url": "https://bpl.bibliocommons.com/events/6a5e8b8ea41369ab2c677062",
     "audience": "Children",
-    "id": "boston-public-library-179",
+    "id": "boston-public-library-173",
     "library": "Boston Public Library"
   },
   {
@@ -3454,7 +3384,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a6759cb0e562e28009cb6b6",
     "audience": "Adults",
-    "id": "boston-public-library-180",
+    "id": "boston-public-library-174",
     "library": "Boston Public Library"
   },
   {
@@ -3465,7 +3395,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac62e",
     "audience": "Adults",
-    "id": "boston-public-library-181",
+    "id": "boston-public-library-175",
     "library": "Boston Public Library"
   },
   {
@@ -3476,7 +3406,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006a6",
     "audience": "Adults",
-    "id": "boston-public-library-182",
+    "id": "boston-public-library-176",
     "library": "Boston Public Library"
   },
   {
@@ -3487,7 +3417,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c1f",
     "audience": "Adults",
-    "id": "boston-public-library-183",
+    "id": "boston-public-library-177",
     "library": "Boston Public Library"
   },
   {
@@ -3498,7 +3428,7 @@
     "endTime": "19:00",
     "url": "https://bpl.bibliocommons.com/events/6a4e55aafb18bf3d00bee8a7",
     "audience": "Adults",
-    "id": "boston-public-library-184",
+    "id": "boston-public-library-178",
     "library": "Boston Public Library"
   },
   {
@@ -3509,7 +3439,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a3c63786db61d280097cb43",
     "audience": "Adults",
-    "id": "boston-public-library-185",
+    "id": "boston-public-library-179",
     "library": "Boston Public Library"
   },
   {
@@ -3520,7 +3450,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62256",
     "audience": "Adults",
-    "id": "boston-public-library-186",
+    "id": "boston-public-library-180",
     "library": "Boston Public Library"
   },
   {
@@ -3531,7 +3461,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f76f8d5e2d09335e06c7",
     "audience": "Adults",
-    "id": "boston-public-library-187",
+    "id": "boston-public-library-181",
     "library": "Boston Public Library"
   },
   {
@@ -3542,7 +3472,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738604",
     "audience": "Adults",
-    "id": "boston-public-library-188",
+    "id": "boston-public-library-182",
     "library": "Boston Public Library"
   },
   {
@@ -3553,7 +3483,18 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac12f",
     "audience": "Adults",
-    "id": "boston-public-library-189",
+    "id": "boston-public-library-183",
+    "library": "Boston Public Library"
+  },
+  {
+    "title": "Everyone Wants a Long Life. Nobody Wants to Get Old.",
+    "description": "[Central Library in Copley Square] Join us for this afternoon in-person talk in partnership with the Boston Village. Advances in medicine and public health have culminated in people rightly expecting to have a long life. And yet, we almost universally don't want to \"get old.\" Here in the US, being \"old\" is associated with decline in function, abilities, connection, independence and, ultimately, with loss of relevance and worth. Join us as Marie Clouqueur guides us to the possibility of maintaining our value and dignity in older age, even with limitations and loss. Drawing on her clinical work in geriatric psychiatry as well as examples in history and literature, Clouqueur will invite us to see older adults as protagonists who can drive the next advancements of our society. About the speaker: Marie Clouqueur, LICSW, is a clinical social worker at McLean Hospital specializing in older adults and family work. She founded and leads the dementia support program in the Division of Geriatric Psychiatry. Her clinical work provides group and individual psychotherapy to improve caregiver resilience and to support people living with dementia. Marie Clouqueur is speaking as a part of Boston Village's 25th Anniversary Speaker Series titled Aging in Place: Living Your Best Life @ Home. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact the programs department at programs@bpl.org. Please allow at least two weeks to arrange accommodation. Programming at the Boston Public Library is funded through private support. To learn more about supporting the Library, please visit the Boston Public Library Fund's website.",
+    "date": "2026-09-08",
+    "startTime": "14:00",
+    "endTime": "15:00",
+    "url": "https://bpl.bibliocommons.com/events/6a7338cf0d65ac3600448164",
+    "audience": "Adults",
+    "id": "boston-public-library-184",
     "library": "Boston Public Library"
   },
   {
@@ -3564,7 +3505,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac62f",
     "audience": "Adults",
-    "id": "boston-public-library-190",
+    "id": "boston-public-library-185",
     "library": "Boston Public Library"
   },
   {
@@ -3575,7 +3516,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006a7",
     "audience": "Adults",
-    "id": "boston-public-library-191",
+    "id": "boston-public-library-186",
     "library": "Boston Public Library"
   },
   {
@@ -3584,7 +3525,7 @@
     "date": "2026-09-09",
     "url": "https://bpl.bibliocommons.com/events/6a5a5de8cca66c2f00a41753",
     "audience": "Children",
-    "id": "boston-public-library-192",
+    "id": "boston-public-library-187",
     "library": "Boston Public Library"
   },
   {
@@ -3595,7 +3536,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c20",
     "audience": "Adults",
-    "id": "boston-public-library-193",
+    "id": "boston-public-library-188",
     "library": "Boston Public Library"
   },
   {
@@ -3606,7 +3547,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a6267b13edb05633e90095a",
     "audience": "Adults",
-    "id": "boston-public-library-194",
+    "id": "boston-public-library-189",
     "library": "Boston Public Library"
   },
   {
@@ -3617,7 +3558,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/69c6e715db57df044297b609",
     "audience": "Adults",
-    "id": "boston-public-library-195",
+    "id": "boston-public-library-190",
     "library": "Boston Public Library"
   },
   {
@@ -3628,7 +3569,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62257",
     "audience": "Adults",
-    "id": "boston-public-library-196",
+    "id": "boston-public-library-191",
     "library": "Boston Public Library"
   },
   {
@@ -3639,7 +3580,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f76f8d5e2d09335e06c8",
     "audience": "Adults",
-    "id": "boston-public-library-197",
+    "id": "boston-public-library-192",
     "library": "Boston Public Library"
   },
   {
@@ -3650,7 +3591,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738605",
     "audience": "Adults",
-    "id": "boston-public-library-198",
+    "id": "boston-public-library-193",
     "library": "Boston Public Library"
   },
   {
@@ -3661,7 +3602,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac130",
     "audience": "Adults",
-    "id": "boston-public-library-199",
+    "id": "boston-public-library-194",
     "library": "Boston Public Library"
   },
   {
@@ -3672,7 +3613,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a3c62b1c52cdc3600ecad0d",
     "audience": "Adults",
-    "id": "boston-public-library-200",
+    "id": "boston-public-library-195",
     "library": "Boston Public Library"
   },
   {
@@ -3683,7 +3624,18 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a5a4599c7e02e3d0069cb58",
     "audience": "Adults",
-    "id": "boston-public-library-201",
+    "id": "boston-public-library-196",
+    "library": "Boston Public Library"
+  },
+  {
+    "title": "Unraveling the News: Knitting and Crochet Conversation Circle",
+    "description": "[Central Library in Copley Square] *Please note, this week's program will take place in the MassEdCo space in the Kirstein Business Library on the Lower Level of the Boylston Building. Bring your latest knitting, crochet, or craft project and join us to chat about current events and the news! Each week, we will listen to a podcast episode discussing a current news moment of the week while we knit, crochet or craft. Afterwards, we’ll have the opportunity to discuss the podcast, work on our latest projects, and simply enjoy the company of fellow crafters. Attendees are encouraged to bring their current projects and supplies. A small amount of yarn and supplies will be available. Please note: This is not a class; no instructions will be given. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact ehusting@bpl.org. Please allow at least two weeks to arrange accommodation.",
+    "date": "2026-09-14",
+    "startTime": "16:00",
+    "endTime": "17:30",
+    "url": "https://bpl.bibliocommons.com/events/6a733a5fcca66c2f00a85522",
+    "audience": "Adults",
+    "id": "boston-public-library-197",
     "library": "Boston Public Library"
   },
   {
@@ -3694,7 +3646,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a12239a0c0f2c4503fb15f3",
     "audience": "Adults",
-    "id": "boston-public-library-202",
+    "id": "boston-public-library-198",
     "library": "Boston Public Library"
   },
   {
@@ -3705,7 +3657,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a42d44a296ea565de2f83fd",
     "audience": "Adults",
-    "id": "boston-public-library-203",
+    "id": "boston-public-library-199",
     "library": "Boston Public Library"
   },
   {
@@ -3716,7 +3668,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac630",
     "audience": "Adults",
-    "id": "boston-public-library-204",
+    "id": "boston-public-library-200",
     "library": "Boston Public Library"
   },
   {
@@ -3727,7 +3679,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006a8",
     "audience": "Adults",
-    "id": "boston-public-library-205",
+    "id": "boston-public-library-201",
     "library": "Boston Public Library"
   },
   {
@@ -3738,7 +3690,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c21",
     "audience": "Adults",
-    "id": "boston-public-library-206",
+    "id": "boston-public-library-202",
     "library": "Boston Public Library"
   },
   {
@@ -3749,7 +3701,18 @@
     "endTime": "15:30",
     "url": "https://bpl.bibliocommons.com/events/6a3c6f7b6db61d280097cda7",
     "audience": "Adults",
-    "id": "boston-public-library-207",
+    "id": "boston-public-library-203",
+    "library": "Boston Public Library"
+  },
+  {
+    "title": "Her Story Is/Black Ocean Press Book Launch",
+    "description": "[Central Library in Copley Square] Join us and The Her Story Is (HSI) collective to celebrate its newest publishing venture: Songs for Fairuz, a ten book series with Black Ocean Press, featuring poetry translated into English by Arab women writers! This program will feature reading and discussion from the first book in the series, I Drag My Sorrow by His Collar, by Iraqi poet Hanaa Ahmed Jabr, translated by HSI poet and translator Jennifer Jean and Iraqi translator Wadaq Qais. Copies will be available for purchase. Live music will be provided by Layan Hallawi.For more information, visit her-story-is-collective.org. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact the Programs Department at programs@bpl.org. Please allow at least two weeks to arrange accommodation. Programming at the Boston Public Library is funded through private support. To learn more about supporting the Library, please visit the Boston Public Library Fund's website.",
+    "date": "2026-09-16",
+    "startTime": "18:00",
+    "endTime": "19:30",
+    "url": "https://bpl.bibliocommons.com/events/6a733a54c7e02e3d006dff0d",
+    "audience": "Adults",
+    "id": "boston-public-library-204",
     "library": "Boston Public Library"
   },
   {
@@ -3760,7 +3723,7 @@
     "endTime": "16:30",
     "url": "https://bpl.bibliocommons.com/events/699883d181b67dfe32a7a19c",
     "audience": "Adults",
-    "id": "boston-public-library-208",
+    "id": "boston-public-library-205",
     "library": "Boston Public Library"
   },
   {
@@ -3771,7 +3734,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62258",
     "audience": "Adults",
-    "id": "boston-public-library-209",
+    "id": "boston-public-library-206",
     "library": "Boston Public Library"
   },
   {
@@ -3782,7 +3745,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f76f8d5e2d09335e06c9",
     "audience": "Adults",
-    "id": "boston-public-library-210",
+    "id": "boston-public-library-207",
     "library": "Boston Public Library"
   },
   {
@@ -3793,7 +3756,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738606",
     "audience": "Adults",
-    "id": "boston-public-library-211",
+    "id": "boston-public-library-208",
     "library": "Boston Public Library"
   },
   {
@@ -3804,7 +3767,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac131",
     "audience": "Adults",
-    "id": "boston-public-library-212",
+    "id": "boston-public-library-209",
     "library": "Boston Public Library"
   },
   {
@@ -3815,7 +3778,7 @@
     "endTime": "15:30",
     "url": "https://bpl.bibliocommons.com/events/69d01ef24dacf581ff866716",
     "audience": "Adults",
-    "id": "boston-public-library-213",
+    "id": "boston-public-library-210",
     "library": "Boston Public Library"
   },
   {
@@ -3826,7 +3789,7 @@
     "endTime": "15:30",
     "url": "https://bpl.bibliocommons.com/events/6a34082443b41b3d006f5bb6",
     "audience": "Adults",
-    "id": "boston-public-library-214",
+    "id": "boston-public-library-211",
     "library": "Boston Public Library"
   },
   {
@@ -3837,7 +3800,18 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a5a638688e9bf28003189e9",
     "audience": "Adults",
-    "id": "boston-public-library-215",
+    "id": "boston-public-library-212",
+    "library": "Boston Public Library"
+  },
+  {
+    "title": "Unraveling the News: Knitting and Crochet Conversation Circle",
+    "description": "[Central Library in Copley Square] Bring your latest knitting, crochet, or craft project and join us to chat about current events and the news! Each week, we will listen to a podcast episode discussing a current news moment of the week while we knit, crochet or craft. Afterwards, we’ll have the opportunity to discuss the podcast, work on our latest projects, and simply enjoy the company of fellow crafters. Attendees are encouraged to bring their current projects and supplies. A small amount of yarn and supplies will be available. Please note: This is not a class; no instructions will be given. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact ehusting@bpl.org. Please allow at least two weeks to arrange accommodation.",
+    "date": "2026-09-21",
+    "startTime": "16:00",
+    "endTime": "17:30",
+    "url": "https://bpl.bibliocommons.com/events/6a733a5fcca66c2f00a85523",
+    "audience": "Adults",
+    "id": "boston-public-library-213",
     "library": "Boston Public Library"
   },
   {
@@ -3848,7 +3822,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac631",
     "audience": "Adults",
-    "id": "boston-public-library-216",
+    "id": "boston-public-library-214",
     "library": "Boston Public Library"
   },
   {
@@ -3859,7 +3833,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006a9",
     "audience": "Adults",
-    "id": "boston-public-library-217",
+    "id": "boston-public-library-215",
     "library": "Boston Public Library"
   },
   {
@@ -3870,18 +3844,18 @@
     "endTime": "19:00",
     "url": "https://bpl.bibliocommons.com/events/694abd23fd55fb290058b52e",
     "audience": "Adults",
-    "id": "boston-public-library-218",
+    "id": "boston-public-library-216",
     "library": "Boston Public Library"
   },
   {
-    "title": "Lowell Lecture: Sarah Botstein from Florentine Films",
-    "description": "[Central Library in Copley Square] Join us in person or over Zoom Webinar as the Boston Public Library welcomes Sarah Botstein as a speaker for the Lowell Lecture Series. As a filmmaker who has worked closely with Ken Burns for over 30 years as a part of Florentine Films, Sarah will talk about historical film making as well as revolutionary techniques that Florentine Films uses. Botstein will be in conversation with Imari Paris Jeffries from Embrace Boston and the program will be introduced by BPL President David Leonard. After the main program, in-person audience members can meet the speaker in the Connector Space located just outside of Rabb Hall. This program will happen in-person and over Zoom Webinar. We plan to open doors twenty minutes in advance for our in-person audience. Sarah Botstein has worked with Ken Burns for nearly 30 years and produced some ofhis most popular and acclaimed documentaries on PBS. Most recently, she producedand co-directed The American Revolution. Her previous work includes The U.S. andthe Holocaust, Hemingway, College Behind Bars, The Vietnam War, Prohibition, TheWar, and Jazz. Botstein also works closely with PBS LearningMedia to develop educational materials as part of the Ken Burns Classroom, and she was an original contributor to Ken Burns's UNUM. Botstein is now working on a three-part series about Lyndon B. Johnson and the Great Society. Sarah Botstein is joined by Imari Paris Jeffries, CEO of Embrace Boston. Imari Paris Jeffries , Ph.D., is President and CEO of Embrace, an arts, culture, and community organization reshaping public memory as public policy and advancing belonging through justice. His work begins with a simple premise: cities are shaped not only by policy and economics, but by story, monument, silence, and who is remembered. Under his leadership, Embrace has grown into a civic force committed to centering Black life in public space. The Embrace Monument on Boston Common honoring Dr. Martin Luther King Jr. and Coretta Scott King stands as a declaration that love, struggle, and Black life belong at the heart of the city's landscape. What began as a monument has evolved into a movement, paired with institutional commitments designed to shift culture in lasting ways. Beyond this first monument, Imari has advanced collaboration on the WEB Du Bois Monument and a forthcoming national arts and civic center in Downtown Crossing, envisioned as a twenty-first century civic home where culture and democracy meet. Before leading Embrace, Imari served in executive leadership roles at Parenting Journey, the Italian Home for Children, Jumpstart, Boston Rising, and Friends of the Children Boston, consistently strengthening governance, stabilizing finances, and embedding equity as an operational discipline. A dedicated civic leader, Imari serves as a Trustee of the University of Massachusetts System and on the boards of Boston Ballet and GBH. He has been recognized among Boston Magazine's 100 Most Influential Bostonians and is a recipient of the Mel King Social Innovator Award. A four-time graduate of UMass Boston, and a United States Army veteran, he lives in Boston with his family This program is produced in partnership with GBH and PBS. This program is part of the Lowell Lecture Series generously sponsored by the Lowell Institute through the Boston Public Library Fund. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact the department listed in the \"Contact Info\" pane on the right. Please allow at least two weeks to arrange accommodation.",
+    "title": "Lowell Lecture Series: Sarah Botstein, Co-Director of The American Revolution from Florentine Films",
+    "description": "[Central Library in Copley Square] Join us in person or over Zoom Webinar as the Boston Public Library welcomes Sarah Botstein as a speaker for the Lowell Lecture Series. As a filmmaker who has worked closely with Ken Burns for over 30 years as a part of Florentine Films, Sarah will talk about her latest film, PBS's The American Revolution, historical filmmaking, and the revolutionary techniques that Florentine Films uses to bring history to life. Botstein will be in conversation with Imari Paris Jeffries from Embrace Boston and the program will be introduced by BPL President David Leonard. After the main program, in-person audience members can meet the speaker in the Connector Space located just outside of Rabb Hall. This program will happen in-person and over Zoom Webinar. We plan to open doors twenty minutes in advance for our in-person audience. Sarah Botstein has worked with Ken Burns for nearly 30 years and produced some of his most popular and acclaimed documentaries on PBS. Most recently, she produced and co-directed The American Revolution. Her previous work includes The U.S. and the Holocaust, Hemingway, College Behind Bars, The Vietnam War, Prohibition, The War, and Jazz. Botstein also works closely with PBS LearningMedia to develop educational materials as part of the Ken Burns Classroom, and she was an original contributor to Ken Burns's UNUM. Botstein is now working on a three-part series about Lyndon B. Johnson and the Great Society. Sarah Botstein is joined by Imari Paris Jeffries, CEO of Embrace Boston. Imari Paris Jeffries , Ph.D., is President and CEO of Embrace, an arts, culture, and community organization reshaping public memory as public policy and advancing belonging through justice. His work begins with a simple premise: cities are shaped not only by policy and economics, but by story, monument, silence, and who is remembered. Under his leadership, Embrace has grown into a civic force committed to centering Black life in public space. The Embrace Monument on Boston Common honoring Dr. Martin Luther King Jr. and Coretta Scott King stands as a declaration that love, struggle, and Black life belong at the heart of the city's landscape. What began as a monument has evolved into a movement, paired with institutional commitments designed to shift culture in lasting ways. Beyond this first monument, Imari has advanced collaboration on the WEB Du Bois Monument and a forthcoming national arts and civic center in Downtown Crossing, envisioned as a twenty-first century civic home where culture and democracy meet. Before leading Embrace, Imari served in executive leadership roles at Parenting Journey, the Italian Home for Children, Jumpstart, Boston Rising, and Friends of the Children Boston, consistently strengthening governance, stabilizing finances, and embedding equity as an operational discipline. A dedicated civic leader, Imari serves as a Trustee of the University of Massachusetts System and on the boards of Boston Ballet and GBH. He has been recognized among Boston Magazine's 100 Most Influential Bostonians and is a recipient of the Mel King Social Innovator Award. A four-time graduate of UMass Boston, and a United States Army veteran, he lives in Boston with his family This program is produced in partnership with GBH and PBS. This program is part of the Lowell Lecture Series generously sponsored by the Lowell Institute through the Boston Public Library Fund. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact the department listed in the \"Contact Info\" pane on the right. Please allow at least two weeks to arrange accommodation.",
     "date": "2026-09-22",
     "startTime": "18:00",
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a70eadb0edd0f089e6988e2",
     "audience": "Adults",
-    "id": "boston-public-library-219",
+    "id": "boston-public-library-217",
     "library": "Boston Public Library"
   },
   {
@@ -3892,7 +3866,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c22",
     "audience": "Adults",
-    "id": "boston-public-library-220",
+    "id": "boston-public-library-218",
     "library": "Boston Public Library"
   },
   {
@@ -3903,7 +3877,7 @@
     "endTime": "14:30",
     "url": "https://bpl.bibliocommons.com/events/69eba10fdefec6489cbff715",
     "audience": "Adults",
-    "id": "boston-public-library-221",
+    "id": "boston-public-library-219",
     "library": "Boston Public Library"
   },
   {
@@ -3914,7 +3888,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/69c6e6a0db57df044297b5d1",
     "audience": "Adults",
-    "id": "boston-public-library-222",
+    "id": "boston-public-library-220",
     "library": "Boston Public Library"
   },
   {
@@ -3925,7 +3899,7 @@
     "endTime": "16:30",
     "url": "https://bpl.bibliocommons.com/events/6a5e567ca41369ab2c6755dd",
     "audience": "Children",
-    "id": "boston-public-library-223",
+    "id": "boston-public-library-221",
     "library": "Boston Public Library"
   },
   {
@@ -3936,7 +3910,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62259",
     "audience": "Adults",
-    "id": "boston-public-library-224",
+    "id": "boston-public-library-222",
     "library": "Boston Public Library"
   },
   {
@@ -3947,7 +3921,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f76f8d5e2d09335e06ca",
     "audience": "Adults",
-    "id": "boston-public-library-225",
+    "id": "boston-public-library-223",
     "library": "Boston Public Library"
   },
   {
@@ -3958,7 +3932,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738607",
     "audience": "Adults",
-    "id": "boston-public-library-226",
+    "id": "boston-public-library-224",
     "library": "Boston Public Library"
   },
   {
@@ -3969,7 +3943,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac132",
     "audience": "Adults",
-    "id": "boston-public-library-227",
+    "id": "boston-public-library-225",
     "library": "Boston Public Library"
   },
   {
@@ -3980,7 +3954,18 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a60da4d0e562e28009ba52a",
     "audience": "Adults",
-    "id": "boston-public-library-228",
+    "id": "boston-public-library-226",
+    "library": "Boston Public Library"
+  },
+  {
+    "title": "Unraveling the News: Knitting and Crochet Conversation Circle",
+    "description": "[Central Library in Copley Square] Bring your latest knitting, crochet, or craft project and join us to chat about current events and the news! Each week, we will listen to a podcast episode discussing a current news moment of the week while we knit, crochet or craft. Afterwards, we’ll have the opportunity to discuss the podcast, work on our latest projects, and simply enjoy the company of fellow crafters. Attendees are encouraged to bring their current projects and supplies. A small amount of yarn and supplies will be available. Please note: This is not a class; no instructions will be given. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact ehusting@bpl.org. Please allow at least two weeks to arrange accommodation.",
+    "date": "2026-09-28",
+    "startTime": "16:00",
+    "endTime": "17:30",
+    "url": "https://bpl.bibliocommons.com/events/6a733a5fcca66c2f00a85524",
+    "audience": "Adults",
+    "id": "boston-public-library-227",
     "library": "Boston Public Library"
   },
   {
@@ -3991,7 +3976,7 @@
     "endTime": "10:30",
     "url": "https://bpl.bibliocommons.com/events/69c3d03207a74a47597aa9a5",
     "audience": "Adults",
-    "id": "boston-public-library-229",
+    "id": "boston-public-library-228",
     "library": "Boston Public Library"
   },
   {
@@ -4002,7 +3987,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac632",
     "audience": "Adults",
-    "id": "boston-public-library-230",
+    "id": "boston-public-library-229",
     "library": "Boston Public Library"
   },
   {
@@ -4013,7 +3998,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006aa",
     "audience": "Adults",
-    "id": "boston-public-library-231",
+    "id": "boston-public-library-230",
     "library": "Boston Public Library"
   },
   {
@@ -4024,7 +4009,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a71dfc524cc9f017dda77ac",
     "audience": "Adults",
-    "id": "boston-public-library-232",
+    "id": "boston-public-library-231",
     "library": "Boston Public Library"
   },
   {
@@ -4035,7 +4020,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c23",
     "audience": "Adults",
-    "id": "boston-public-library-233",
+    "id": "boston-public-library-232",
     "library": "Boston Public Library"
   },
   {
@@ -4046,7 +4031,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa6225a",
     "audience": "Adults",
-    "id": "boston-public-library-234",
+    "id": "boston-public-library-233",
     "library": "Boston Public Library"
   },
   {
@@ -4057,7 +4042,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f76f8d5e2d09335e06cb",
     "audience": "Adults",
-    "id": "boston-public-library-235",
+    "id": "boston-public-library-234",
     "library": "Boston Public Library"
   },
   {
@@ -4068,7 +4053,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738608",
     "audience": "Adults",
-    "id": "boston-public-library-236",
+    "id": "boston-public-library-235",
     "library": "Boston Public Library"
   },
   {
@@ -4079,7 +4064,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69fcbcbd8e677a28001a7bfc",
     "audience": "Children",
-    "id": "boston-public-library-237",
+    "id": "boston-public-library-236",
     "library": "Boston Public Library"
   },
   {
@@ -4090,7 +4075,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac133",
     "audience": "Adults",
-    "id": "boston-public-library-238",
+    "id": "boston-public-library-237",
     "library": "Boston Public Library"
   },
   {
@@ -4100,6 +4085,17 @@
     "startTime": "14:00",
     "endTime": "15:30",
     "url": "https://bpl.bibliocommons.com/events/6a0723853246e7b84b4f4473",
+    "audience": "Adults",
+    "id": "boston-public-library-238",
+    "library": "Boston Public Library"
+  },
+  {
+    "title": "Unraveling the News: Knitting and Crochet Conversation Circle",
+    "description": "[Central Library in Copley Square] Bring your latest knitting, crochet, or craft project and join us to chat about current events and the news! Each week, we will listen to a podcast episode discussing a current news moment of the week while we knit, crochet or craft. Afterwards, we’ll have the opportunity to discuss the podcast, work on our latest projects, and simply enjoy the company of fellow crafters. Attendees are encouraged to bring their current projects and supplies. A small amount of yarn and supplies will be available. Please note: This is not a class; no instructions will be given. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact ehusting@bpl.org. Please allow at least two weeks to arrange accommodation.",
+    "date": "2026-10-05",
+    "startTime": "16:00",
+    "endTime": "17:30",
+    "url": "https://bpl.bibliocommons.com/events/6a733a5fcca66c2f00a85525",
     "audience": "Adults",
     "id": "boston-public-library-239",
     "library": "Boston Public Library"
@@ -4336,6 +4332,17 @@
     "library": "Boston Public Library"
   },
   {
+    "title": "Unraveling the News: Knitting and Crochet Conversation Circle",
+    "description": "[Central Library in Copley Square] Bring your latest knitting, crochet, or craft project and join us to chat about current events and the news! Each week, we will listen to a podcast episode discussing a current news moment of the week while we knit, crochet or craft. Afterwards, we’ll have the opportunity to discuss the podcast, work on our latest projects, and simply enjoy the company of fellow crafters. Attendees are encouraged to bring their current projects and supplies. A small amount of yarn and supplies will be available. Please note: This is not a class; no instructions will be given. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact ehusting@bpl.org. Please allow at least two weeks to arrange accommodation.",
+    "date": "2026-10-19",
+    "startTime": "16:00",
+    "endTime": "17:30",
+    "url": "https://bpl.bibliocommons.com/events/6a733a5fcca66c2f00a85526",
+    "audience": "Adults",
+    "id": "boston-public-library-261",
+    "library": "Boston Public Library"
+  },
+  {
     "title": "Information Session for Adult English Learners",
     "description": "[Central Library in Copley Square] Are you an adult English Language Learner looking for resources, support, and ways to practice? Join members of our Literacy Services team and ELL instructors for an informal information session! This is your chance to: Talk with an instructor about how to get started, whether through our formal classes, conversation groups, or other community resources.Learn about our free, informal conversation practice groups (a great way to practice speaking and listening).Ask questions about local resources and programs for adult English learners. Important Notes: This is NOT a Class This session is designed to answer questions and connect you with resources; it is not a formal English class. Additional Resources for English Learners For more options, programs, and self-study tools available across the city and online, please explore the following resources: Literacy Resources for ESOL LearnersCity of Boston’s Adult Literacy InitiativeMassachusetts Adult Education Help DeskMango Languages online learning software (library card required)How to get a library card Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact the department listed in the \"Contact Info\" pane on the right. Please allow at least two weeks to arrange accommodation. Programming at the Boston Public Library is funded through private support. To learn more about supporting the Library, please visit the Boston Public Library Fund's website.",
     "date": "2026-10-20",
@@ -4343,7 +4350,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac635",
     "audience": "Adults",
-    "id": "boston-public-library-261",
+    "id": "boston-public-library-262",
     "library": "Boston Public Library"
   },
   {
@@ -4354,7 +4361,7 @@
     "endTime": "17:30",
     "url": "https://bpl.bibliocommons.com/events/6a44202620e064860195149b",
     "audience": "Adults",
-    "id": "boston-public-library-262",
+    "id": "boston-public-library-263",
     "library": "Boston Public Library"
   },
   {
@@ -4365,7 +4372,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006ad",
     "audience": "Adults",
-    "id": "boston-public-library-263",
+    "id": "boston-public-library-264",
     "library": "Boston Public Library"
   },
   {
@@ -4376,7 +4383,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c26",
     "audience": "Adults",
-    "id": "boston-public-library-264",
+    "id": "boston-public-library-265",
     "library": "Boston Public Library"
   },
   {
@@ -4387,7 +4394,7 @@
     "endTime": "15:30",
     "url": "https://bpl.bibliocommons.com/events/6a57c9c50d65ac36003fe4d1",
     "audience": "Adults",
-    "id": "boston-public-library-265",
+    "id": "boston-public-library-266",
     "library": "Boston Public Library"
   },
   {
@@ -4398,7 +4405,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a6266a59e0a050e3e540891",
     "audience": "Adults",
-    "id": "boston-public-library-266",
+    "id": "boston-public-library-267",
     "library": "Boston Public Library"
   },
   {
@@ -4409,7 +4416,7 @@
     "endTime": "14:30",
     "url": "https://bpl.bibliocommons.com/events/69eba10fdefec6489cbff716",
     "audience": "Adults",
-    "id": "boston-public-library-267",
+    "id": "boston-public-library-268",
     "library": "Boston Public Library"
   },
   {
@@ -4420,7 +4427,18 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/69c6e601db57df044297b593",
     "audience": "Adults",
-    "id": "boston-public-library-268",
+    "id": "boston-public-library-269",
+    "library": "Boston Public Library"
+  },
+  {
+    "title": "Night in the Stacks",
+    "description": "[Central Library in Copley Square] Join the Emerging Leaders of the Boston Public Library Fund for the fifth annual Night in the Stacks. A milestone celebration as the iconic McKim Building transforms into a dazzling Midnight Circus—an immersive evening of spectacle, mystery, and imagination. Building on five years of unforgettable after-hours experiences, this year’s event promises to be our most extraordinary yet. Step right up to the Big Top! Beneath the glow of the spotlight and among the towering stacks, guests will gather for a spectacle of untamed revelry. Prepare for a thrilling parade of performers featuring live music by the Sweetbeats Band, lively dancing, delicious fare, an open bar, and mesmerizing acts worthy of the grandest three-ring circus. This riveting celebration raises essential funds for the Boston Public Library’s free programs and services. Tickets are on sale now until sold out! You can purchase tickets here: https://bplfund.org/nits/ For questions. Please contact Liz Swanson, Assistant Director of Communications and Special Projects, at eswanson@bplfund.org.",
+    "date": "2026-10-23",
+    "startTime": "08:30",
+    "endTime": "23:45",
+    "url": "https://bpl.bibliocommons.com/events/6a736fb588e9bf280035b9e0",
+    "audience": "Adults",
+    "id": "boston-public-library-270",
     "library": "Boston Public Library"
   },
   {
@@ -4431,7 +4449,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa6225d",
     "audience": "Adults",
-    "id": "boston-public-library-269",
+    "id": "boston-public-library-271",
     "library": "Boston Public Library"
   },
   {
@@ -4442,7 +4460,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f76f8d5e2d09335e06ce",
     "audience": "Adults",
-    "id": "boston-public-library-270",
+    "id": "boston-public-library-272",
     "library": "Boston Public Library"
   },
   {
@@ -4453,7 +4471,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f0073860b",
     "audience": "Adults",
-    "id": "boston-public-library-271",
+    "id": "boston-public-library-273",
     "library": "Boston Public Library"
   },
   {
@@ -4464,7 +4482,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac136",
     "audience": "Adults",
-    "id": "boston-public-library-272",
+    "id": "boston-public-library-274",
     "library": "Boston Public Library"
   },
   {
@@ -4475,7 +4493,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/6a4fafa10d65ac36003e7fa8",
     "audience": "Adults",
-    "id": "boston-public-library-273",
+    "id": "boston-public-library-275",
     "library": "Boston Public Library"
   },
   {
@@ -4486,7 +4504,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac636",
     "audience": "Adults",
-    "id": "boston-public-library-274",
+    "id": "boston-public-library-276",
     "library": "Boston Public Library"
   },
   {
@@ -4497,7 +4515,7 @@
     "endTime": "17:30",
     "url": "https://bpl.bibliocommons.com/events/6a442000296ea565de2fbe2b",
     "audience": "Adults",
-    "id": "boston-public-library-275",
+    "id": "boston-public-library-277",
     "library": "Boston Public Library"
   },
   {
@@ -4508,7 +4526,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006ae",
     "audience": "Adults",
-    "id": "boston-public-library-276",
+    "id": "boston-public-library-278",
     "library": "Boston Public Library"
   },
   {
@@ -4519,7 +4537,7 @@
     "endTime": "19:00",
     "url": "https://bpl.bibliocommons.com/events/694abd23fd55fb290058b52f",
     "audience": "Adults",
-    "id": "boston-public-library-277",
+    "id": "boston-public-library-279",
     "library": "Boston Public Library"
   },
   {
@@ -4530,7 +4548,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c27",
     "audience": "Adults",
-    "id": "boston-public-library-278",
+    "id": "boston-public-library-280",
     "library": "Boston Public Library"
   },
   {
@@ -4541,7 +4559,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a3c61b6c52cdc3600ecaceb",
     "audience": "Adults",
-    "id": "boston-public-library-279",
+    "id": "boston-public-library-281",
     "library": "Boston Public Library"
   },
   {
@@ -4552,7 +4570,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa6225e",
     "audience": "Adults",
-    "id": "boston-public-library-280",
+    "id": "boston-public-library-282",
     "library": "Boston Public Library"
   },
   {
@@ -4563,7 +4581,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f7708d5e2d09335e06cf",
     "audience": "Adults",
-    "id": "boston-public-library-281",
+    "id": "boston-public-library-283",
     "library": "Boston Public Library"
   },
   {
@@ -4574,7 +4592,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f0073860c",
     "audience": "Adults",
-    "id": "boston-public-library-282",
+    "id": "boston-public-library-284",
     "library": "Boston Public Library"
   },
   {
@@ -4585,7 +4603,18 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac137",
     "audience": "Adults",
-    "id": "boston-public-library-283",
+    "id": "boston-public-library-285",
+    "library": "Boston Public Library"
+  },
+  {
+    "title": "Unraveling the News: Knitting and Crochet Conversation Circle",
+    "description": "[Central Library in Copley Square] Bring your latest knitting, crochet, or craft project and join us to chat about current events and the news! Each week, we will listen to a podcast episode discussing a current news moment of the week while we knit, crochet or craft. Afterwards, we’ll have the opportunity to discuss the podcast, work on our latest projects, and simply enjoy the company of fellow crafters. Attendees are encouraged to bring their current projects and supplies. A small amount of yarn and supplies will be available. Please note: This is not a class; no instructions will be given. Accessibility Notice: We strive to make our events accessible. To request a disability accommodation and/or language services, contact ehusting@bpl.org. Please allow at least two weeks to arrange accommodation.",
+    "date": "2026-11-02",
+    "startTime": "16:00",
+    "endTime": "17:30",
+    "url": "https://bpl.bibliocommons.com/events/6a733a5fcca66c2f00a85527",
+    "audience": "Adults",
+    "id": "boston-public-library-286",
     "library": "Boston Public Library"
   },
   {
@@ -4596,7 +4625,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac637",
     "audience": "Adults",
-    "id": "boston-public-library-284",
+    "id": "boston-public-library-287",
     "library": "Boston Public Library"
   },
   {
@@ -4607,7 +4636,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006af",
     "audience": "Adults",
-    "id": "boston-public-library-285",
+    "id": "boston-public-library-288",
     "library": "Boston Public Library"
   },
   {
@@ -4618,7 +4647,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c28",
     "audience": "Adults",
-    "id": "boston-public-library-286",
+    "id": "boston-public-library-289",
     "library": "Boston Public Library"
   },
   {
@@ -4629,7 +4658,7 @@
     "endTime": "19:00",
     "url": "https://bpl.bibliocommons.com/events/6a5e8c9ef213992f00c5b6a6",
     "audience": "Adults",
-    "id": "boston-public-library-287",
+    "id": "boston-public-library-290",
     "library": "Boston Public Library"
   },
   {
@@ -4640,7 +4669,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa6225f",
     "audience": "Adults",
-    "id": "boston-public-library-288",
+    "id": "boston-public-library-291",
     "library": "Boston Public Library"
   },
   {
@@ -4651,7 +4680,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f7708d5e2d09335e06d0",
     "audience": "Adults",
-    "id": "boston-public-library-289",
+    "id": "boston-public-library-292",
     "library": "Boston Public Library"
   },
   {
@@ -4662,7 +4691,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f0073860d",
     "audience": "Adults",
-    "id": "boston-public-library-290",
+    "id": "boston-public-library-293",
     "library": "Boston Public Library"
   },
   {
@@ -4673,7 +4702,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac138",
     "audience": "Adults",
-    "id": "boston-public-library-291",
+    "id": "boston-public-library-294",
     "library": "Boston Public Library"
   },
   {
@@ -4684,7 +4713,7 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a5a42a8c7e02e3d0069ca8a",
     "audience": "Adults",
-    "id": "boston-public-library-292",
+    "id": "boston-public-library-295",
     "library": "Boston Public Library"
   },
   {
@@ -4695,7 +4724,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac638",
     "audience": "Adults",
-    "id": "boston-public-library-293",
+    "id": "boston-public-library-296",
     "library": "Boston Public Library"
   },
   {
@@ -4706,7 +4735,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006b0",
     "audience": "Adults",
-    "id": "boston-public-library-294",
+    "id": "boston-public-library-297",
     "library": "Boston Public Library"
   },
   {
@@ -4717,7 +4746,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a6267b13edb05633e90095b",
     "audience": "Adults",
-    "id": "boston-public-library-295",
+    "id": "boston-public-library-298",
     "library": "Boston Public Library"
   },
   {
@@ -4728,7 +4757,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/69c6e3b0db57df044297b50c",
     "audience": "Adults",
-    "id": "boston-public-library-296",
+    "id": "boston-public-library-299",
     "library": "Boston Public Library"
   },
   {
@@ -4739,7 +4768,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62260",
     "audience": "Adults",
-    "id": "boston-public-library-297",
+    "id": "boston-public-library-300",
     "library": "Boston Public Library"
   },
   {
@@ -4750,7 +4779,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f7708d5e2d09335e06d1",
     "audience": "Adults",
-    "id": "boston-public-library-298",
+    "id": "boston-public-library-301",
     "library": "Boston Public Library"
   },
   {
@@ -4761,7 +4790,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f0073860e",
     "audience": "Adults",
-    "id": "boston-public-library-299",
+    "id": "boston-public-library-302",
     "library": "Boston Public Library"
   },
   {
@@ -4772,7 +4801,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac139",
     "audience": "Adults",
-    "id": "boston-public-library-300",
+    "id": "boston-public-library-303",
     "library": "Boston Public Library"
   },
   {
@@ -4783,7 +4812,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac639",
     "audience": "Adults",
-    "id": "boston-public-library-301",
+    "id": "boston-public-library-304",
     "library": "Boston Public Library"
   },
   {
@@ -4794,7 +4823,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006b1",
     "audience": "Adults",
-    "id": "boston-public-library-302",
+    "id": "boston-public-library-305",
     "library": "Boston Public Library"
   },
   {
@@ -4805,7 +4834,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c29",
     "audience": "Adults",
-    "id": "boston-public-library-303",
+    "id": "boston-public-library-306",
     "library": "Boston Public Library"
   },
   {
@@ -4816,7 +4845,7 @@
     "endTime": "16:30",
     "url": "https://bpl.bibliocommons.com/events/699883d181b67dfe32a7a19e",
     "audience": "Adults",
-    "id": "boston-public-library-304",
+    "id": "boston-public-library-307",
     "library": "Boston Public Library"
   },
   {
@@ -4827,7 +4856,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62261",
     "audience": "Adults",
-    "id": "boston-public-library-305",
+    "id": "boston-public-library-308",
     "library": "Boston Public Library"
   },
   {
@@ -4838,7 +4867,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f7708d5e2d09335e06d2",
     "audience": "Adults",
-    "id": "boston-public-library-306",
+    "id": "boston-public-library-309",
     "library": "Boston Public Library"
   },
   {
@@ -4849,7 +4878,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f0073860f",
     "audience": "Adults",
-    "id": "boston-public-library-307",
+    "id": "boston-public-library-310",
     "library": "Boston Public Library"
   },
   {
@@ -4860,7 +4889,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac13a",
     "audience": "Adults",
-    "id": "boston-public-library-308",
+    "id": "boston-public-library-311",
     "library": "Boston Public Library"
   },
   {
@@ -4871,7 +4900,7 @@
     "endTime": "15:30",
     "url": "https://bpl.bibliocommons.com/events/69d01ef24dacf581ff866718",
     "audience": "Adults",
-    "id": "boston-public-library-309",
+    "id": "boston-public-library-312",
     "library": "Boston Public Library"
   },
   {
@@ -4882,7 +4911,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac63a",
     "audience": "Adults",
-    "id": "boston-public-library-310",
+    "id": "boston-public-library-313",
     "library": "Boston Public Library"
   },
   {
@@ -4893,7 +4922,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006b2",
     "audience": "Adults",
-    "id": "boston-public-library-311",
+    "id": "boston-public-library-314",
     "library": "Boston Public Library"
   },
   {
@@ -4904,7 +4933,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c2a",
     "audience": "Adults",
-    "id": "boston-public-library-312",
+    "id": "boston-public-library-315",
     "library": "Boston Public Library"
   },
   {
@@ -4915,7 +4944,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62262",
     "audience": "Adults",
-    "id": "boston-public-library-313",
+    "id": "boston-public-library-316",
     "library": "Boston Public Library"
   },
   {
@@ -4926,7 +4955,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f7708d5e2d09335e06d3",
     "audience": "Adults",
-    "id": "boston-public-library-314",
+    "id": "boston-public-library-317",
     "library": "Boston Public Library"
   },
   {
@@ -4937,7 +4966,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738610",
     "audience": "Adults",
-    "id": "boston-public-library-315",
+    "id": "boston-public-library-318",
     "library": "Boston Public Library"
   },
   {
@@ -4948,7 +4977,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac13b",
     "audience": "Adults",
-    "id": "boston-public-library-316",
+    "id": "boston-public-library-319",
     "library": "Boston Public Library"
   },
   {
@@ -4959,7 +4988,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac63b",
     "audience": "Adults",
-    "id": "boston-public-library-317",
+    "id": "boston-public-library-320",
     "library": "Boston Public Library"
   },
   {
@@ -4970,7 +4999,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006b3",
     "audience": "Adults",
-    "id": "boston-public-library-318",
+    "id": "boston-public-library-321",
     "library": "Boston Public Library"
   },
   {
@@ -4981,7 +5010,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c2b",
     "audience": "Adults",
-    "id": "boston-public-library-319",
+    "id": "boston-public-library-322",
     "library": "Boston Public Library"
   },
   {
@@ -4992,7 +5021,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62263",
     "audience": "Adults",
-    "id": "boston-public-library-320",
+    "id": "boston-public-library-323",
     "library": "Boston Public Library"
   },
   {
@@ -5003,7 +5032,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f7708d5e2d09335e06d4",
     "audience": "Adults",
-    "id": "boston-public-library-321",
+    "id": "boston-public-library-324",
     "library": "Boston Public Library"
   },
   {
@@ -5014,7 +5043,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738611",
     "audience": "Adults",
-    "id": "boston-public-library-322",
+    "id": "boston-public-library-325",
     "library": "Boston Public Library"
   },
   {
@@ -5025,7 +5054,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69fcbc9c278f7c2f008bafa5",
     "audience": "Children",
-    "id": "boston-public-library-323",
+    "id": "boston-public-library-326",
     "library": "Boston Public Library"
   },
   {
@@ -5036,7 +5065,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac13c",
     "audience": "Adults",
-    "id": "boston-public-library-324",
+    "id": "boston-public-library-327",
     "library": "Boston Public Library"
   },
   {
@@ -5047,7 +5076,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac63c",
     "audience": "Adults",
-    "id": "boston-public-library-325",
+    "id": "boston-public-library-328",
     "library": "Boston Public Library"
   },
   {
@@ -5058,7 +5087,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006b4",
     "audience": "Adults",
-    "id": "boston-public-library-326",
+    "id": "boston-public-library-329",
     "library": "Boston Public Library"
   },
   {
@@ -5069,7 +5098,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c2c",
     "audience": "Adults",
-    "id": "boston-public-library-327",
+    "id": "boston-public-library-330",
     "library": "Boston Public Library"
   },
   {
@@ -5080,7 +5109,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a6267b13edb05633e90095c",
     "audience": "Adults",
-    "id": "boston-public-library-328",
+    "id": "boston-public-library-331",
     "library": "Boston Public Library"
   },
   {
@@ -5091,7 +5120,7 @@
     "endTime": "15:00",
     "url": "https://bpl.bibliocommons.com/events/69c6e3a558f0b64d9e7bfc48",
     "audience": "Adults",
-    "id": "boston-public-library-329",
+    "id": "boston-public-library-332",
     "library": "Boston Public Library"
   },
   {
@@ -5102,7 +5131,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62264",
     "audience": "Adults",
-    "id": "boston-public-library-330",
+    "id": "boston-public-library-333",
     "library": "Boston Public Library"
   },
   {
@@ -5113,7 +5142,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f7708d5e2d09335e06d5",
     "audience": "Adults",
-    "id": "boston-public-library-331",
+    "id": "boston-public-library-334",
     "library": "Boston Public Library"
   },
   {
@@ -5124,7 +5153,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738612",
     "audience": "Adults",
-    "id": "boston-public-library-332",
+    "id": "boston-public-library-335",
     "library": "Boston Public Library"
   },
   {
@@ -5135,7 +5164,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac13d",
     "audience": "Adults",
-    "id": "boston-public-library-333",
+    "id": "boston-public-library-336",
     "library": "Boston Public Library"
   },
   {
@@ -5146,7 +5175,7 @@
     "endTime": "14:00",
     "url": "https://bpl.bibliocommons.com/events/6a5a4157cca66c2f00a41071",
     "audience": "Adults",
-    "id": "boston-public-library-334",
+    "id": "boston-public-library-337",
     "library": "Boston Public Library"
   },
   {
@@ -5157,7 +5186,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac63d",
     "audience": "Adults",
-    "id": "boston-public-library-335",
+    "id": "boston-public-library-338",
     "library": "Boston Public Library"
   },
   {
@@ -5168,7 +5197,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006b5",
     "audience": "Adults",
-    "id": "boston-public-library-336",
+    "id": "boston-public-library-339",
     "library": "Boston Public Library"
   },
   {
@@ -5179,7 +5208,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c2d",
     "audience": "Adults",
-    "id": "boston-public-library-337",
+    "id": "boston-public-library-340",
     "library": "Boston Public Library"
   },
   {
@@ -5190,7 +5219,7 @@
     "endTime": "16:30",
     "url": "https://bpl.bibliocommons.com/events/699883d181b67dfe32a7a19f",
     "audience": "Adults",
-    "id": "boston-public-library-338",
+    "id": "boston-public-library-341",
     "library": "Boston Public Library"
   },
   {
@@ -5201,7 +5230,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/68c8141869ae02914fa62265",
     "audience": "Adults",
-    "id": "boston-public-library-339",
+    "id": "boston-public-library-342",
     "library": "Boston Public Library"
   },
   {
@@ -5212,7 +5241,7 @@
     "endTime": "12:30",
     "url": "https://bpl.bibliocommons.com/events/6989f7708d5e2d09335e06d6",
     "audience": "Adults",
-    "id": "boston-public-library-340",
+    "id": "boston-public-library-343",
     "library": "Boston Public Library"
   },
   {
@@ -5223,7 +5252,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f07e8af4a2f00738613",
     "audience": "Adults",
-    "id": "boston-public-library-341",
+    "id": "boston-public-library-344",
     "library": "Boston Public Library"
   },
   {
@@ -5234,7 +5263,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac13e",
     "audience": "Adults",
-    "id": "boston-public-library-342",
+    "id": "boston-public-library-345",
     "library": "Boston Public Library"
   },
   {
@@ -5245,7 +5274,7 @@
     "endTime": "15:30",
     "url": "https://bpl.bibliocommons.com/events/69d01ef24dacf581ff866719",
     "audience": "Adults",
-    "id": "boston-public-library-343",
+    "id": "boston-public-library-346",
     "library": "Boston Public Library"
   },
   {
@@ -5256,7 +5285,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac63e",
     "audience": "Adults",
-    "id": "boston-public-library-344",
+    "id": "boston-public-library-347",
     "library": "Boston Public Library"
   },
   {
@@ -5267,7 +5296,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006b6",
     "audience": "Adults",
-    "id": "boston-public-library-345",
+    "id": "boston-public-library-348",
     "library": "Boston Public Library"
   },
   {
@@ -5278,7 +5307,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c2e",
     "audience": "Adults",
-    "id": "boston-public-library-346",
+    "id": "boston-public-library-349",
     "library": "Boston Public Library"
   },
   {
@@ -5289,7 +5318,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/6a0c6edd17731928001ac13f",
     "audience": "Adults",
-    "id": "boston-public-library-347",
+    "id": "boston-public-library-350",
     "library": "Boston Public Library"
   },
   {
@@ -5300,7 +5329,7 @@
     "endTime": "16:00",
     "url": "https://bpl.bibliocommons.com/events/69528ee80fcac298bc3ac63f",
     "audience": "Adults",
-    "id": "boston-public-library-348",
+    "id": "boston-public-library-351",
     "library": "Boston Public Library"
   },
   {
@@ -5311,7 +5340,7 @@
     "endTime": "19:30",
     "url": "https://bpl.bibliocommons.com/events/6a0c6f0f3246e7b84b5006b7",
     "audience": "Adults",
-    "id": "boston-public-library-349",
+    "id": "boston-public-library-352",
     "library": "Boston Public Library"
   },
   {
@@ -5322,7 +5351,7 @@
     "endTime": "12:00",
     "url": "https://bpl.bibliocommons.com/events/69946e668ef687c592a82c2f",
     "audience": "Adults",
-    "id": "boston-public-library-350",
+    "id": "boston-public-library-353",
     "library": "Boston Public Library"
   },
   {
@@ -5333,7 +5362,7 @@
     "endTime": "10:30",
     "url": "https://bpl.bibliocommons.com/events/69c3d0c9bf48d63c596cb671",
     "audience": "Adults",
-    "id": "boston-public-library-351",
+    "id": "boston-public-library-354",
     "library": "Boston Public Library"
   },
   {
@@ -5344,7 +5373,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6997683b491b809c6f1afd11",
     "audience": "Adults",
-    "id": "boston-public-library-352",
+    "id": "boston-public-library-355",
     "library": "Boston Public Library"
   }
 ]
