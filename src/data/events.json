@@ -216,7 +216,6 @@
     "endTime": "12:00",
     "url": "https://melrosepubliclibrary.assabetinteractive.com/calendar/tuesday-am-book-group-adults-57/",
     "audience": "Adults",
-    "registrationRequired": true,
     "id": "melrose-public-library-19",
     "library": "Melrose Public Library"
   },
@@ -1000,7 +999,6 @@
     "endTime": "10:00",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/1-and-2-year-old-story-time-328/",
     "audience": "Children",
-    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-28",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -1012,7 +1010,6 @@
     "endTime": "11:15",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/1-and-2-year-old-story-time-334/",
     "audience": "Children",
-    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-29",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -2202,7 +2199,6 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6aaaf507a5dbde002aa51783",
     "audience": "Adults",
-    "registrationRequired": true,
     "id": "boston-public-library-4",
     "library": "Boston Public Library"
   },
@@ -2725,6 +2721,7 @@
     "endTime": "18:30",
     "url": "https://bpl.bibliocommons.com/events/6aaaf45a86d845003116a3e5",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "boston-public-library-51",
     "library": "Boston Public Library"
   },
