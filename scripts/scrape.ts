@@ -11,6 +11,7 @@ const LOCALHOP_API_BASE = 'https://api.getlocalhop.com/1'
 const LOCALHOP_APP_ID = 'zesqKJEzK7ncFXe57x4uWc4Moow3I2wGCq7zFcqI'
 const LOCALHOP_STONEHAM_ORG_ID = 'v1iS5tcDQU'
 const LOCALHOP_LIMIT = 1000
+const LOCALHOP_HORIZON_DAYS = 60
 
 function categoryToAudience(cat: string): string | undefined {
   const c = cat.toLowerCase().replace(/[^a-z0-9]/g, '')
@@ -31,6 +32,7 @@ type ScrapeResult = Omit<Event, 'id' | 'library'>[]
 interface LibraryScraper {
   name: string
   url: string
+  fetchHtml?: boolean
   scrape: (html?: string) => ScrapeResult | Promise<ScrapeResult>
 }
 
@@ -363,10 +365,15 @@ async function scrapeStoneham(_html?: string): Promise<ScrapeResult> {
 
   const startOfToday = new Date()
   startOfToday.setUTCHours(0, 0, 0, 0)
+  const horizon = new Date(startOfToday)
+  horizon.setUTCDate(horizon.getUTCDate() + LOCALHOP_HORIZON_DAYS)
 
   const where = JSON.stringify({
     organization: { __type: 'Pointer', className: 'Organization', objectId: LOCALHOP_STONEHAM_ORG_ID },
-    standardStartDate: { $gte: { __type: 'Date', iso: startOfToday.toISOString() } },
+    standardStartDate: {
+      $gte: { __type: 'Date', iso: startOfToday.toISOString() },
+      $lte: { __type: 'Date', iso: horizon.toISOString() },
+    },
   })
 
   let skip = 0
@@ -387,6 +394,7 @@ async function scrapeStoneham(_html?: string): Promise<ScrapeResult> {
     }
     const data: LocalhopResponse = await res.json()
     const instances = data.results || []
+    if (instances.length === 0) break
 
     for (const inst of instances) {
       const ev = inst.event
@@ -441,7 +449,6 @@ async function scrapeStoneham(_html?: string): Promise<ScrapeResult> {
       })
     }
 
-    if (instances.length < LOCALHOP_LIMIT) break
     skip += LOCALHOP_LIMIT
     await new Promise((r) => setTimeout(r, 300))
   }
@@ -458,6 +465,7 @@ const scrapers: LibraryScraper[] = [
   {
     name: 'Stoneham Public Library',
     url: 'https://events.getlocalhop.com/stoneham-public-library/organization/v1iS5tcDQU/',
+    fetchHtml: false,
     scrape: scrapeStoneham,
   },
   {
@@ -478,6 +486,7 @@ const scrapers: LibraryScraper[] = [
   {
     name: 'Boston Public Library',
     url: BPL_API_BASE,
+    fetchHtml: false,
     scrape: scrapeBpl,
   },
 ]
@@ -486,7 +495,7 @@ async function scrapeLibrary(scraper: LibraryScraper): Promise<Event[]> {
   try {
     let items: ScrapeResult
 
-    if (scraper.name === 'Boston Public Library' || scraper.name === 'Stoneham Public Library') {
+    if (scraper.fetchHtml === false) {
       items = await scraper.scrape()
     } else {
       const res = await fetch(scraper.url, {
