@@ -3,6 +3,7 @@ export const LIBRARY_COLORS: Record<string, string> = {
   'Stoneham Public Library': '#4ECDC4',
   'Lucius Beebe Memorial Library (Wakefield)': '#FFE66D',
   'Saugus Public Library': '#B19CD9',
+  'Malden Public Library': '#F4A261',
   'Boston Public Library': '#87CEEB',
 }
 
