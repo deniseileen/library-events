@@ -11,7 +11,7 @@ const LOCALHOP_API_BASE = 'https://api.getlocalhop.com/1'
 const LOCALHOP_APP_ID = 'zesqKJEzK7ncFXe57x4uWc4Moow3I2wGCq7zFcqI'
 const LOCALHOP_STONEHAM_ORG_ID = 'v1iS5tcDQU'
 const LOCALHOP_LIMIT = 1000
-const LOCALHOP_HORIZON_DAYS = 60
+const LOCALHOP_HORIZON_DAYS = 30
 
 function categoryToAudience(cat: string): string | undefined {
   const c = cat.toLowerCase().replace(/[^a-z0-9]/g, '')
@@ -449,7 +449,7 @@ async function scrapeStoneham(_html?: string): Promise<ScrapeResult> {
       })
     }
 
-    skip += LOCALHOP_LIMIT
+    skip += instances.length
     await new Promise((r) => setTimeout(r, 300))
   }
 

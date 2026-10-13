@@ -25,7 +25,7 @@ Keep every library's display `name` exactly stable — it is the identity key us
 ## Scraper platforms
 
 - `scrapeAssabet` — Assabet Interactive HTML (Melrose, Wakefield, Saugus, Malden). Audience comes from `category-*` classes matched through `ASSABET_AUDIENCE_MAP` (keys are lowercased with non-alphanumerics stripped).
-- `scrapeBpl` — Bibliocommons JSON API. API-backed scrapers ignore the fetched `html`; `scrapeLibrary` special-cases those names so no page fetch happens.
+- `scrapeBpl` — Bibliocommons JSON API. API-backed scrapers ignore `html`; set `fetchHtml: false` on their `scrapers` entry so `scrapeLibrary` skips the page fetch.
 - `scrapeStoneham` — GetLocalHop Parse API (`api.getlocalhop.com/1`, `EventInstance` class). Dates' `iso` time-of-day is already the library's local wall-clock; do not timezone-convert.
 
 ## Maintaining this file
