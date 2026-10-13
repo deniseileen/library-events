@@ -7,6 +7,11 @@ const BPL_API_BASE = 'https://gateway.bibliocommons.com/v2/libraries/bpl/events/
 const BPL_LOCATION_ID = '3' // Central Library in Copley Square
 const BPL_LIMIT = 50
 
+const LOCALHOP_API_BASE = 'https://api.getlocalhop.com/1'
+const LOCALHOP_APP_ID = 'zesqKJEzK7ncFXe57x4uWc4Moow3I2wGCq7zFcqI'
+const LOCALHOP_STONEHAM_ORG_ID = 'v1iS5tcDQU'
+const LOCALHOP_LIMIT = 1000
+
 function categoryToAudience(cat: string): string | undefined {
   const c = cat.toLowerCase().replace(/[^a-z0-9]/g, '')
   return ASSABET_AUDIENCE_MAP[c]
@@ -135,6 +140,9 @@ const ASSABET_AUDIENCE_MAP: Record<string, string> = {
   'preschool': 'Children',
   'storytime': 'Children',
   'children': 'Children',
+  'childrens': 'Children',
+  'allages': 'Children',
+  'family': 'Children',
   'child': 'Children',
   'junior': 'Children',
   'youth': 'Children',
@@ -266,6 +274,181 @@ async function scrapeBpl(_html?: string): Promise<ScrapeResult> {
   return allEvents
 }
 
+interface ParsePointer {
+  __type: 'Pointer'
+  className: string
+  objectId: string
+}
+
+interface ParseDate {
+  __type: 'Date'
+  iso: string
+}
+
+interface LocalhopNamedPointer extends ParsePointer {
+  name?: string
+}
+
+interface LocalhopTicketingConfig extends ParsePointer {
+  type?: number
+}
+
+interface LocalhopEvent {
+  objectId: string
+  name?: string
+  description?: string
+  slug?: string
+  ticketingConfig?: LocalhopTicketingConfig
+}
+
+interface LocalhopInstance {
+  objectId: string
+  standardStartDate?: ParseDate
+  standardEndDate?: ParseDate
+  allDay?: boolean
+  organizationAgeGroups?: LocalhopNamedPointer[]
+  eventCategories?: LocalhopNamedPointer[]
+  event?: LocalhopEvent
+}
+
+interface LocalhopResponse {
+  results?: LocalhopInstance[]
+}
+
+function stonehamAgeGroupToAudience(name: string): string | undefined {
+  const n = name.toLowerCase()
+  if (
+    n.includes('infant') ||
+    n.includes('toddler') ||
+    n.includes('young kids') ||
+    n.includes('elementary') ||
+    n.includes('youth') ||
+    n.includes('children') ||
+    n.includes('all ages')
+  ) {
+    return 'Children'
+  }
+  if (n.includes('teen') || n.includes('tween')) return 'Teens'
+  if (n.includes('adult') || n.includes('senior')) return 'Adults'
+  return undefined
+}
+
+const STONEHAM_CATEGORY_MAP: Record<string, string> = {
+  'storytime': 'Children',
+  'family friendly': 'Children',
+  'kids': 'Children',
+  'preschool': 'Children',
+  'elementary': 'Children',
+  'summer reading program': 'Children',
+  'homeschool': 'Children',
+  'teen': 'Teens',
+  'book club': 'Adults',
+  'author event': 'Adults',
+  'adult': 'Adults',
+  'genealogy': 'Adults',
+  'history': 'Adults',
+}
+
+function pickAudience(candidates: (string | undefined)[]): string | undefined {
+  const priority = ['Children', 'Teens', 'Adults']
+  const mapped = new Set(candidates.filter(Boolean) as string[])
+  for (const p of priority) {
+    if (mapped.has(p)) return p
+  }
+  return undefined
+}
+
+async function scrapeStoneham(_html?: string): Promise<ScrapeResult> {
+  const allEvents: ScrapeResult = []
+
+  const startOfToday = new Date()
+  startOfToday.setUTCHours(0, 0, 0, 0)
+
+  const where = JSON.stringify({
+    organization: { __type: 'Pointer', className: 'Organization', objectId: LOCALHOP_STONEHAM_ORG_ID },
+    standardStartDate: { $gte: { __type: 'Date', iso: startOfToday.toISOString() } },
+  })
+
+  let skip = 0
+  while (true) {
+    const params = new URLSearchParams({
+      where,
+      order: 'standardStartDate',
+      limit: String(LOCALHOP_LIMIT),
+      skip: String(skip),
+      include: 'event,event.ticketingConfig,organizationAgeGroups,eventCategories',
+    })
+    const res = await fetch(`${LOCALHOP_API_BASE}/classes/EventInstance?${params}`, {
+      headers: { 'X-Parse-Application-Id': LOCALHOP_APP_ID, Accept: 'application/json' },
+    })
+    if (!res.ok) {
+      console.warn(`  Stoneham (GetLocalHop API): HTTP ${res.status} — stopping`)
+      break
+    }
+    const data: LocalhopResponse = await res.json()
+    const instances = data.results || []
+
+    for (const inst of instances) {
+      const ev = inst.event
+      if (!ev?.name) continue
+
+      const startIso = inst.standardStartDate?.iso || ''
+      const endIso = inst.standardEndDate?.iso || ''
+
+      let startTime: string | undefined
+      let endTime: string | undefined
+      if (!inst.allDay) {
+        if (startIso) startTime = startIso.slice(11, 16)
+        if (endIso) endTime = endIso.slice(11, 16)
+      }
+
+      let mapped = (inst.organizationAgeGroups || []).map((a) =>
+        a.name ? stonehamAgeGroupToAudience(a.name) : undefined,
+      )
+      if (mapped.every((m) => !m)) {
+        mapped = (inst.eventCategories || []).map(
+          (c) => STONEHAM_CATEGORY_MAP[(c.name || '').toLowerCase()],
+        )
+      }
+      const audience = pickAudience(mapped)
+
+      const desc = (ev.description || '')
+        .replace(/<[^>]*>/g, '')
+        .replace(/&amp;/g, '&')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&quot;/g, '"')
+        .replace(/&#039;/g, "'")
+        .replace(/&hellip;/g, '…')
+        .replace(/&nbsp;/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim()
+
+      const registrationRequired = ev.ticketingConfig?.type === 2 || undefined
+
+      allEvents.push({
+        title: ev.name,
+        description: desc,
+        date: startIso.slice(0, 10),
+        startTime,
+        endTime,
+        url:
+          ev.slug && ev.objectId
+            ? `https://events.getlocalhop.com/${ev.slug}/event/${ev.objectId}/`
+            : undefined,
+        audience: audience || undefined,
+        registrationRequired,
+      })
+    }
+
+    if (instances.length < LOCALHOP_LIMIT) break
+    skip += LOCALHOP_LIMIT
+    await new Promise((r) => setTimeout(r, 300))
+  }
+
+  return allEvents
+}
+
 const scrapers: LibraryScraper[] = [
   {
     name: 'Melrose Public Library',
@@ -274,8 +457,8 @@ const scrapers: LibraryScraper[] = [
   },
   {
     name: 'Stoneham Public Library',
-    url: 'https://stonehamlibrary.assabetinteractive.com/calendar/',
-    scrape: scrapeAssabet,
+    url: 'https://events.getlocalhop.com/stoneham-public-library/organization/v1iS5tcDQU/',
+    scrape: scrapeStoneham,
   },
   {
     name: 'Lucius Beebe Memorial Library (Wakefield)',
@@ -285,6 +468,11 @@ const scrapers: LibraryScraper[] = [
   {
     name: 'Saugus Public Library',
     url: 'https://sauguspubliclibrary.assabetinteractive.com/calendar/',
+    scrape: scrapeAssabet,
+  },
+  {
+    name: 'Malden Public Library',
+    url: 'https://maldenpubliclibrary.assabetinteractive.com/calendar/',
     scrape: scrapeAssabet,
   },
   {
@@ -298,7 +486,7 @@ async function scrapeLibrary(scraper: LibraryScraper): Promise<Event[]> {
   try {
     let items: ScrapeResult
 
-    if (scraper.name === 'Boston Public Library') {
+    if (scraper.name === 'Boston Public Library' || scraper.name === 'Stoneham Public Library') {
       items = await scraper.scrape()
     } else {
       const res = await fetch(scraper.url, {
