@@ -569,26 +569,6 @@
     "library": "Melrose Public Library"
   },
   {
-    "title": "Library Closed",
-    "description": "The library is closed today for Veterans Day.",
-    "date": "2026-11-11",
-    "url": "https://events.getlocalhop.com/library-closed/event/ammcLvYxU5/",
-    "audience": "Children",
-    "id": "stoneham-public-library-0",
-    "library": "Stoneham Public Library"
-  },
-  {
-    "title": "Paul Vigna Author Talk",
-    "description": "Join us for an eye-opening conversation with veteran journalist Paul Vigna as we examine his provocative book, The Almightier: How Money Became God, Greed Became Virtue, and Debt Became Sin, in which he explores the question: how did money go from a tool of commerce into the dominant faith of modern society? In The Almightier, Vigna takes readers on a sweeping historical journey from Renaissance Florence to today&rsquo;s global financial markets, revealing how wealth accumulation evolved from a moral failing into an unspoken civic virtue. He uncovers the forgotten history of money, tracing the uneasy and often accidental alliance between wealth and religion as it developed from ancient city-states to today&rsquo;s secular world, where religious devotion has receded and greed has stepped in to fill the void. Through engaging anecdotes, original research, and fresh perspectives on the causes of the many challenges we face today, Vigna makes a compelling argument that money has no power apart from the power we give it. Whether you are interested in economic history, personal finance, or the hidden cultural forces shaping modern life, this talk is sure to pique your interest. Register today to learn more about how devotion to money has replaced religion as the foundation of our society. All SPL Virtual Talks are brought to you by the Friends of the Stoneham Library! See upcoming events here. See past event recordings here. Sign up for our Stoneham Public Library newsletter, Illuminated Stacks.",
-    "date": "2026-11-11",
-    "startTime": "14:00",
-    "endTime": "15:00",
-    "url": "https://events.getlocalhop.com/paul-vigna-author-talk/event/07LY1lk33M/",
-    "audience": "Adults",
-    "id": "stoneham-public-library-1",
-    "library": "Stoneham Public Library"
-  },
-  {
     "title": "Alphabet Soup",
     "description": "Swing by the Junior Library for a pre-k readiness program! Kiddos ages 3-5 can stop in for an educationally focused program. There may be an activity, number or letter of the day, and maybe a story! Sign up is required as space and supplies are limited.",
     "date": "2026-11-12",
@@ -597,7 +577,7 @@
     "url": "https://events.getlocalhop.com/alphabet-soup/event/NZFm8AiiAQ/",
     "audience": "Children",
     "registrationRequired": true,
-    "id": "stoneham-public-library-2",
+    "id": "stoneham-public-library-0",
     "library": "Stoneham Public Library"
   },
   {
@@ -608,7 +588,7 @@
     "endTime": "18:45",
     "url": "https://events.getlocalhop.com/junk-journal/event/XqQ4lxJkPp/",
     "audience": "Teens",
-    "id": "stoneham-public-library-3",
+    "id": "stoneham-public-library-1",
     "library": "Stoneham Public Library"
   },
   {
@@ -619,7 +599,7 @@
     "endTime": "20:00",
     "url": "https://events.getlocalhop.com/chess-club/event/BxRTBLdMSG/",
     "audience": "Adults",
-    "id": "stoneham-public-library-4",
+    "id": "stoneham-public-library-2",
     "library": "Stoneham Public Library"
   },
   {
@@ -628,7 +608,7 @@
     "date": "2026-11-13",
     "url": "https://events.getlocalhop.com/casual-coloring-a-dropin-program/event/t4WeXyNbfp/",
     "audience": "Adults",
-    "id": "stoneham-public-library-5",
+    "id": "stoneham-public-library-3",
     "library": "Stoneham Public Library"
   },
   {
@@ -639,7 +619,7 @@
     "endTime": "12:00",
     "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
     "audience": "Adults",
-    "id": "stoneham-public-library-6",
+    "id": "stoneham-public-library-4",
     "library": "Stoneham Public Library"
   },
   {
@@ -650,7 +630,7 @@
     "endTime": "11:00",
     "url": "https://events.getlocalhop.com/toys-and-tots/event/hVmOdn3aUH/",
     "audience": "Children",
-    "id": "stoneham-public-library-7",
+    "id": "stoneham-public-library-5",
     "library": "Stoneham Public Library"
   },
   {
@@ -662,7 +642,7 @@
     "url": "https://events.getlocalhop.com/community-reiki-clinic/event/P5D5Jae6S7/",
     "audience": "Adults",
     "registrationRequired": true,
-    "id": "stoneham-public-library-8",
+    "id": "stoneham-public-library-6",
     "library": "Stoneham Public Library"
   },
   {
@@ -673,7 +653,7 @@
     "endTime": "16:30",
     "url": "https://events.getlocalhop.com/cozy-coloring/event/W2B8ijIouS/",
     "audience": "Teens",
-    "id": "stoneham-public-library-9",
+    "id": "stoneham-public-library-7",
     "library": "Stoneham Public Library"
   },
   {
@@ -685,7 +665,7 @@
     "url": "https://events.getlocalhop.com/thingsthatgo-storytime-and-author-visit/event/YIG6La7STj/",
     "audience": "Children",
     "registrationRequired": true,
-    "id": "stoneham-public-library-10",
+    "id": "stoneham-public-library-8",
     "library": "Stoneham Public Library"
   },
   {
@@ -696,7 +676,7 @@
     "endTime": "13:00",
     "url": "https://events.getlocalhop.com/lego-builders/event/ocGA9Mofp3/",
     "audience": "Children",
-    "id": "stoneham-public-library-11",
+    "id": "stoneham-public-library-9",
     "library": "Stoneham Public Library"
   },
   {
@@ -707,7 +687,7 @@
     "endTime": "12:00",
     "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
     "audience": "Adults",
-    "id": "stoneham-public-library-12",
+    "id": "stoneham-public-library-10",
     "library": "Stoneham Public Library"
   },
   {
@@ -719,7 +699,7 @@
     "url": "https://events.getlocalhop.com/petit-artiste/event/uDHkqnrzDl/",
     "audience": "Children",
     "registrationRequired": true,
-    "id": "stoneham-public-library-13",
+    "id": "stoneham-public-library-11",
     "library": "Stoneham Public Library"
   },
   {
@@ -731,7 +711,7 @@
     "url": "https://events.getlocalhop.com/booked-and-babbling/event/26W5HusCfV/",
     "audience": "Children",
     "registrationRequired": true,
-    "id": "stoneham-public-library-14",
+    "id": "stoneham-public-library-12",
     "library": "Stoneham Public Library"
   },
   {
@@ -742,7 +722,7 @@
     "endTime": "20:00",
     "url": "https://events.getlocalhop.com/gaming-night/event/1FR247hqXG/",
     "audience": "Teens",
-    "id": "stoneham-public-library-15",
+    "id": "stoneham-public-library-13",
     "library": "Stoneham Public Library"
   },
   {
@@ -754,7 +734,7 @@
     "url": "https://events.getlocalhop.com/twilight-tales/event/DxcZ4FOOPr/",
     "audience": "Children",
     "registrationRequired": true,
-    "id": "stoneham-public-library-16",
+    "id": "stoneham-public-library-14",
     "library": "Stoneham Public Library"
   },
   {
@@ -765,7 +745,7 @@
     "endTime": "12:00",
     "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
     "audience": "Adults",
-    "id": "stoneham-public-library-17",
+    "id": "stoneham-public-library-15",
     "library": "Stoneham Public Library"
   },
   {
@@ -777,7 +757,7 @@
     "url": "https://events.getlocalhop.com/musical-mornings-with-matt-heaton/event/fQZvHMJolm/",
     "audience": "Children",
     "registrationRequired": true,
-    "id": "stoneham-public-library-18",
+    "id": "stoneham-public-library-16",
     "library": "Stoneham Public Library"
   },
   {
@@ -788,7 +768,7 @@
     "endTime": "16:15",
     "url": "https://events.getlocalhop.com/kpop-collective/event/kadApzU2Qh/",
     "audience": "Teens",
-    "id": "stoneham-public-library-19",
+    "id": "stoneham-public-library-17",
     "library": "Stoneham Public Library"
   },
   {
@@ -799,7 +779,7 @@
     "endTime": "20:00",
     "url": "https://events.getlocalhop.com/documentary-wow-discussion/event/yh6SdixS5W/",
     "audience": "Adults",
-    "id": "stoneham-public-library-20",
+    "id": "stoneham-public-library-18",
     "library": "Stoneham Public Library"
   },
   {
@@ -811,7 +791,7 @@
     "url": "https://events.getlocalhop.com/alphabet-soup/event/NZFm8AiiAQ/",
     "audience": "Children",
     "registrationRequired": true,
-    "id": "stoneham-public-library-21",
+    "id": "stoneham-public-library-19",
     "library": "Stoneham Public Library"
   },
   {
@@ -822,7 +802,7 @@
     "endTime": "16:15",
     "url": "https://events.getlocalhop.com/cancelled-quick-stitch/event/kYxBSotGx7/",
     "audience": "Teens",
-    "id": "stoneham-public-library-22",
+    "id": "stoneham-public-library-20",
     "library": "Stoneham Public Library"
   },
   {
@@ -833,7 +813,7 @@
     "endTime": "20:00",
     "url": "https://events.getlocalhop.com/chess-club/event/BxRTBLdMSG/",
     "audience": "Adults",
-    "id": "stoneham-public-library-23",
+    "id": "stoneham-public-library-21",
     "library": "Stoneham Public Library"
   },
   {
@@ -844,7 +824,7 @@
     "endTime": "20:00",
     "url": "https://events.getlocalhop.com/rebecca-roanhorse-author-talk/event/yONJsETtNH/",
     "audience": "Adults",
-    "id": "stoneham-public-library-24",
+    "id": "stoneham-public-library-22",
     "library": "Stoneham Public Library"
   },
   {
@@ -853,7 +833,7 @@
     "date": "2026-11-20",
     "url": "https://events.getlocalhop.com/casual-coloring-a-dropin-program/event/t4WeXyNbfp/",
     "audience": "Adults",
-    "id": "stoneham-public-library-25",
+    "id": "stoneham-public-library-23",
     "library": "Stoneham Public Library"
   },
   {
@@ -864,7 +844,7 @@
     "endTime": "12:00",
     "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
     "audience": "Adults",
-    "id": "stoneham-public-library-26",
+    "id": "stoneham-public-library-24",
     "library": "Stoneham Public Library"
   },
   {
@@ -875,7 +855,7 @@
     "endTime": "11:00",
     "url": "https://events.getlocalhop.com/toys-and-tots/event/hVmOdn3aUH/",
     "audience": "Children",
-    "id": "stoneham-public-library-27",
+    "id": "stoneham-public-library-25",
     "library": "Stoneham Public Library"
   },
   {
@@ -886,7 +866,7 @@
     "endTime": "14:30",
     "url": "https://events.getlocalhop.com/friday-movie-matinee/event/mpdtwO3ds9/",
     "audience": "Adults",
-    "id": "stoneham-public-library-28",
+    "id": "stoneham-public-library-26",
     "library": "Stoneham Public Library"
   },
   {
@@ -897,7 +877,7 @@
     "endTime": "16:30",
     "url": "https://events.getlocalhop.com/cozy-coloring/event/W2B8ijIouS/",
     "audience": "Teens",
-    "id": "stoneham-public-library-29",
+    "id": "stoneham-public-library-27",
     "library": "Stoneham Public Library"
   },
   {
@@ -908,7 +888,7 @@
     "endTime": "11:00",
     "url": "https://events.getlocalhop.com/slow-flow-yoga/event/gAHjTcJOIC/",
     "audience": "Teens",
-    "id": "stoneham-public-library-30",
+    "id": "stoneham-public-library-28",
     "library": "Stoneham Public Library"
   },
   {
@@ -919,7 +899,7 @@
     "endTime": "13:00",
     "url": "https://events.getlocalhop.com/lego-builders/event/ocGA9Mofp3/",
     "audience": "Children",
-    "id": "stoneham-public-library-31",
+    "id": "stoneham-public-library-29",
     "library": "Stoneham Public Library"
   },
   {
@@ -930,7 +910,7 @@
     "endTime": "12:00",
     "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
     "audience": "Adults",
-    "id": "stoneham-public-library-32",
+    "id": "stoneham-public-library-30",
     "library": "Stoneham Public Library"
   },
   {
@@ -942,7 +922,7 @@
     "url": "https://events.getlocalhop.com/book-worm-book-club/event/HCaRbmKt6S/",
     "audience": "Children",
     "registrationRequired": true,
-    "id": "stoneham-public-library-33",
+    "id": "stoneham-public-library-31",
     "library": "Stoneham Public Library"
   },
   {
@@ -953,7 +933,7 @@
     "endTime": "19:30",
     "url": "https://events.getlocalhop.com/yoga-flow-with-sheila-kelley/event/vAqRfxAZeB/",
     "audience": "Adults",
-    "id": "stoneham-public-library-34",
+    "id": "stoneham-public-library-32",
     "library": "Stoneham Public Library"
   },
   {
@@ -965,7 +945,7 @@
     "url": "https://events.getlocalhop.com/booked-and-babbling/event/vXXudznK2F/",
     "audience": "Children",
     "registrationRequired": true,
-    "id": "stoneham-public-library-35",
+    "id": "stoneham-public-library-33",
     "library": "Stoneham Public Library"
   },
   {
@@ -976,7 +956,7 @@
     "endTime": "16:15",
     "url": "https://events.getlocalhop.com/teen-craft-collective/event/oWcwpy2FAm/",
     "audience": "Teens",
-    "id": "stoneham-public-library-36",
+    "id": "stoneham-public-library-34",
     "library": "Stoneham Public Library"
   },
   {
@@ -987,7 +967,7 @@
     "endTime": "20:15",
     "url": "https://events.getlocalhop.com/rainbow-connection/event/QiND6xsIN8/",
     "audience": "Children",
-    "id": "stoneham-public-library-37",
+    "id": "stoneham-public-library-35",
     "library": "Stoneham Public Library"
   },
   {
@@ -998,7 +978,7 @@
     "endTime": "20:00",
     "url": "https://events.getlocalhop.com/enchanted-pages-society/event/OsYvWlCLfV/",
     "audience": "Adults",
-    "id": "stoneham-public-library-38",
+    "id": "stoneham-public-library-36",
     "library": "Stoneham Public Library"
   },
   {
@@ -1009,7 +989,7 @@
     "endTime": "12:00",
     "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
     "audience": "Adults",
-    "id": "stoneham-public-library-39",
+    "id": "stoneham-public-library-37",
     "library": "Stoneham Public Library"
   },
   {
@@ -1021,7 +1001,7 @@
     "url": "https://events.getlocalhop.com/toddler-tales/event/GWaZh4q2CD/",
     "audience": "Children",
     "registrationRequired": true,
-    "id": "stoneham-public-library-40",
+    "id": "stoneham-public-library-38",
     "library": "Stoneham Public Library"
   },
   {
@@ -1032,7 +1012,7 @@
     "endTime": "21:00",
     "url": "https://events.getlocalhop.com/library-closed/event/bZxDJu8BSb/",
     "audience": "Children",
-    "id": "stoneham-public-library-41",
+    "id": "stoneham-public-library-39",
     "library": "Stoneham Public Library"
   },
   {
@@ -1043,7 +1023,7 @@
     "endTime": "17:00",
     "url": "https://events.getlocalhop.com/library-closed/event/Awf5l1hmuc/",
     "audience": "Children",
-    "id": "stoneham-public-library-42",
+    "id": "stoneham-public-library-40",
     "library": "Stoneham Public Library"
   },
   {
@@ -1054,7 +1034,7 @@
     "endTime": "14:00",
     "url": "https://events.getlocalhop.com/library-closed/event/FC2Xi9Edaf/",
     "audience": "Children",
-    "id": "stoneham-public-library-43",
+    "id": "stoneham-public-library-41",
     "library": "Stoneham Public Library"
   },
   {
@@ -1065,7 +1045,7 @@
     "endTime": "12:00",
     "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
     "audience": "Adults",
-    "id": "stoneham-public-library-44",
+    "id": "stoneham-public-library-42",
     "library": "Stoneham Public Library"
   },
   {
@@ -1076,7 +1056,7 @@
     "endTime": "20:30",
     "url": "https://events.getlocalhop.com/monday-night-book-group/event/ylm9mP8cpe/",
     "audience": "Adults",
-    "id": "stoneham-public-library-45",
+    "id": "stoneham-public-library-43",
     "library": "Stoneham Public Library"
   },
   {
@@ -1087,7 +1067,7 @@
     "endTime": "19:30",
     "url": "https://events.getlocalhop.com/gentle-yoga/event/2Hbzy2q1eP/",
     "audience": "Adults",
-    "id": "stoneham-public-library-46",
+    "id": "stoneham-public-library-44",
     "library": "Stoneham Public Library"
   },
   {
@@ -1098,7 +1078,7 @@
     "endTime": "12:00",
     "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
     "audience": "Adults",
-    "id": "stoneham-public-library-47",
+    "id": "stoneham-public-library-45",
     "library": "Stoneham Public Library"
   },
   {
@@ -1109,7 +1089,7 @@
     "endTime": "20:00",
     "url": "https://events.getlocalhop.com/film-club/event/2q8zGeyM8r/",
     "audience": "Adults",
-    "id": "stoneham-public-library-48",
+    "id": "stoneham-public-library-46",
     "library": "Stoneham Public Library"
   },
   {
@@ -1120,7 +1100,7 @@
     "endTime": "20:30",
     "url": "https://events.getlocalhop.com/mysteries-around-the-world-book-group/event/EvmiEBjlpE/",
     "audience": "Adults",
-    "id": "stoneham-public-library-49",
+    "id": "stoneham-public-library-47",
     "library": "Stoneham Public Library"
   },
   {
@@ -1131,7 +1111,7 @@
     "endTime": "20:00",
     "url": "https://events.getlocalhop.com/chess-club/event/J1OfWjDfZW/",
     "audience": "Adults",
-    "id": "stoneham-public-library-50",
+    "id": "stoneham-public-library-48",
     "library": "Stoneham Public Library"
   },
   {
@@ -1140,7 +1120,7 @@
     "date": "2026-12-04",
     "url": "https://events.getlocalhop.com/casual-coloring-a-dropin-program/event/t4WeXyNbfp/",
     "audience": "Adults",
-    "id": "stoneham-public-library-51",
+    "id": "stoneham-public-library-49",
     "library": "Stoneham Public Library"
   },
   {
@@ -1151,7 +1131,7 @@
     "endTime": "12:00",
     "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
     "audience": "Adults",
-    "id": "stoneham-public-library-52",
+    "id": "stoneham-public-library-50",
     "library": "Stoneham Public Library"
   },
   {
@@ -1162,7 +1142,7 @@
     "endTime": "14:45",
     "url": "https://events.getlocalhop.com/documentary-wow/event/vY0ZB1toKI/",
     "audience": "Adults",
-    "id": "stoneham-public-library-53",
+    "id": "stoneham-public-library-51",
     "library": "Stoneham Public Library"
   },
   {
@@ -1173,7 +1153,7 @@
     "endTime": "12:00",
     "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
     "audience": "Adults",
-    "id": "stoneham-public-library-54",
+    "id": "stoneham-public-library-52",
     "library": "Stoneham Public Library"
   },
   {
@@ -1185,7 +1165,7 @@
     "url": "https://events.getlocalhop.com/art-with-erica/event/2HnPbfN6e1/",
     "audience": "Adults",
     "registrationRequired": true,
-    "id": "stoneham-public-library-55",
+    "id": "stoneham-public-library-53",
     "library": "Stoneham Public Library"
   },
   {
@@ -1196,7 +1176,7 @@
     "endTime": "20:30",
     "url": "https://events.getlocalhop.com/mahjong-club/event/pj2vsOilF6/",
     "audience": "Adults",
-    "id": "stoneham-public-library-56",
+    "id": "stoneham-public-library-54",
     "library": "Stoneham Public Library"
   },
   {
@@ -1207,7 +1187,7 @@
     "endTime": "12:00",
     "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
     "audience": "Adults",
-    "id": "stoneham-public-library-57",
+    "id": "stoneham-public-library-55",
     "library": "Stoneham Public Library"
   },
   {
@@ -1218,7 +1198,7 @@
     "endTime": "20:00",
     "url": "https://events.getlocalhop.com/documentary-wow-discussion/event/EL4zr0SGfn/",
     "audience": "Adults",
-    "id": "stoneham-public-library-58",
+    "id": "stoneham-public-library-56",
     "library": "Stoneham Public Library"
   },
   {
@@ -1229,7 +1209,7 @@
     "endTime": "20:00",
     "url": "https://events.getlocalhop.com/chess-club/event/J1OfWjDfZW/",
     "audience": "Adults",
-    "id": "stoneham-public-library-59",
+    "id": "stoneham-public-library-57",
     "library": "Stoneham Public Library"
   },
   {
@@ -1237,6 +1217,28 @@
     "description": "Need to relieve stress and anxiety? Maybe you want to develop your creative side! Drop by the Stoneham Room for this artful drop-in program. We provide supplies, as well as staff-designed coloring pages, bookmarks, and supplies. Think of it as a quiet, stress-free, judgement-free space where you can relax, unwind, and forget about the worries and cares of modern life. If you&rsquo;re an artist who has a project in progress, bring it in and work on it here! While it&rsquo;s geared primarily towards adults, parents are welcome to bring their kids.",
     "date": "2026-12-11",
     "url": "https://events.getlocalhop.com/casual-coloring-a-dropin-program/event/t4WeXyNbfp/",
+    "audience": "Adults",
+    "id": "stoneham-public-library-58",
+    "library": "Stoneham Public Library"
+  },
+  {
+    "title": "Drop-in Tech Support",
+    "description": "This drop-in program is open to anyone looking for help with technology. Designed as a judgment-free space, library staff are here to assist with any questions you may have about your devices&mdash;laptops, tablets, smartphones, and more. We&rsquo;re also happy to help with general tech topics like email, filling out online forms or applications, and anything else you might be curious about. If you have questions about a specific device, please bring it with you if you&rsquo;re able. Questions? Reach out to Anna Powers | apowers@noblenet.org Sign up for our Stoneham Public Library newsletter, Illuminated Stacks, to stay up to date with programs and services.",
+    "date": "2026-12-11",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "url": "https://events.getlocalhop.com/dropin-tech-support/event/LF2Nb9cDns/",
+    "audience": "Adults",
+    "id": "stoneham-public-library-59",
+    "library": "Stoneham Public Library"
+  },
+  {
+    "title": "Friday Movie Matinee",
+    "description": "On the third Friday of the month we will hold a viewing of the Film Club movie choice. November's selection is Three Godfathers (1948). \"Three outlaws on the run risk their freedom and their lives to return a newborn to civilization.\" No registration required. All film screenings are free and open to the public. Rated: Approved Run Time: 1h 46m Genres: Classical Western Directed by: John Ford Written by: Laurence Stallings, Frank S. Nugent, Peter B. Kyne Starring: John Wayne, Pedro Armendariz, Harry Carey Jr. Sign up for our Stoneham Public Library newsletter, Illuminated Stacks, to stay up to date with programs and services.",
+    "date": "2026-12-11",
+    "startTime": "13:00",
+    "endTime": "14:45",
+    "url": "https://events.getlocalhop.com/friday-movie-matinee/event/Y3g2rfzJ4C/",
     "audience": "Adults",
     "id": "stoneham-public-library-60",
     "library": "Stoneham Public Library"
@@ -1474,7 +1476,6 @@
     "endTime": "10:15",
     "url": "https://wakefieldlibrary.assabetinteractive.com/calendar/3-5-year-old-story-time-253/",
     "audience": "Children",
-    "registrationRequired": true,
     "id": "lucius-beebe-memorial-library-(wakefield)-21",
     "library": "Lucius Beebe Memorial Library (Wakefield)"
   },
@@ -2345,6 +2346,16 @@
     "library": "Saugus Public Library"
   },
   {
+    "title": "Saugus Public Library Foundation",
+    "description": "Meeting of the Board of Directors of the Saugus Public Library Foundation.",
+    "date": "2026-11-17",
+    "startTime": "16:00",
+    "endTime": "17:15",
+    "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/saugus-public-library-foundation-4/",
+    "id": "saugus-public-library-44",
+    "library": "Saugus Public Library"
+  },
+  {
     "title": "Pen to Paper: A Writing Workshop",
     "description": "Whatever your level of experience, goals, or preferred literary genre, this workshop can help you enjoy writing more and encourage you to keep at it. We will use a combination of discussions, prompts, and writing exercises to give you new incentives and confidence. There is some optional \"homework\", but no preregistration required and you can attend as often as your schedule allows.",
     "date": "2026-11-17",
@@ -2352,7 +2363,7 @@
     "endTime": "19:30",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/pen-to-paper-a-writing-workshop-29/",
     "audience": "Adults",
-    "id": "saugus-public-library-44",
+    "id": "saugus-public-library-45",
     "library": "Saugus Public Library"
   },
   {
@@ -2362,7 +2373,7 @@
     "startTime": "10:30",
     "endTime": "11:00",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/storytime-with-gemma-39/",
-    "id": "saugus-public-library-45",
+    "id": "saugus-public-library-46",
     "library": "Saugus Public Library"
   },
   {
@@ -2372,7 +2383,7 @@
     "startTime": "15:30",
     "endTime": "16:30",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/keeping-us-in-stitches-kids-sewing-classes-7/",
-    "id": "saugus-public-library-46",
+    "id": "saugus-public-library-47",
     "library": "Saugus Public Library"
   },
   {
@@ -2383,7 +2394,7 @@
     "endTime": "19:15",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/the-yoga-experience-138/",
     "audience": "Adults",
-    "id": "saugus-public-library-47",
+    "id": "saugus-public-library-48",
     "library": "Saugus Public Library"
   },
   {
@@ -2394,7 +2405,7 @@
     "endTime": "11:00",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/music-and-mother-goose-with-miss-amy-ages-0-4-registration-required-20/",
     "registrationRequired": true,
-    "id": "saugus-public-library-48",
+    "id": "saugus-public-library-49",
     "library": "Saugus Public Library"
   },
   {
@@ -2405,7 +2416,7 @@
     "endTime": "14:30",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/mahjong-3/",
     "audience": "Adults",
-    "id": "saugus-public-library-49",
+    "id": "saugus-public-library-50",
     "library": "Saugus Public Library"
   },
   {
@@ -2415,7 +2426,7 @@
     "startTime": "15:30",
     "endTime": "16:00",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/thanksgiving-storytime-with-miss-kelley/",
-    "id": "saugus-public-library-50",
+    "id": "saugus-public-library-51",
     "library": "Saugus Public Library"
   },
   {
@@ -2425,7 +2436,7 @@
     "startTime": "17:30",
     "endTime": "19:30",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/financial-square-2/",
-    "id": "saugus-public-library-51",
+    "id": "saugus-public-library-52",
     "library": "Saugus Public Library"
   },
   {
@@ -2435,7 +2446,7 @@
     "startTime": "18:00",
     "endTime": "19:45",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/board-of-library-trustees-meeting-44/",
-    "id": "saugus-public-library-52",
+    "id": "saugus-public-library-53",
     "library": "Saugus Public Library"
   },
   {
@@ -2445,7 +2456,7 @@
     "startTime": "15:45",
     "endTime": "16:30",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/tutoring-for-students-in-all-grades-96/",
-    "id": "saugus-public-library-53",
+    "id": "saugus-public-library-54",
     "library": "Saugus Public Library"
   },
   {
@@ -2455,7 +2466,7 @@
     "startTime": "14:00",
     "endTime": "15:30",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/percy-jackson-party/",
-    "id": "saugus-public-library-54",
+    "id": "saugus-public-library-55",
     "library": "Saugus Public Library"
   },
   {
@@ -2465,7 +2476,7 @@
     "startTime": "15:45",
     "endTime": "17:45",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/tutoting-for-students-in-all-grades-5/",
-    "id": "saugus-public-library-55",
+    "id": "saugus-public-library-56",
     "library": "Saugus Public Library"
   },
   {
@@ -2475,7 +2486,7 @@
     "startTime": "16:00",
     "endTime": "17:00",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/teen-slime-time-3/",
-    "id": "saugus-public-library-56",
+    "id": "saugus-public-library-57",
     "library": "Saugus Public Library"
   },
   {
@@ -2486,7 +2497,7 @@
     "endTime": "10:15",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/cfce-messy-mornings-ages-0-5-registration-required-26/",
     "audience": "Children",
-    "id": "saugus-public-library-57",
+    "id": "saugus-public-library-58",
     "library": "Saugus Public Library"
   },
   {
@@ -2495,7 +2506,7 @@
     "date": "2026-11-25",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/library-closes-early-1-pm/",
     "audience": "Children",
-    "id": "saugus-public-library-58",
+    "id": "saugus-public-library-59",
     "library": "Saugus Public Library"
   },
   {
@@ -2505,7 +2516,7 @@
     "startTime": "10:30",
     "endTime": "11:00",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/storytime-with-gemma-40/",
-    "id": "saugus-public-library-59",
+    "id": "saugus-public-library-60",
     "library": "Saugus Public Library"
   },
   {
@@ -2516,7 +2527,7 @@
     "endTime": "19:15",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/the-yoga-experience-139/",
     "audience": "Adults",
-    "id": "saugus-public-library-60",
+    "id": "saugus-public-library-61",
     "library": "Saugus Public Library"
   },
   {
@@ -2524,7 +2535,7 @@
     "description": "Library closed November 26th and 27th for Thanksgiving holiday.",
     "date": "2026-11-26",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/closed-thanksgiving-holiday-3/",
-    "id": "saugus-public-library-61",
+    "id": "saugus-public-library-62",
     "library": "Saugus Public Library"
   },
   {
@@ -2534,7 +2545,7 @@
     "startTime": "15:45",
     "endTime": "17:45",
     "url": "https://sauguspubliclibrary.assabetinteractive.com/calendar/tutoting-for-students-in-all-grades-6/",
-    "id": "saugus-public-library-62",
+    "id": "saugus-public-library-63",
     "library": "Saugus Public Library"
   },
   {
@@ -3174,6 +3185,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6ad6809cfee2d21deb2466bb",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "boston-public-library-3",
     "library": "Boston Public Library"
   },
@@ -3517,6 +3529,7 @@
     "endTime": "11:00",
     "url": "https://bpl.bibliocommons.com/events/6ad6809cfee2d21deb2466be",
     "audience": "Adults",
+    "registrationRequired": true,
     "id": "boston-public-library-34",
     "library": "Boston Public Library"
   },
